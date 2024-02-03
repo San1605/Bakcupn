@@ -1,0 +1,91 @@
+.courseManagementContainer {
+  padding: 0.75rem 2.5rem;
+}
+.courseManagementHeadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.courseManagementHead {
+  font-size: 20px;
+  font-weight: 600;
+}
+.adminCoursesList {
+  min-height: fit-content;
+  max-height: 60vh;
+}
+.editCoursePencilIcon {
+  font-size: 16px;
+  color: #4f52b2;
+}
+.coursemanagement-modal-row {
+  display: flex;
+  column-gap: 1rem;
+}
+.lp-name-link {
+  color: #4f52b2;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.nolpfoundtext {
+  font-size: 14px;
+  padding: 10px 8px;
+}
+.lpmanagement-container {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .searchContainer {
+    width: 28%;
+  }
+  .resourceListSearch::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 998px) {
+  .searchContainer {
+    width: 38%;
+  }
+  .resourceListSearch::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 427px) and (max-width: 769px) {
+  .coursemanagement-search-pagination-row {
+    flex-direction: column;
+  }
+}
+
+/* @media screen and (min-width: 428px) and (max-width: 551px){
+    .coursemanagement-head-row{
+        flex-direction: column;
+    }
+} */
+@media screen and (max-width: 550px) {
+  .courseManagementContainer {
+    padding: 0.75rem 1.5rem;
+  }
+  .courseManagementHeadContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.75rem;
+  }
+  .coursemanagement-search-pagination-row {
+    flex-direction: column;
+  }
+  .coursemanagement-pagination {
+    padding: 1rem 0;
+  }
+  .coursemanagement-head-row {
+    flex-direction: column;
+  }
+  .courseManagementHead {
+    align-self: flex-start;
+  }
+  .coursemanagement-modal-row {
+    align-self: flex-end;
+    padding-top: 10px;
+  }
+}

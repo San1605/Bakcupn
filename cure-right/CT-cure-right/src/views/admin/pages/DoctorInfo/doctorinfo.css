@@ -1,0 +1,12 @@
+.totaldisplaycard h5 {
+  font-family: "Work Sans";
+  font-weight: 500;
+  color: black !important;
+  font-size: 12px;
+}
+.doc-info {
+  gap: 12px;
+}
+.right-bottom-cont {
+  max-height: 19rem;
+}

@@ -1,0 +1,249 @@
+#header {
+  position: relative;
+  height: 100vh;
+  width: fit-content;
+}
+.chatbot_sidebar{
+  position: absolute;
+  bottom: 1.4rem;
+  width: 13.7rem;
+  border: 1px solid rgba(118, 87, 225, 1);
+  background-color: white;
+  color: rgba(118, 87, 225, 1);
+  height: 2rem;
+  font-size: 12px;
+  right: 1rem;
+  border-radius: 4px;
+}
+.chatbot_sidebar img{
+  width: 1.2rem;
+  margin-right: .5rem;
+}
+.meet-chatbot_sidebar{
+  position: absolute;
+  bottom: 1.4rem;
+  right: 1.7rem;
+  width: 1.5rem;
+}
+.ps-sidebar-container {
+  background: none !important;
+}
+.logoText {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #2c2c2c;
+}
+
+.css-16jkw2k > .ps-menu-button span {
+  font-size: 13px !important;
+  color: #707070;
+}
+
+.css-16jkw2k > .ps-menu-button .ps-menu-icon {
+  margin-right: 2px !important;
+}
+
+.css-16jkw2k > .ps-menu-button:hover {
+  background-color: #ece5f5 !important;
+  /* background-color:  #FDF8FF !important; */
+}
+
+.css-16jkw2k.active a,
+.pro-sidebar .active.css-16jkw2k > .ps-menu-button:hover {
+  border-right: 4px solid var(--primary) !important;
+  background: #fff !important;
+  font-weight: 600;
+}
+.prosidebar .active span {
+  color: black !important;
+}
+
+.prosidebar .active svg {
+  fill: black !important;
+  color: black !important;
+}
+
+.ps-menu-icon svg {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.prosidebar {
+  background: #f9f3ff;
+}
+
+.sidebar-bottom {
+  position: absolute;
+  bottom: 10px;
+}
+
+.ps-collapsed .menuItem a {
+  padding-left: 20px !important;
+}
+
+.menuItem a {
+  height: 42px !important;
+  padding-left: 42px !important;
+}
+
+#header .pro-sidebar {
+  width: 100%;
+}
+
+#header .pro-sidebar.collapsed {
+  width: 80px;
+  min-width: 80px;
+}
+
+#header .pro-sidebar-inner {
+  background-color: white;
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout {
+  overflow-y: hidden;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout .logotext p {
+  font-size: 20px;
+  padding: 0 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout ul {
+  padding: 0 5px;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+  color: #000;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+#header
+  .pro-sidebar-inner
+  .pro-sidebar-layout
+  ul
+  .pro-inner-item
+  .pro-icon-wrapper {
+  background-color: #fbf4cd;
+  color: #000;
+  border-radius: 3px;
+}
+
+#header
+  .pro-sidebar-inner
+  .pro-sidebar-layout
+  ul
+  .pro-inner-item
+  .pro-icon-wrapper
+  .pro-item-content {
+  color: #000;
+}
+
+#header .pro-sidebar-inner .pro-sidebar-layout .active {
+  background-image: linear-gradient(0deg, #fece00 0%, #ffe172 100%);
+}
+
+#header .logo {
+  padding: 20px;
+}
+
+.css-1wvake5.ps-collapsed {
+  width: 75px !important;
+  min-width: 75px !important;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    overflow: hidden;
+  }
+}
+
+.callerContainer {
+  position: absolute;
+  right: 2rem;
+  top: 4rem;
+  width: 6rem;
+  border: 2px solid black;
+  width: 20%;
+  background-color: #070707d0;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  height: fit-content !important;
+  /* display: flex; */
+}
+
+.callBtnContainer {
+  display: flex;
+  gap: 1rem;
+  /* padding: 1rem 2rem; */
+}
+
+.callBtn {
+  background-color: #3a673b;
+  color: white;
+  font-size: 0.8rem !important;
+  border-radius: 5px;
+  padding: 0.3rem 1.2rem !important;
+  width: fit-content !important;
+}
+
+.callBtn:hover {
+  background-color: rgb(38, 66, 41);
+}
+
+.rejectCallBtn {
+  background-color: rgb(201, 59, 59);
+  border: none;
+}
+
+.rejectCallBtn:hover {
+  background-color: rgb(198, 50, 50);
+}
+
+.logo-container {
+  height: 45px;
+}
+
+#header a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.sidebar_icons {
+  width: 1rem;
+}
+
+.display-m {
+  display: block !important;
+}
+
+.close-sidebar-icon {
+  position: absolute;
+  right: 7px;
+  top: 2px;
+  font-size: 20px;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    position: absolute;
+    z-index: 9999;
+    display: none;
+  }
+  .close-sidebar-icon {
+    display: block;
+  }
+}
+
+.active-icon {
+  filter: grayscale(100%) brightness(0%);
+}

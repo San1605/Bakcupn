@@ -1,0 +1,11 @@
+.Layout{
+    height: 100%;
+    width: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+}
+
+.children {
+    height: calc(100% - 45px);
+    width: 100%;
+}

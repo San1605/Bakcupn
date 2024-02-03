@@ -1,0 +1,7 @@
+{
+    "hrBuddy":{
+        "getdata":"select concat(FirstName,' ',LastName)as Name, EmailId, Reporting_To , Employee_type, Potential_FTE_Conversion_Month,Potential_Trainee_Conversion_Month from EmployeeDetails where Potential_Trainee_Conversion_Month=%L and Department=%L",
+        "hrbuddylist":"select distinct ra.roleId, ra.emailId ,hr.state, hr.department from roleAccess.details as ra join hrbuddy.details as hr  on ra.roleId=hr.roleId and hr.state=1 order by department"
+    
+      }
+}

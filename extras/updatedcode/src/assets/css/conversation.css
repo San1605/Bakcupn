@@ -1,0 +1,28 @@
+#scrollToDownBtn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #eaeaea;
+    border: none;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+  }
+  #scrollToDownBtn img{
+    height: 3rem;
+    width: 3rem;
+  }
+  .header{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+border-bottom: 1px solid #e3e3e3;
+border-radius: 8px 8px 0px 0px;
+color: #000;
+font-size: 15px;
+font-weight: 500;
+padding: 7px 1.5rem;
+}
+  

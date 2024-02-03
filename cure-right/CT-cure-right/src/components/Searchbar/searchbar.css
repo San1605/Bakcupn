@@ -1,0 +1,19 @@
+  .input-group-one {
+    background: #f9f3ff ;
+    border-radius: 6px;
+    width: 100%;
+  }
+   .input-group-two {
+    border-radius: 6px;
+    background: #FDFDFD;
+    border: 1px solid #D7D7D7;
+    width: 100%;
+    padding: 6px 8px !important;
+  }
+  .search-bar{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 90%;
+    font-size: 12px;
+  }

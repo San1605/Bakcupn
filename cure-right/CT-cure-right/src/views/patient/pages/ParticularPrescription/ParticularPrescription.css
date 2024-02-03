@@ -1,0 +1,7 @@
+.particularpriscription .left{
+    height: fit-content;
+    background-color: #F9F3FF;
+    padding: 1rem;
+    border-radius: 1rem;
+    flex-grow:1
+}

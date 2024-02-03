@@ -1,0 +1,22 @@
+.CollegeComponent .courseStatus {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 0;
+    right: 6%;
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.paused {
+    background-color: #DD962D;
+}
+
+.active {
+    background-color: #4E8A54;
+}

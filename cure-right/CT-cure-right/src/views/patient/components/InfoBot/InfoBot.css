@@ -1,0 +1,49 @@
+.Infobot {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px 0px #acacac40;
+  padding: 5px 4px;
+  margin-left: 0.5rem;
+  width: 28rem;
+}
+
+.InfoBotBox1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c2c2c;
+  padding: 0.55rem;
+  border-radius: 0.4rem;
+}
+
+.InfoBotBox2 {
+  border-bottom: 1px solid #e3e3e3;
+  padding: 0.6rem 0.4rem;
+}
+
+.InfoBotBoxContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.InfoBotBox3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 0.7rem 0.4rem 0.4rem 0.4rem;
+}
+
+.HeadingBox {
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.ParaBox {
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}

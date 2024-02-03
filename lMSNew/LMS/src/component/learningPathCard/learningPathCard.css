@@ -1,0 +1,63 @@
+.learning-path-card {
+  row-gap: 18px;
+}
+
+.learning-path-card {
+  background: #ffffff;
+  border-radius: 4px;
+  height: 80%;
+}
+.learning-path-course-select {
+  position: relative;
+  font-size: 14px;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #dadada;
+  width: 8rem;
+}
+.lp-select {
+  height: 100%;
+  border-left: 5px solid;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.absolute-options {
+  border: 1px solid #dadada;
+  left: -1px;
+  border-top: none;
+  width: 101%;
+}
+.learning-path-container {
+  padding-left: 10px;
+  height: 100%;
+}
+.lp-head-row {
+  padding-top: 8px !important;
+}
+.learning-path-reports-container {
+  min-height: 250px;
+  max-height: 250px;
+}
+.lp-head-row-reports {
+  flex-direction: column;
+  row-gap: 5px;
+}
+.learning-path-course-select-reports {
+  margin-left: 5px;
+  z-index: 2;
+  width: 10rem;
+}
+.absolute-options-reports {
+  z-index: 10;
+  background: #fff;
+}
+.dropicon {
+  margin: 10px 12px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .learning-path-card {
+    max-height: 10rem !important;
+  }
+}

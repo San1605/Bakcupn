@@ -1,0 +1,52 @@
+.modal-content {
+  border: none !important;
+}
+.reject-modal-body{
+  padding-bottom: 0 !important;
+}
+.reject-modal-heading-container {
+  background: #4f52b2;
+}
+.reject-modal-heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.reject-modal-reason-heading {
+  font-weight: 500;
+  font-size: 14px;
+  color: #424242;
+}
+.modal-close-icon {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.reject-modal-placeholder::placeholder{
+    color:#C0C0C0;
+    font-size: 12px;
+}
+.modal-cancel {
+  background: #ffffff !important;
+  border-radius: 4px;
+  font-weight: 500 !important;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f52b2 !important;
+  border: 1px solid #4f52b2 !important;
+  border-radius: 4px !important;
+}
+.modal-submit {
+  background: #4f52b2 !important;
+  border-radius: 4px !important;
+  font-weight: 500 !important;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ececeb !important;
+  border: 1px solid #4f52b2;
+}
+.modal-footer {
+  border-top: none !important;
+  padding-top:0 !important;
+}

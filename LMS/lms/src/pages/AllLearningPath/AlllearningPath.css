@@ -1,0 +1,28 @@
+.learningPathCardDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    background-color: #FBFBFB;
+    height: calc(100% - 3rem);
+    width: 100%;
+}
+.learningPathCardDiv a{
+    text-decoration: none !important;
+    color:black !important;
+}
+
+.AllLearningPathDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: calc(100% - 40px);
+    overflow: scroll;
+    text-decoration: none !important;
+    width: 100%; 
+}
+
+
+.AllLearningPathDiv::-webkit-scrollbar {
+    display: none;
+}

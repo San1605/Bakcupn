@@ -1,0 +1,208 @@
+.list-container2 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 32px) !important;
+  margin-top: 0.4rem;
+}
+
+.calender-table {
+  overflow: auto;
+  position: relative;
+}
+.calender-header {
+  position: sticky;
+  width: fit-content;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+.calender-table .calender-day {
+  border: 1px dashed #efdfff;
+  border-top: 0;
+  border-bottom: 0;
+}
+.calender-row {
+  display: flex;
+}
+.calender-day {
+  width: 5rem;
+  height: 1.5rem;
+}
+.calender-body {
+  height: fit-content;
+  width: fit-content;
+}
+.calender-row-container {
+  border: 2px dashed #efdfff;
+  border-left: 0;
+  border-right: 0;
+}
+
+.col-1st {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 0;
+}
+.calender-day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calender-header .calender-day {
+  font-size: 11px;
+}
+.col-1st {
+  font-size: 11px;
+}
+
+.admin-calender .persona-list-right1 {
+  max-height: 18rem;
+}
+
+.doctorCalender .rbc-day-slot .rbc-events-container {
+  margin-right: 0 !important;
+}
+
+.persona-list-right1 .rbc-calendar {
+  border-radius: 12px;
+  transform: translate(0px, 10px);
+}
+.admin-calender .rbc-calendar {
+  height: calc(100% - 34px) !important;
+}
+.rbc-row-content {
+  display: none;
+}
+.rbc-allday-cell {
+  display: none;
+}
+.persona-list-right1 .rbc-time-header {
+  height: 2.6rem !important;
+}
+.persona-list-right1 .rbc-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex: 1 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 90%;
+  min-height: 40px;
+  border-bottom: none !important;
+  background-color: white !important;
+}
+
+.persona-list-right1 .rbc-button-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+}
+.persona-list-right1 .rbc-button-link span {
+  white-space: wrap;
+  font-size: 12px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 0.8rem;
+}
+
+.persona-list-right1 .rbc-time-content .rbc-time-gutter {
+  background-color: white !important;
+}
+
+.persona-list-right1 .rbc-time-header-gutter {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align_items: center;
+  font-weight: 500;
+  background-color: white !important;
+  font-size: 12px;
+}
+
+.rbc-time-slot {
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+.rbc-time-content > * + * > * {
+  border-left: 0.5px solid #ddd;
+}
+.rbc-timeslot-group {
+  border-bottom: 0.5px solid #ddd;
+  min-height: 40px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.doctorCalender .home-top {
+  position: relative;
+  border-bottom: 2px solid var(--primary) !important;
+  width: 15rem !important;
+  padding-bottom: 20px !important;
+  z-index: 10 !important;
+}
+
+.rbc-slot .rbc-event {
+  overflow-y: scroll !important;
+}
+
+.rbc-event {
+  overflow-y: scroll !important;
+}
+
+.rbc-event::-webkit-scrollbar {
+  display: none;
+}
+.persona-list-right1 .rbc-day-slot .rbc-event,
+.rbc-day-slot .rbc-background-event {
+  border: none !important;
+  width: 115% !important;
+  border-bottom: 1px solid white !important;
+  background-color: white !important;
+  display: flex;
+  max-height: 100%;
+  min-height: 20px;
+  flex-flow: column wrap;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+}
+.rbc-event {
+  border-radius: 0 !important;
+  padding: 0;
+  text-align: center;
+}
+.rbc-day-slot .rbc-event-content {
+  width: 100%;
+  flex: 1 1;
+  word-wrap: break-word;
+  line-height: 1;
+  height: 100%;
+  min-height: 1em;
+  text-align: center;
+  display: flex;
+}
+.rbc-day-slot .rbc-event-label {
+  flex: none;
+  font-size: 8px;
+  width: auto;
+  padding: 0;
+  display: none;
+  border: none;
+}
+
+.persona-list-right1 .rbc-timeslot-group {
+  background-color: white !important;
+}

@@ -1,0 +1,197 @@
+.customrole-content {
+  height: 100%;
+  width: 100%;
+}
+.customRole-label {
+  color: #242424;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.customRole-input {
+  width: 100%;
+  padding: 2px 8px;
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+}
+.customrole-input:is(:focus, :focus-visible) {
+  border: none;
+  outline: none;
+}
+
+.customRole-input::placeholder {
+  font-size: 12px;
+}
+.customRole-border {
+  padding-bottom: 2.25rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.pt-2-5 {
+  padding-top: 2rem;
+}
+.flex-input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1.25rem;
+}
+.flex-input-row label {
+  width: fit-content;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.flex-input-row input {
+  width: 80%;
+}
+.active-role {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.multi-input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1.75rem;
+  margin-bottom: 8px;
+}
+.multirow-select {
+  width: 100%;
+  font-size: 12px;
+  padding: 6px 8px;
+  outline: 1px solid #d6d6d6;
+  border-radius: 2px;
+}
+
+.multi-input-row .flex-input-row {
+  width: 50%;
+  column-gap: 1.5rem;
+}
+.addmore-btn {
+  white-space: nowrap;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
+  font-size: 13px;
+  color: #4f52b2;
+  background-color: #e6eefa;
+  border-radius: 4px;
+}
+.multi-input-row .flex-input-row label {
+  width: 50%;
+}
+.multi-input-row .flex-input-row .selected-value {
+  width: 50%;
+}
+.selected-value {
+  margin-left: 16px;
+  font-size: 12px;
+  color: #424242;
+}
+.selected-value-course {
+  margin-left: 0px;
+}
+.delete-icon {
+  white-space: nowrap;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 4px 0;
+  font-size: 13px;
+}
+.singlerow-label {
+  width: 35% !important;
+}
+.singlerow-select {
+  width: 65%;
+  font-size: 12px;
+  padding: 6px 8px;
+  outline: 1px solid #d6d6d6;
+  border-radius: 2px;
+}
+.save-cancel-row {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 1rem;
+}
+
+.save-cancel-row > div {
+  font-size: 14px;
+  height: 1.75rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.save-cancel-row .cancel {
+  color: #4f52b2;
+}
+.save-cancel-row .save {
+  border-radius: 4px;
+  background-color: #4f52b2;
+  color: #fff;
+}
+.customRoleForm-multiselect {
+  padding: 0;
+  outline: 0;
+}
+.added-data-row {
+  display: flex;
+  margin-bottom: 2px;
+  border-bottom: 0.5px solid #d8d8d86a;
+  padding: 4px 0;
+}
+.added-data-row-col-1 {
+  margin-left: 152px;
+  width: 142px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.added-data-row-col-2 {
+  margin-left: 153px;
+  width: 170px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.added-data-row-col-3 {
+  margin-left: 0px;
+  width: 45px;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  font-size: 13px;
+  align-items: start;
+  padding: 4px 0;
+  cursor: pointer;
+}
+.multi-name-chip-div {
+  padding-top: 10px;
+  width: 81%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100px; */
+}
+.multi-name-chip {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  border-radius: 25px;
+  height: 36px;
+  padding-right: 12px;
+  background-color: #f2f2f2;
+  width: fit-content;
+}
+.multi-name-chip-name {
+  font-size: 12px;
+  color: #424242;
+  cursor: default;
+}

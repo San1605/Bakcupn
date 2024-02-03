@@ -1,0 +1,75 @@
+.specialization-card {
+  width: fit-content;
+  background-color: #fff;
+  border-radius: 2px;
+  width: 200px;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor:pointer;
+}
+.specialization-card img {
+  height: 7rem;
+  border-radius: 2px;
+}
+.specialization-card .img-cont {
+  padding: 0.2rem 0.5rem;
+  border-radius:6px
+}
+.specialization-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  /* align-items: center; */
+  padding: 6px 0.1rem;
+}
+.specialization-card-content .title {
+  font-weight: 600;
+  padding-left: .5rem;
+  font-size: 0.8rem;
+  margin-top: 0.4rem ;
+  margin-bottom:0.2rem
+}
+.specialization-card-content .desc {
+  display: flex;
+  color: #616161;
+  font-size: 0.7rem;
+  padding: 0 0.5rem;
+  line-height: .8rem;
+  height:4rem;
+  overflow-y : scroll;
+
+}
+.specialization-card-content hr {
+  height: 2px;
+  color: #f2f2f2;
+  width: 100%;
+  margin: 0.3rem 0.3rem;
+  display:flex;
+  justify-content:space-between
+}
+.card-bottom {
+  border-top: 2px solid #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  font-size: 0.7rem;
+  white-space: nowrap;
+  margin: 0.5rem 0.5rem ;
+  padding-top:4px
+
+}
+.card-bottom .left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.card-bottom .right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-weight: 600;
+}
+
+

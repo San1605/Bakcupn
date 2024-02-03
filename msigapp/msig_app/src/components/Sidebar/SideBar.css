@@ -1,0 +1,259 @@
+.SideBar {
+    height: 100vh;
+    width: 16.25rem;
+    background-color: white;
+    display: flex;
+    /* padding: 10px 12px 10px 8px; */
+    padding: 8px 4px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.newChat {
+    border: 0.3px solid #030413;
+    border-radius: 8px;
+    padding: 8px 15px;
+    text-align: left;
+    font-size: 16px;
+    color: #030413;
+    cursor: pointer;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+    /* padding: 10px 0; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.upperPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    gap: 15px;
+    /* background-color: yellow; */
+}
+
+.lowerPart {
+    /* height: 70vh; */
+    height: calc(100vh - 32px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* padding-top: 1rem; */
+    justify-content: space-between;
+    gap: 10px;
+    align-items: start;
+    /* min-height: 52vh;
+    max-height: 60vh; */
+    padding: 5px 5px;
+}
+
+.lowerPartDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.history {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* height: 60vh; */
+    /* border: 1px solid brown; */
+}
+
+.historyText {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.historyItems {
+    height: calc(100% - 34px);
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.historyItemDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    gap: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 6px 8px;
+}
+
+.historyItemDiv:hover {
+    border-radius: 8px;
+    background-color: #C4D5FF;
+    box-shadow: 0px 2px 4px 0px rgba(126, 121, 121, 0.25);
+}
+
+.historyItemDivClick {
+    border-radius: 8px;
+    background-color: #C4D5FF;
+    box-shadow: 0px 2px 4px 0px rgba(126, 121, 121, 0.25);
+}
+
+
+.historyItemSpan {
+    font-size: 13px;
+    text-overflow: ellipsis;
+    max-height: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    /* max-width: 157px */
+}
+
+.historyItemDiv:hover .historyItemSpan {
+    max-width: 157px;
+}
+
+.historyItemInput {
+    font-size: 13px;
+    text-overflow: ellipsis;
+    max-height: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    /* max-width: 157px; */
+    border: none;
+    outline: none;
+}
+
+.historyItemDiv:hover .historyItemInput {
+    max-width: 157px;
+}
+
+.historyItemDivImg {
+    height: 16px;
+    width: 16px;
+}
+
+.historyItemActions {
+    display: none;
+    gap: 5px;
+}
+
+.historyItemDiv:hover .historyItemActions {
+    display: flex;
+}
+
+.editIcon,
+.deleteIcon {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+
+.historyItemLeft {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.profile {
+    padding-top: 13px;
+    padding-bottom: 5px;
+    display: flex;
+    padding-left: 6px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.SideBarBottom {
+    /* padding: 10px 0px ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.profile-icon span {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.tile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 4px 6px;
+    border-radius: 8px;
+    background-color: #EAEAEA;
+}
+
+.tile span {
+    color: #29304D !important;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.tile:hover {
+    border-radius: 8px;
+    background-color: #C4D5FF;
+    box-shadow: 0px 2px 4px 0px rgba(126, 121, 121, 0.25);
+}
+
+.activeTile {
+    border-radius: 8px;
+    background-color: #C4D5FF;
+    box-shadow: 0px 2px 4px 0px rgba(126, 121, 121, 0.25);
+    pointer-events: none;
+}
+
+
+.logoutButton {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #F0F0F0;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.20);
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 5px;
+}
+
+.logoutButton button{
+    border: none;
+}

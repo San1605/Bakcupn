@@ -1,0 +1,72 @@
+.courseList {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    background-color: #FBFBFB;
+    height: calc(100% - 3rem);
+    width: 100%;
+}
+
+.courseListName {
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.lpNameInCourseList {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 1.7rem;
+    color: #717171;
+}
+
+.coursesBox {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+}
+
+.courseTable tr {
+    /* border-bottom: 1px solid #E8E8E8 !important; */
+    cursor: pointer;
+}
+
+.courseTable tr :hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.courseTable td,th {
+    vertical-align: middle !important;
+    text-align: start;
+    margin: 0 !important;
+    padding: 1.5rem !important;
+    font-size: 15px;
+    border-bottom: 1px solid #E8E8E8 !important;
+    box-shadow: none !important;
+}
+.courseTable td{
+    color: #424242;
+}
+
+.coursesBox table {
+    border-spacing: 0 !important;
+    background-color: white !important;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #E8E8E8;
+    border-radius: 7px;
+    table-layout: fixed;
+    
+}
+.tableDiv {
+    overflow: scroll !important;
+    max-height: 25rem !important;
+}
+
+
+.tableDiv::-webkit-scrollbar {
+    display: none;
+}

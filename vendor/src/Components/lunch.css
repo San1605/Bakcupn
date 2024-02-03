@@ -1,0 +1,27 @@
+@media (min-width:320px) and (max-width:425px){
+    .lunchDiv{
+        width:auto !important;
+        height:21vh !important;
+        padding:0.6rem;
+    }
+    .lunchText{
+        width:45vw;
+        height:7vh
+    }
+
+    .lunchImg{
+        width:100%;
+        height:17vh;
+
+          }
+
+
+    .lunchRight{
+       justify-content:center;
+    
+    }   
+    .lunchImgDiv{
+        margin-right:0.5rem;
+        width:42vw;
+    }
+    }

@@ -1,0 +1,129 @@
+.eventScheduleEvent .modal-header {
+    padding: 9px 15px;
+    background: #654E8A;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+.modal-header img {
+    cursor: pointer !important;
+}
+
+.eventScheduleEvent .modal-content {
+    border-radius: 4px !important;
+
+}
+
+.eventScheduleEvent .modal-body {
+    padding: 15px 56px !important;
+}
+
+.eventScheduleEvent .modal-header div {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+.eventScheduleEvent .footer {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 0 !important; */
+    gap: 6px !important;
+    /* margin-top: 10px; */
+}
+
+.eventScheduleEvent .footer>button:nth-child(1) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #AEAEAE;
+    color: #616161;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.eventScheduleEvent .footer>button:nth-child(2) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #654E8A;
+    color: #ECECEB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}
+
+
+.eventScheduleEvent .AddEventForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px !important;
+    /* overflow-y: scroll !important;
+    height: 100% !important; */
+}
+
+.eventScheduleEvent .AddEventForm .AddEventFormDiv {
+    display: flex;
+    justify-content: flex-start !important;
+    gap: 50px !important;
+    align-items: flex-start;
+    margin-bottom: 0 !important;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+
+
+.eventScheduleEvent .fieldDivWithError {
+    display: flex;
+    flex-direction: column;
+    width: 70% !important;
+    align-items: flex-start;
+}
+
+.eventScheduleEvent .fieldDivWithError>div {
+    width: 100% !important;
+}
+
+.eventScheduleEvent .AddEventForm .AddEventFormDiv label {
+    color: #424242;
+    font-size: 14px !important;
+    font-weight: 500;
+    /* border: 1px solid; */
+    width: 30% !important;
+}
+
+.eventScheduleEvent .AddEventForm .AddEventFormDiv label:not(:has(span)) {
+    font-weight: 400;
+}
+
+.eventScheduleEvent .AddEventForm .AddEventFormDiv label span {
+    color: red;
+}
+
+
+.eventScheduleEvent .AddEventForm .AddEventFormDiv input,
+select {
+    display: flex;
+    /* width: 100% !important; */
+    /* flex-grow: 1 !important; */
+    padding: 6px 13px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid #D7D7D7;
+    background: #FFF;
+    color: #424242;
+    font-size: 13px;
+    outline: none;
+}

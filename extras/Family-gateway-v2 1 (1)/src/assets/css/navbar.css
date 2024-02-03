@@ -1,0 +1,58 @@
+.top-navbar {
+    background: #FFFFFF;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.top-navbar .app_logo {
+    width: 120px;
+}
+
+.top-navbar .user {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #F5F5F5;
+    border-radius: 200px;
+    padding: 5px 1rem;
+}
+
+.top-navbar .user-icon {
+    background-color: #FEB546;
+    color: var(--primary-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+
+.top-navbar .user-name {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.top-navbar .logout-button {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    right: -10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    min-width: 100px;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.top-navbar .user:hover .logout-button {
+    display: block;
+}

@@ -1,0 +1,24 @@
+/* .bot_message {
+    /* color: #6a6f73;
+    font-size: 14px;
+    background: white;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px 8px 8px 0px;
+    border-radius: 12px;
+    width: 80%;
+  }
+  .user_message {
+    color: #6a6f73;
+    font-size: 14px;
+    background: white;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px 8px 8px 0px;
+    border-radius: 12px;
+    width: 80%;
+  } */ */
+
+  .chatusertext{
+    font-family: Source Sans Pro;
+    border-radius: 8px;
+    background-color: aquamarine;
+  }

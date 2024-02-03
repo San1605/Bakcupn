@@ -1,0 +1,6 @@
+export const globalActions = {
+    SET_USER_TYPE: "SET_USER_TYPE",
+    SET_LOADING: "SET_LOADING",
+    GET_STATIC_DATA: "GET_STATIC_DATA",
+    GET_EVENTS: "GET_EVENTS",
+}

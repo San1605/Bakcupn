@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #191919;
+    --secondary-color: #7E7E7E;
+}
+
+.submit-btn {
+    background: #FEB546;
+    border: 1px solid #F4A640;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 20px;
+    color: #000000;
+    overflow-wrap: break-word;
+}
+.cancel-btn {
+    background: #FFFFFF;
+    border: 1px solid #7E7E7E;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 20px;
+    color: #7E7E7E;
+    overflow-wrap: break-word;
+}
+.back-btn{
+    overflow-wrap: break-word;
+    background: #FFFFFF;
+    border: 1px solid #7E7E7E;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 4px 20px;
+    color: #7E7E7E;
+    display: flex;
+    align-items: center;
+}
+.back-btn img{
+    width: 8px !important;
+}

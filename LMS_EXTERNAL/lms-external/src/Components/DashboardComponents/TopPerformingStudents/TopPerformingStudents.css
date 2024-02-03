@@ -1,0 +1,157 @@
+.topPerformance{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+    flex-direction: column;
+    background: #FFF;
+    padding: 6px 10px;
+}
+
+.topPerformanceHeading {
+    height: 25px;
+    width: 100%;
+    color: #272742;
+    font-size: 14px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #F9F6FF; */
+
+}
+
+
+.topPerformancefirstDiv {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* border-bottom: 1px dotted #E0E0E0; */
+    margin-bottom: 6px;
+}
+
+
+.leaderBoardfirstBox {
+    display: flex;
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 33.33%;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.leaderBoardSecondBox {
+    display: flex;
+    height: 100%;
+    width: 33.33%;
+    /* border: 1px solid black; */
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 1px;
+}
+
+.leaderBoardThirdBox {
+    display: flex;
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 33.33%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.leaderBoardOtherPosition {
+    border-radius: 12px;
+    width: 100%;
+    padding: 2px 8px;
+    /* border: 1px solid; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+}
+
+.leaderBoardOtherPosition:hover {
+    background: #F7F7FF;
+    cursor: pointer;
+}
+
+.leaderBoardOtherPosition>span:nth-child(1) {
+    color: #4F4F4F;
+    text-align: center;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.leaderBoardOtherPosition img {
+    width: 30px;
+    height: 30px;
+}
+
+.leaderBoardOtherPosition>span:nth-child(3) {
+    color: #4F4F4F;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.studentPositionBoxLeaderBoard {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.studentPhotoBoxLeaderBoard {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.studentPhotoBoxLeaderBoardImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 3px solid #7856FF;
+}
+
+.studentPhotoBoxLeaderBoard div {
+    width: 18px;
+    height: 18px;
+    background-color: #7856FF;
+    color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.25);
+    font-size: 12px;
+    bottom: -7px;
+}
+
+.studentNameBoxLeaderBoard {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.studentNameBoxLeaderBoard>div:nth-child(1) {
+    color: #000;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.studentNameBoxLeaderBoard>div:nth-child(2) {
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+}
+
+.studentPhotoBoxLeaderBoardImgFirst {
+    position: absolute;
+    top: -10px;
+}

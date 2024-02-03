@@ -1,0 +1,138 @@
+.audio-player {
+  padding: 0px;
+  /* background: url("../../assets/audio_bg.png"), #00829b; */
+  background-size: contain;
+  /* border-bottom: 1px solid #00829b; */
+  border-radius: 8px 8px 0px 0px;
+  color: #fff;
+  font-size: 15px;
+  /* padding: 7px 1.5rem; */
+}
+
+.audio-player .title {
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  
+}
+
+.audio-player .right-img {
+  width: 125px;
+  display: block;
+  margin-left: -1.5rem;
+}
+
+.audio-player-time {
+  font-size: 12px;
+}
+
+.audio-player-ip input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 6px;
+  outline: 0;
+  background: #ccc;
+  height: 6px;
+}
+
+.audio-player-ip input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 3px;
+  background: #f39d51;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+
+/* All the same stuff for Firefox */
+.audio-player-ip input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 3px;
+  background: #f39d51;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+.audio-player-ip input[type="range"]::-ms-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 3px;
+  background: #f39d51;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+.audio-volume .volume-range {
+  padding-left: 7px;
+  padding-top: 0px;
+  margin-top: -2px;
+}
+.audio-volume .volume-range input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 3px;
+  outline: 0;
+  background: #ccc;
+  height: 3px;
+}
+
+.audio-volume input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 3px;
+  background: #fff;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+
+/* All the same stuff for Firefox */
+.audio-volume input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 3px;
+  background: #fff;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+.audio-volume input[type="range"]::-ms-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 3px;
+  background: #fff;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+.play-btn,
+.pause-btn {
+  cursor: pointer;
+  min-width: 100%;
+  text-align: center;
+  background-color: #00928B;
+  gap: .3rem;
+  padding: .2rem;
+  border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 426px) {
+  .audio-player .right-img {
+    display: none;
+  }
+  .overall-summary .tab-content {
+    max-height: 20vh !important;
+  }
+  .overall-summary {
+    margin-top: 1rem;
+  }
+}

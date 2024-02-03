@@ -1,0 +1,61 @@
+/* Navbar  */
+
+.navbar_main {
+  height: 560px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f1f7fa;
+  padding-bottom: 2rem !important;
+}
+
+.navbar_heading{
+  font-weight: 700;
+}
+
+
+p.navbar_description {
+  font-weight: 400 !important;
+  font-size: 20px !important ;
+  
+}
+
+
+.navbar_main_inner {
+  width: 70%;
+}
+
+.navbar_main_inner .navbar_heading {
+  font-size: 40px;
+}
+
+/* .navbar_heading .navbar_heading p.navbar_description{
+    font-size: 15px;
+  } */
+
+p.navbar_description {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar_main {
+    height: fit-content;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-color: #f1f7fa;
+  }
+
+  .navbar_main_inner {
+    width: 100%;
+  }
+
+  .navbar_main_inner .navbar_heading {
+    padding-top: 6rem;
+    font-size: 20px;
+  }
+
+  p.navbar_description {
+    font-size: 10px;
+    padding: 0.2rem 2rem;
+  }
+}

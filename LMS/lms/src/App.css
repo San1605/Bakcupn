@@ -1,0 +1,37 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,600;9..40,700&family=Source+Sans+3:wght@300&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+  scrollbar-width: 1px;
+}
+
+.App::-webkit-scrollbar {
+  display: none !important;
+ 
+}
+.App{
+  width: 100vw !important;
+  overflow:hidden ;
+  height:100vh !important;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb (the draggable part of the scrollbar) */
+}
+
+a{
+  text-decoration:none !important;
+  color: black !important;
+}

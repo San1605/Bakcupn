@@ -1,0 +1,7 @@
+/* Custom CSS to style the CKEditor content area for RTL languages */
+.ck.ck-content.ck-editor__editable.ck-editor__editable_inline {
+    direction: rtl !important;
+    text-align: right !important;
+    /* Add any other RTL-specific styles here */
+  }
+  

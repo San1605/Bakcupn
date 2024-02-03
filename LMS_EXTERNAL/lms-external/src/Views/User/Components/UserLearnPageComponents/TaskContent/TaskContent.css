@@ -1,0 +1,219 @@
+.taskContent {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* gap: 10px; */
+    /* border: 1px solid; */
+}
+
+.taskContentLeft {
+    display: flex;
+    height: 100%;
+    padding: 12px;
+    width: 55%;
+
+    background: #FFF;
+    /* border: 1px solid; */
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.taskContentLeft>div:nth-child(1) {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.taskContentLeft>ul:nth-child(1) {
+    overflow-y: scroll;
+    height: 100%;
+    /* border: 1px solid black; */
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 0 !important;
+    padding-left: 1rem !important;
+}
+
+.taskContentLeft>ul:nth-child(1) li {
+    /* border: 1px solid black; */
+    padding: 0 10px;
+    color: #4B4B4B;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.taskContentRight {
+    display: flex;
+    padding: 12px;
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 15px;
+    border-left: 1px solid #E4E4FF;
+
+    background: #FFF;
+}
+
+
+.taskContent .footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 0 !important; */
+    gap: 10px !important;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.taskContent .footer>button:nth-child(1) {
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #AEAEAE;
+    color: #616161;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.taskContent .footer>button:nth-child(2) {
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #654E8A;
+    color: #ECECEB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}
+
+.taskContentRightTextUpload {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.taskContentRightTextUpload>div:nth-child(1) {
+    color: #424242;
+    font-size: 14px;
+}
+
+.taskContentRightTextUpload>input:nth-child(2) {
+    display: flex;
+    padding: 4px 13px;
+    font-size: 13px;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid #D7D7D7;
+    background: #FFF;
+
+}
+
+.taskContentRightOr {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+    color: #535353;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.taskContentRightUpload {
+    width: 100%;
+    /* border: 1px solid #424242; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 8px;
+    border-radius: 6px; */
+    gap: 8px;
+    cursor: pointer;
+}
+
+.taskContentRightUpload>img {
+    margin-bottom: 10px;
+}
+
+.taskContentRightUpload .assignmentZipDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.taskContentRightUpload .assignmentZipDiv>div:nth-child(1) {
+    color: #757575;
+    font-size: 14px;
+}
+
+.taskContentRightUpload .assignmentZipDiv>div:nth-child(1) span {
+    color: #654E8A;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.taskContentRightUpload .assignmentZipDiv>div:nth-child(2) {
+    color: #575656;
+    font-size: 12px;
+}
+
+.assignmentFile {
+    /* border: 1px solid; */
+    display: flex;
+    gap: 10px;
+}
+
+.assignmentFile span {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.assignmentFile img {
+    cursor: pointer;
+}
+
+.validationError {
+    font-size: 12px;
+    color: red;
+}
+
+.ResourceDiv {
+    margin-top: 8px;
+}
+
+.ResourceDiv>div:nth-child(1) {
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+}
+
+.ResourceDiv a {
+    font-size: 12px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+}

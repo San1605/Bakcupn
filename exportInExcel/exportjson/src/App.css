@@ -1,0 +1,100 @@
+.filterPopover {
+  height: 60vh;
+  width: 30vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.optionBox {
+  height: calc(100% - 4rem);
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.optionBox ::-webkit-scrollbar {
+  display: none !important;
+}
+
+.DownloadFilterBoxTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px
+}
+.DownloadFilterBoxTop span{
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.searchBoxSelectAll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+
+.downloadFilterButton {
+  display: flex;
+  flex-direction: row;
+  height: 2.5rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.downloadFilterButtonExport {
+  background-color: #4f52b2;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 100%;
+  justify-content: center;
+  width: 50%;
+  border: none;
+  border-bottom-right-radius: 8px;
+}
+
+.downloadFilterButtonCancel {
+  background-color: #f4f4f4;
+  color: black;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 100%;
+  justify-content: center;
+  width: 50%;
+  border: none;
+  border-bottom-left-radius: 8px;
+}
+
+.downloadFilterSpan{
+  margin-left: 0.5rem;
+  font-size: 14px;
+}
+.selectAllLabel{
+  margin-left: 0.5rem;
+  font-size: 14px;
+}
+
+.selectAllBox{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}

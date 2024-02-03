@@ -1,0 +1,87 @@
+.upload-main-div {
+    padding: 1rem 0 2rem;
+    margin-top: 4rem;
+    background: #F8F8FC;
+}
+
+.upload-main-div .back-button {
+    cursor: pointer;
+}
+
+.upload-main-div .upload-files {
+    margin: 3rem auto 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.upload-main-div .upload-files .heading {
+    font-weight: 600;
+    color: #5B59A7;
+    font-size: 22px !important;
+    letter-spacing: .3px;
+}
+
+.upload-main-div .dropzone-container {
+    margin: 20px auto;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%232E59C1FF' stroke-width='2' stroke-dasharray='6%2c 14' stroke-dashoffset='14' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 525px;
+    padding: 3rem 1rem 2.5rem;
+}
+.upload-main-div .dropzone-container h6, .upload-main-div .dropzone-container span{
+    color: #363636;
+    font-weight: 600;
+    font-size: 16px !important;
+    letter-spacing: .5px;
+    margin-bottom: 7px;
+}
+.upload-main-div .dropzone-container .browse-file{
+    color: #5B59A7;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 15px !important;
+}
+.upload-main-div .dropzone-container .limit-pdf{
+    color: #A29F9F;
+    margin-bottom: unset;
+    margin-top: 2rem;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.upload-main-div .dropzone-container .btns button{
+    min-width: 100px;
+    padding: 4px;
+    border-radius: 4px;
+}
+.upload-main-div .dropzone-container .btns .reset-btn{
+    margin-right: 1rem;
+    background: #FFFFFF;
+    border: 1px solid #FF2116;
+    color: #FF2116;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.upload-main-div .dropzone-container .btns .reset-btn:hover{
+    background: #FF2116;
+    color: #FFFFFF;
+}
+
+.upload-main-div .dropzone-container .btns .submit-btn{
+    background: #FFFFFF;
+    border: 1px solid #2E59C1;
+    color: #2E59C1;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.upload-main-div .dropzone-container .btns .submit-btn:hover{
+    background: #2E59C1;
+    color: #FFFFFF;
+}

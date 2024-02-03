@@ -1,0 +1,69 @@
+nav {
+  height: 100% !important;
+  width: 100% !important;
+  padding: 0.6rem 0;
+}
+.search-icon {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  z-index: 9999;
+}
+.search.input-group {
+  background-color: #f9f3ff !important;
+  height: 38px;
+  border-radius: 10px !important;
+  width: 400px;
+}
+.input-group {
+  height: 38px;
+  width: 40px;
+  border-radius: 10px !important;
+}
+.form-control::-webkit-input-placeholder {
+  font-size: 12px;
+  text-align: left;
+}
+.Book-btn {
+  background: var(--primary) !important;
+  border: 1px solid var(--primary) !important;
+  font-size: 0.8rem !important;
+  padding: 0.5rem 1rem !important;
+}
+.Book-btn1 {
+  background: var(--primary) !important;
+  color: white !important;
+  border: 1px solid var(--primary) !important;
+  font-size: 0.8rem !important;
+  padding: 0.5rem 1rem !important;
+}
+.top-navbar-search {
+  width: 20rem;
+}
+.mobile-menu-btn {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 830px) {
+  .nav-btn {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sidebar-open-arrow {
+    display: none;
+  }
+  .mobile-menu-btn {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .top-navbar-search {
+    width: 15rem;
+  }
+}
+
+.sos-btn{
+  background-color: #EB5757 !important;
+}

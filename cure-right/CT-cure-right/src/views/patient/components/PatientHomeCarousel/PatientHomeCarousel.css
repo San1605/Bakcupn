@@ -1,0 +1,47 @@
+.carousel{
+    height: 100% !important;
+    z-index:0 !important;
+}
+
+.carousel-indicators{
+    bottom: -2.1rem !important;
+    height: fit-content !important;
+    align-items: center !important;
+    gap: .3rem;
+    z-index:0 !important;
+}
+.carousel-indicators button{
+    background-color: white !important;
+    height: .4rem !important;
+    width: .4rem !important;
+    border: 0 !important;
+    border-radius: 50%;
+    z-index:0 !important;
+}
+.carousel-indicators button.active{
+    height: .6rem !important;
+    width: .6rem !important;
+    background-color: var(--primary) !important;
+    z-index:0 !important;
+}
+.carousel-inner{
+    height: 100% !important;
+    border-radius: .4rem !important;
+    overflow: hidden !important;
+    z-index:0 !important;
+}
+.carousel-item{
+    height: 100% !important;
+    z-index:0 !important;
+}
+.carousel-item img{
+    height: 100% !important;
+    width: 100%;
+    object-fit: contain;
+    z-index:0 !important;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    display: none !important;
+    z-index:0 !important;
+}

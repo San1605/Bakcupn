@@ -1,0 +1,95 @@
+.buddies-search::placeholder {
+  font-size: 12px;
+}
+
+.buddiesList {
+  min-height: fit-content;
+  max-height: 64vh;
+}
+
+.buddielistPage {
+  padding: 1rem 2.5rem;
+}
+
+.buddielistcard {
+  background: #ffffff;
+  border: 1px solid #eff0f6;
+  border-radius: 4px;
+}
+.current-courses-dropdown {
+  border: unset;
+}
+.pointer-report {
+  font-size: 14px;
+  color: #0356d3 !important;
+  text-underline-offset: 3px;
+}
+
+.buddiePageTitle {
+  font-size: 18px;
+  line-height: 3rem;
+  font-weight: 600;
+  color: #242424;
+}
+
+.buddiesTotalCount {
+  margin-left: 0.8rem;
+  color: rgba(47, 47, 47, 0.4);
+}
+
+.ticketIconContainer {
+  position: relative;
+}
+.buddieslist-container {
+  height: 63vh;
+  overflow-y: scroll;
+}
+
+.buddies-tag-primary {
+  font-family: "DM Sans";
+  font-weight: 400;
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #4f52b2 !important;
+  color: #242424 !important;
+}
+.buddies-tag-secondary {
+  font-family: "DM Sans";
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background-color: transparent !important;
+  border: none !important;
+  color: #424242 !important;
+}
+
+@media screen and (min-width: 1500px) {
+  .buddieslist-container {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .buddielistPage {
+    padding: 1rem;
+  }
+
+  .buddielistPage .th,
+  .buddielistPage .td {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .buddiesTotalCount {
+    margin-left: 2rem;
+  }
+  .buddies-search-download-row {
+    flex-direction: column;
+    align-items: flex-end !important;
+  }
+}

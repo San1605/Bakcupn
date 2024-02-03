@@ -1,0 +1,27 @@
+.container {
+    border-radius: 8px;
+    flex: 0 0 calc(25% - 1rem);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    padding: .8rem 0 .8rem 1rem;
+    width: 100%;
+}
+
+.count {
+    color: #29304D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.title {
+    color: #29304D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}

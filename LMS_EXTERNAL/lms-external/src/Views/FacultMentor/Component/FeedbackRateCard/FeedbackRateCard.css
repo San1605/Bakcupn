@@ -1,0 +1,45 @@
+.FeedbackRateCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+}
+
+.FeedbackRateCardDiv {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.FeedbackRateCard>div:nth-child(1) {
+    color: #242424;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.FeedbackRateCard>div:nth-child(1)>span {
+    color: #D36578;
+    font-size: 14px;
+}
+
+
+.FeedbackRateCardDiv div {
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #D8D9FC;
+    background: #FFF;
+    color: #242424;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.selectedRate {
+    background-color: #654E8A !important;
+    color: white !important;
+}

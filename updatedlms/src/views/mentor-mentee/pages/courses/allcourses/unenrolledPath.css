@@ -1,0 +1,44 @@
+.learning-path-page {
+  padding: 0.5rem 2.5rem;
+}
+.learning-path-head-row {
+  display: flex;
+  justify-content: space-between;
+}
+.learning-path-heading,
+.learning-path-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+.learning-path-name,
+.learning-path-course-count {
+  font-size: 14px;
+}
+.learning-path-course-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2f2f2f66;
+}
+.course-desc {
+  width: 30rem;
+}
+.lp-courses-list-container {
+  height: 70vh;
+  overflow: scroll;
+}
+.lp-course-table {
+  padding: 16px;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 1500px) {
+  .lp-courses-list-container {
+    height: 83vh;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .lp-courses-list-container {
+    height: 62vh;
+  }
+}

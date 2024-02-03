@@ -1,0 +1,150 @@
+/* .login_main {
+  height: 100%;
+}
+.chat_window_main {
+  height: 100%;
+  background-color: #F9F9F9;
+}
+.login_main_content {
+  height: 90%;
+}
+.login_line {
+  height: 1px;
+  background-color: aliceblue;
+}
+.login_button_teacher {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  border: 1px solid #f1f1f1;
+  color: white;
+  border-radius: 17px;
+  background: none;
+}
+.login_button_student {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 4px 12px;
+  border: 1px solid #f1f1f1;
+  color: #8E169F;
+  border-radius: 17px;
+  background: white;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.login_button_student-inner{
+  display: flex;
+  justify-content: center;
+}
+.search_bar {
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #f1f1f1;
+  border-radius: 28px;
+}
+.search_box_input {
+  border: none;
+  width: 100%;
+  outline: none;
+  /* text-decoration: none; */
+  /* font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.26px;
+  color: #1c3444;
+}
+
+.login_detail_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 16px 16px;
+  gap: 12px;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  color: #1C3444;
+  left: 0px;
+  bottom: 0.12px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px 16px 8px 8px;
+}
+.login_options{
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+.items{
+  width: 50%;
+  color: #9D9D9D;
+  padding: 8px 0px 8px;
+  border-bottom: 1px solid #bebcbc;
+}
+.items.active{
+  color: #EE2557;
+  padding: 8px 0px 8px;
+  border-bottom: 2px solid #EE2557;
+}
+.input_form_login{
+  border: none;
+}
+
+.user-input-wrp {
+	position: relative;
+  background-color: #EFFAFF;
+	width: 100%;
+}
+.user-input-wrp .inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 2px solid #217098;
+ 	box-shadow: none !important;
+   background-color: #EFFAFF;
+}
+.user-input-wrp .inputText:focus{
+	border-color: blue;
+	border-width: medium medium 2px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 25px;
+	left: 10px;
+	transition: 0.2s ease all;
+  color: #6E6E6E;
+  font-size: 12px;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 0px;
+	left: 10px;
+	font-size: 13px;
+	opacity: 1;
+  color: #217098;
+}
+.Cancel_btton{
+  border: none;
+width: 40%;
+color: #858585;
+padding: 10px 0px;
+background-color: #F9F9F9;
+border-radius: 10px;
+}
+.Login_btton{
+border: none;
+padding: 10px 0px;
+width: 60%;
+background-color: #8E169F;
+border-radius: 10px;
+}
+
+.form-detail{
+  width: 100%;
+  padding: 0rem 0.2rem; */
+
+/* } */ 

@@ -1,0 +1,37 @@
+.hiddencoursecontent {
+    height: 0;
+    transition: all 0.3s linear;
+    overflow: hidden;
+  }
+  .video-topictitle-span{
+    font-size: 14px;
+  }
+  .video-topictitle{
+    font-size: 14px;
+  }
+  .course-undone-text{
+    color: #242424 !important;
+  }
+  .course-done-text{
+    color: #4f52b2  !important;
+  }
+  .icon-true{
+    fill: #4f52b2  !important;
+  }
+  .heading-unread{
+    font-weight: 500;
+    font-size: 14.5px;
+    color: #242424;
+    line-height: 1.2;
+  }
+  .heading-true{
+    font-weight: 500;
+    font-size: 14.5px;
+    color: #4f52b2  !important;
+    line-height: 1.2;
+  }
+
+.moduleheading{
+  display: flex !important;
+  flex-direction: row !important;
+}

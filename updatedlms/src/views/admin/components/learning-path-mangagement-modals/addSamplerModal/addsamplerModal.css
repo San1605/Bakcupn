@@ -1,0 +1,17 @@
+.addsampler-modal-body{
+    padding: 1rem 1rem 0 ;
+}
+
+.sampler-file-upload{
+    background: #ffffff;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    width: 80%;
+    height: 2rem;
+}
+.dropzone{
+    font-size: 14px;
+}
+.coursesSubmitButton,.coursesSubmitButton:hover{
+    color: #ffffff;
+}

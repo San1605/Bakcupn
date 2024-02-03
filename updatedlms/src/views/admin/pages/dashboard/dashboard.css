@@ -1,0 +1,288 @@
+.columnGap-10 {
+  column-gap: 10px;
+}
+.rowGap-10 {
+  row-gap: 10px;
+}
+.mh-75vh {
+  min-height: 54vh;
+}
+.employee-list-page-loader-div {
+  height: calc(100vh - 320px);
+  display: block;
+  width: 100%;
+  z-index: 30001;
+}
+.employee-list-page-loader {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  color: #e6e6e6;
+}
+.admin-dashboard-resource-list {
+  max-height: 63vh;
+  overflow-y: scroll;
+}
+.adminDashboardBtnContainer {
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+.admin-dashboard-btn-primary {
+  font-size: 14px;
+  border-radius: 3px;
+  border: unset;
+  padding: 3px 10px;
+  background-color: #4f52b2;
+}
+.admin-dashboard-btn-secondary {
+  font-size: 14px;
+  border-radius: 3px;
+  border: unset;
+  padding: 3px 10px;
+  border: 1px solid #5c5c5c;
+  background-color: #ffffff !important;
+  color: #5c5c5c !important;
+}
+.adminDashboardSearchBar {
+  outline: 1px solid #5c5c5c;
+  border: none;
+  background-color: #ffffff;
+  font-size: 14px;
+  overflow-y: scroll;
+}
+.adminDashboardSearchBar:focus-visible {
+  outline: 1px solid #5c5c5c;
+}
+.dashboardContainer {
+  padding: 0.75rem 1.75rem;
+  row-gap: 1.5rem;
+}
+.dashboardComponentsContainer {
+  padding: 0 0.75rem;
+}
+.dashboardHead {
+  font-size: 18px;
+  font-weight: 600;
+}
+.rangeFilterContainer {
+  column-gap: 3px;
+}
+.dateRangeText,
+#rangeFilterSelect,
+#rangeFilterSelect option.rangeFilterOption {
+  font-size: 14px;
+  color: #424242;
+}
+#rangeFilterSelect {
+  font-weight: 600;
+}
+#rangeFilterSelect,
+.projectsListDropdown {
+  border: none;
+  background: transparent;
+}
+#rangeFilterSelect:focus-visible,
+.projectsListDropdown,
+.projectsListDropdown:focus {
+  outline: none;
+}
+.resourcesPageTitle {
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #eaeaea;
+}
+.resourcessTotalCount {
+  color: #42424270;
+  font-weight: 500;
+}
+.resourceslist {
+  min-height: fit-content;
+  max-height: 35vh;
+}
+.resourceListSearch {
+  height: 1.75rem;
+}
+.resourceListSearch::placeholder {
+  font-size: 12px;
+}
+.resourseListTableHead {
+  font-size: 12px;
+  font-weight: 600;
+}
+.resourseListTablecontent {
+  font-size: 12px;
+  padding: 0.5rem;
+}
+.resourceslist .thead {
+  background-color: #f5f5ff;
+}
+.viewReportsLink {
+  color: #0356d3;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.projectsListDropdown {
+  padding: 0 !important;
+  width: 8rem;
+  text-overflow: ellipsis;
+}
+.department-ellipses {
+  width: 7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.departmentCardHead {
+  font-size: 15px;
+}
+.departmentCardTitle {
+  font-weight: 600;
+}
+.departmentCardContainer {
+  row-gap: 0.75rem;
+}
+.resourcesCountHead {
+  font-size: 14px;
+  color: #61616199;
+}
+
+.billableBar {
+  background-color: #05cd9a;
+}
+.nonBillableBar {
+  background-color: #f54102;
+}
+.fullyUtilizationBar {
+  background-color: #019df5;
+}
+.onPIPBar {
+  background-color: #f5ba01;
+}
+.availableBar {
+  background-color: #4e4cac;
+}
+.resorsesBarLegendTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resorsesBarLegendTitle {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.legentTileDot {
+  border-radius: 50%;
+}
+.legentTileName,
+.resorsesBarLegendValue {
+  font-size: 13px;
+  color: #616161;
+  white-space: nowrap;
+}
+.resorsesBarLegendValue {
+  font-weight: 600;
+}
+.resorsesBarLegendsContainer {
+  row-gap: 2px;
+}
+.admin-dashboard-resource-list td {
+  padding: 0.5rem 1rem 0.5rem 0.5rem !important;
+}
+.loading-tbody {
+  height: 50vh;
+  position: relative;
+}
+.loader-tbody {
+  top: 55%;
+}
+
+.dashboard-employee-list-tag-primary {
+  font-family: "DM Sans";
+  font-weight: 400;
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #4f52b2 !important;
+  color: #242424 !important;
+}
+.dashboard-employee-list-tag-secondary {
+  font-family: "DM Sans";
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  background-color: transparent !important;
+  border: none !important;
+  color: #424242 !important;
+}
+
+@media screen and (min-width: 1600px) {
+  .AdminDashboardKpiCard {
+    height: 200px;
+  }
+  .adminDashboardSubContainer {
+    height: 100%;
+  }
+  .adminDashboardCardComponentContainer {
+    height: 100px !important;
+  }
+  .resourcesPageTitle {
+    font-size: 24px;
+  }
+  .legentTileName {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .adminDashboardCardContainer {
+    row-gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .admin-reasourselist-head {
+    flex-direction: column;
+  }
+  .searchContainer {
+    align-self: flex-start;
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .resorsesBarLegendsContainer {
+    justify-content: space-between;
+  }
+  .admin-reasourselist-head {
+    flex-direction: column;
+  }
+  .resourcelist-pagination {
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .dashboardContainer {
+    padding: 0.75rem 1rem;
+  }
+  .rangeFilterContainer {
+    justify-content: flex-end;
+  }
+  .dateRangeText,
+  #rangeFilterSelect,
+  #rangeFilterSelect option.rangeFilterOption,
+  .legentTileName {
+    font-size: 12px;
+  }
+  #rangeFilterSelect {
+    width: 50%;
+  }
+  .adminCardPie {
+    bottom: -0.6rem;
+  }
+}

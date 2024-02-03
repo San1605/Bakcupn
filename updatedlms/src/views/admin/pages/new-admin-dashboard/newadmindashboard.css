@@ -1,0 +1,391 @@
+.columnGap-10 {
+    column-gap: 10px;
+}
+
+.mb-adminDashboardCards {
+    margin-bottom: 2rem;
+}
+
+.rowGap-10 {
+    row-gap: 10px;
+}
+
+.barHeight-7 {
+    height: 7px;
+}
+
+.adminDashboardBtnContainer {
+    padding: 2rem 2.5rem 0rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.dashboardContainer {
+    padding: 0.5rem 2.5rem;
+    row-gap: 1.5rem;
+}
+
+.dashboardComponentsContainer {
+    padding: 0 0.75rem;
+}
+
+.dashboardHead {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.kpiCardContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+.resourcesDataContainerTitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.resourceStatisticsContainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.rangeFilterContainer {
+    column-gap: 3px;
+}
+
+.dateRangeText,
+#rangeFilterSelect,
+#rangeFilterSelect option.rangeFilterOption {
+    font-size: 14px;
+    color: #424242;
+}
+
+#rangeFilterSelect {
+    font-weight: 600;
+}
+
+#rangeFilterSelect,
+.projectsListDropdown {
+    border: none;
+    background: transparent;
+}
+
+#rangeFilterSelect:focus-visible,
+.projectsListDropdown,
+.projectsListDropdown:focus {
+    outline: none;
+}
+
+.resourcesPageTitle {
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.resourcessTotalCount {
+    color: #42424270;
+    font-weight: 500;
+}
+
+.resourceslist {
+    min-height: fit-content;
+    max-height: 35vh;
+}
+
+.resourceListSearch {
+    height: 1.75rem;
+}
+
+.resourceListSearch::placeholder {
+    font-size: 12px;
+}
+
+.resourseListTableHead {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.resourseListTablecontent {
+    font-size: 12px;
+    padding: 0.5rem;
+}
+
+.resourceslist .thead {
+    background-color: #f5f5ff;
+}
+
+.workLocationHeader {
+    display: flex;
+    justify-items: center;
+    column-gap: 10px;
+}
+
+.workLocationLegend {
+    display: flex;
+    justify-items: center;
+    column-gap: 20px;
+}
+
+.viewReportsLink {
+    color: #0356d3;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.projectsListDropdown {
+    padding: 0 !important;
+    width: 8rem;
+    text-overflow: ellipsis;
+}
+
+.department-ellipses {
+    width: 7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.departmentCardHead {
+    font-size: 15px;
+}
+
+.departmentCardTitle {
+    font-weight: 600;
+}
+
+.departmentCardContainer {
+    row-gap: 0.75rem;
+}
+
+.resourcesManagerName {
+    font-size: 16px;
+    font-weight: 600;
+    color: #616161;
+}
+
+.resourcesCountHead {
+    font-size: 14px;
+    color: #616161;
+}
+
+.billableBar, .onCampusBar {
+    background-color: #05CD9A;
+}
+
+.nonBillableBar, .COEBar {
+    background-color: #F54102;
+}
+
+.diceyBar, .referralBar {
+    background-color: #FFFA79;
+}
+
+.FTEBullet,
+.fullyUtilizationBar,
+.offCampusBar,
+.billableResourceBar {
+    background-color: #019DF5;
+}
+
+.internsBullet,
+.onPIPBar,
+.summerInternshipBar,
+.nonBillableResourceBar {
+    background-color: #F5BA01;
+}
+
+.onBenchBar {
+    background-color: #4E4CAC;
+}
+
+.traineesBullet , .projectDeployableBar {
+    background-color: #FF34F7;
+}
+
+.resorsesBarLegendTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resorsesBarLegendTitle {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.locationDot {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.locationIcon {
+    width: 22px;
+}
+
+.locationName {
+    font-size: 16px;
+}
+
+.legentTileDot {
+    border-radius: 50%;
+}
+
+.legentTileName,
+.resorsesBarLegendValue {
+    font-size: 13px;
+    color: #616161;
+    white-space: nowrap;
+}
+
+.resorsesBarLegendValue {
+    font-weight: 600;
+}
+
+.resorsesBarLegendsContainer {
+    row-gap: 2px;
+}
+
+.admin-dashboard-resource-list td {
+    padding: 0.5rem 1rem 0.5rem 0.5rem !important;
+}
+
+.loading-tbody {
+    height: 50vh;
+    position: relative;
+}
+
+.loader-tbody {
+    top: 55%;
+}
+
+@media screen and (min-width: 1600px) {
+    .AdminDashboardKpiCard {
+        height: 200px;
+    }
+
+    .adminDashboardSubContainer {
+        height: 100%;
+    }
+
+    .adminDashboardCardComponentContainer {
+        height: 100px !important;
+    }
+
+    .resourcesPageTitle {
+        font-size: 24px;
+    }
+
+    .legentTileName {
+        font-size: 20px;
+    }
+
+    .resourcesManagerName {
+        font-size: 22px;
+    }
+
+    .resourcesCountHead {
+        font-size: 20px;
+    }
+
+    .resourcesDataContainerTitle {
+        font-size: 26px;
+    }
+
+    .resorsesBarLegendValue {
+        font-size: 18px;
+    }
+
+    .locationName {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .adminDashboardCardContainer {
+        row-gap: 1.5rem;
+    }
+
+    .resourceStatisticsContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .kpiCardContainer {
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+    .admin-reasourselist-head {
+        flex-direction: column;
+    }
+
+    .searchContainer {
+        align-self: flex-start;
+        width: 70% !important;
+    }
+
+    .resourceStatisticsContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .kpiCardContainer {
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .kpiCardContainer {
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .resorsesBarLegendsContainer {
+        justify-content: space-between;
+    }
+
+    .admin-reasourselist-head {
+        flex-direction: column;
+    }
+
+    .resourcelist-pagination {
+        padding-top: 12px;
+        padding-bottom: 8px;
+    }
+
+    .resourceStatisticsContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .dashboardContainer {
+        padding: 0.75rem 1rem;
+    }
+
+    .rangeFilterContainer {
+        justify-content: flex-end;
+    }
+
+    .dateRangeText,
+    #rangeFilterSelect,
+    #rangeFilterSelect option.rangeFilterOption,
+    .legentTileName {
+        font-size: 12px;
+    }
+
+    #rangeFilterSelect {
+        width: 50%;
+    }
+
+    .adminCardPie {
+        bottom: -0.6rem;
+    }
+}

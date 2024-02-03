@@ -1,0 +1,51 @@
+.heading-patient {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+.heading-list-of-patient {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #707070;
+}
+.Onboard_New {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  border: none;
+  height: 33px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 18px;
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+.loaderCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+}
+
+.adminPatients .table-pagination {
+  position: absolute;
+  bottom: 10px;
+  right: 2rem;
+}
+
+.adminPatients .table-pagination button {
+  background-color: #b9a9f3 !important;
+}
+.adminPatients .table-pagination .nextBtn {
+  background-color: var(--primary) !important;
+}
+.adminPatients .table-pagination input {
+  border: 2px solid var(--primary) !important;
+}

@@ -1,0 +1,114 @@
+.addLearningPath .modal-header {
+    padding: 9px 15px;
+    background: #654E8A;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+.modal-header img {
+    cursor: pointer !important;
+}
+
+.addLearningPath .modal-content {
+    border-radius: 4px !important;
+
+}
+
+.addLearningPath .modal-body {
+    padding: 18px 35px !important;
+}
+
+.addLearningPath .modal-header div {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+.addLearningPath .footer {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 0 !important; */
+    gap: 6px !important;
+    /* margin-top: 10px; */
+}
+
+.addLearningPath .footer>button:nth-child(1) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #AEAEAE;
+    color: #616161;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.addLearningPath .footer>button:nth-child(2) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #654E8A;
+    color: #ECECEB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}
+
+
+.addLearningPath .AddLPForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddLPForm .AddLPFormDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    /* border: 1px solid black; */
+}
+
+.fieldDivWithError {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.AddLPForm .AddLPFormDiv label {
+    color: #424242;
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+.AddLPForm .AddLPFormDiv label:not(:has(span)) {
+    font-weight: 400;
+}
+
+.AddLPForm .AddLPFormDiv label span {
+    color: red;
+}
+
+
+.AddLPForm .AddLPFormDiv input,
+select {
+    display: flex;
+    width: 310px;
+    padding: 6px 13px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid #D7D7D7;
+    background: #FFF;
+    color: #424242;
+    font-size: 13px;
+    outline: none;
+}

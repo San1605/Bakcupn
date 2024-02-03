@@ -1,0 +1,35 @@
+.totaldisplaycard {
+  border-radius: 0.5rem;
+  display: flex;
+  background-position: right;
+  height: max-content;
+  background-repeat: no-repeat;
+  padding: 0.6rem !important;
+  flex: 1 0 150px;
+  width: 100%;
+}
+.totaldisplaycard h5 {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+}
+.totaldisplaycard_image_doctor {
+  height: 40px;
+}
+.totaldisplaycard span {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.totaldisplaycard_doctor {
+  padding: 0.5rem !important;
+}
+.totaldisplaycard_doctor img {
+  padding: 10px !important;
+  height: 2.8rem !important;
+  width: 2.8rem !important;
+}
+/* .totaldisplaycard_doctor h5 {
+  font-size: 11px !important;
+} */

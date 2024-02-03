@@ -1,0 +1,80 @@
+.notification-popover {
+  border-radius: 4px;
+  overflow: hidden;
+  transform: translate3d(882px, 60px, 0px) !important;
+}
+.notification-popover-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: default;
+}
+.notification-popover-head-name-count {
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #424242;
+}
+.notification-popover-head-name-count > span {
+  color: #2f2f2f40;
+}
+.notification-pop-div {
+  width: 100%;
+  min-height: fit-content;
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  background-color: #fff;
+}
+.notification-pop-row {
+  padding: 6px 14px;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  position: relative;
+}
+.notification-pop-row:nth-of-type(1) {
+  margin-top: 4px;
+}
+.notification-pop-row:hover {
+  background-color: #0c8ce910;
+  cursor: pointer;
+}
+.notification-pop-row-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification-pop-row-title {
+  width: 95%;
+  font-weight: 500;
+  font-size: 12px;
+}
+.notification-pop-row-timestamp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification-pop-row-timestamp-time,
+.notification-pop-row-timestamp-date {
+  font-size: 10px;
+  color: #959595;
+}
+.notification-popover-head-markRead {
+  font-size: 11px;
+  color: #3f4195;
+  cursor: pointer;
+}
+.pop-new-notification {
+  height: 8px;
+  width: 8px;
+  background-color: #3f4195;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 100%;
+}

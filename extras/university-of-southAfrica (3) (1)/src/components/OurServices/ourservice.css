@@ -1,0 +1,31 @@
+p.our-service-heading {
+  color: #bbc3cc;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.our-service-sub-heading {
+  font-weight: 700;
+}
+
+.hover-div {
+  /* transition: 0.5s linear forwards; */
+  animation: 1s hoverimg linear all forwards;
+}
+.hover-img {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+}
+.hover-div:hover .hover-img {
+  bottom: 0%;
+}
+
+@keyframes hoverimg {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 0%;
+  }
+}

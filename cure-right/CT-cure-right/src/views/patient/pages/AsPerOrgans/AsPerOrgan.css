@@ -1,0 +1,71 @@
+td {
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.asPerOrgans td {
+  width: 10rem;
+}
+.asPerOrgans tr {
+bottom-border:1px solid black
+}
+.small {
+  width: 3rem;
+
+}
+.asPerOrgans tr td{
+  font-weight:400 !important;
+}
+.asPerOrgans th{
+  font-weight:600 !important;
+  font-size:14px !important;
+}
+.green {
+  /* text-align:center; */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #09d90e;
+  margin-right: 6px;
+}
+.yellow {
+  /* text-align:center; */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffd644;
+  margin-right: 6px;
+}
+
+.red {
+  /* text-align:center; */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #eb5757;
+  margin-right: 6px;
+}
+
+.profImg {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.imgContainer {
+  width: 50px;
+}
+
+
+.asPerOrgans .fontAsPerOrganId{
+font-size:12px
+}
+
+/* .asPerOrgans .shadow-body{
+  box-shadow: 0 0.5 px 0.5px 0 rgba(0, 0, 0, 0.2), 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.19)!important;
+} */

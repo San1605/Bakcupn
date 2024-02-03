@@ -1,0 +1,99 @@
+.notificationContainer {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background-color: #F2ECF6;
+}
+
+.notificationsDiv {
+    height: 100%;
+    width: 100%;
+    background-color: #FBFCFE;
+    border-radius: 4px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    overflow-y: scroll;
+}
+
+.notficationCard {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 8px;
+    /* height: 20%; */
+    gap: 30px;
+    border-bottom: 1px solid #E4E4FF;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.notficationCard>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    width: 86%;
+    gap: 12px;
+}
+
+
+.notficationCard>div:nth-child(1)>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.notficationCard .notificationMessageDiv {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: calc(100% - 40px);
+    height: 100%;
+    gap: 5px;
+}
+
+.notficationCard .notificationMessageDiv>div:nth-child(1) {
+    display: flex;
+    gap: 5px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.notficationCard .notificationMessageDiv>div:nth-child(1) span {
+    color: #484848;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.notficationCard .notificationMessageDiv>div:nth-child(2) {
+    color: #1D1D1D;
+    font-weight: 600;
+    font-size: 13px;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* text-align: justify; */
+}
+
+.notficationCard>div:nth-child(2) {
+    /* border: 1px solid black; */
+    color: #959595;
+    font-size: 11px;
+    font-weight: 500;
+    width: 14%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.notificationProfileImg {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}

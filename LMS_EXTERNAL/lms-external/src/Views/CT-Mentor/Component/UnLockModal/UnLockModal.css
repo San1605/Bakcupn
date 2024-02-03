@@ -1,0 +1,30 @@
+.deleteText {
+    color: #424242;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 12px;
+}
+
+
+.addLearningPath .footerDeleteUnLock {
+    display: flex;
+    justify-content: center;
+    gap: 6px !important;
+    margin-top: 15px;
+}
+
+.footerDeleteUnLock button {
+    padding: 6px 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    border-radius: 4px;
+    background: #654E8A;
+    color: white !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}

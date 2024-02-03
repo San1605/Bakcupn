@@ -1,0 +1,17 @@
+.viewfeedback-input {
+  font-size: 12px !important;
+  color: #909196 !important;
+}
+
+.blocked-input {
+  background-color: #d9d9d9 !important;
+  cursor: default !important;
+}
+.count-block-view {
+  cursor: default !important;
+}
+.count-block-view:hover {
+  background: transparent !important;
+  border: 1px solid #d8d9fc;
+  color: #000;
+}

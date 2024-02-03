@@ -1,0 +1,50 @@
+:root {
+  --color-dark: #5B5FC7;
+  --color-boder: #BCBCBC;
+  --color-input-btn-group: #797979;
+  --color-botside: #fff;
+  --color-botside-text: #424242;
+  --color-light: #E7E7E7;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-golden: #E8EBFA;
+  --color-navbar-bg: #F5F5F5;
+  --color-login-part : #fef6e5;
+  --font-primary :  'inter';
+  --font-arabic : 'Noto Sans Arabic', sans-serif;
+--color-bg-parent : #F5F5F5;
+--modal-btn-primary : #5B5FC7;
+--modal-blue-heading : #4F52B2;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+input,
+select {
+  /* cursor: pointer; */
+}
+
+html {
+  /* font-size: 62.5%; */
+}
+
+body {
+  background: var(--color-bg-parent);
+  min-height: 100vh;
+  font-family: 'Inter';
+}
+

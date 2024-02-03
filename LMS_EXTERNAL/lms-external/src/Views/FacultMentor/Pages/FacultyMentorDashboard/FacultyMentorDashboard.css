@@ -1,0 +1,43 @@
+.adminDashboard {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: #F2ECF6;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.adminDashboardPage {
+    height: calc(100% - 15%);
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+
+.adminDashboardLeft {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    gap: 10px;
+}
+
+
+.adminDashboardRight {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    width: 30%;
+}
+
+.facultymentorDashboardLeftTop{
+    display: flex;
+    gap: 10px;
+    height: 40%;
+    gap: 10px;
+    width: 100%;
+}

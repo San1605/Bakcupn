@@ -1,0 +1,26 @@
+.kcs-count {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.kcs-title {
+    font-size: 12px;
+    margin: 0;
+    white-space: nowrap;
+}
+.kcs-title p{
+    font-size: 11px;
+    color: #595959;
+}
+
+.kpi-card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 21px rgba(215, 229, 255, 0.25);
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    .kcs-title {
+        font-size: 10px;
+    }
+}

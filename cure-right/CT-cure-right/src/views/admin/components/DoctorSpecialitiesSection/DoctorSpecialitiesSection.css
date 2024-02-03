@@ -1,0 +1,18 @@
+.apexcharts-legend {
+  position: absolute;
+  left: auto;
+  display: flex;
+  justify-content: center !important;
+  top: 1px !important;
+  gap: 0.3rem;
+  font-weight: 700 !important;
+  right: 5px;
+}
+
+.special_div1 {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  height: calc(100% - 41px) !important;
+  align-items: center;
+}

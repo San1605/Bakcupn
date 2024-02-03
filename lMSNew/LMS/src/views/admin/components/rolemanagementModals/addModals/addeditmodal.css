@@ -1,0 +1,35 @@
+.roleSubmitButton {
+  width: fit-content;
+}
+.addroleModelBody {
+  overflow: scroll;
+  min-height: fit-content;
+  max-height: 70vh;
+}
+.addmodalbody {
+  padding-bottom: 0;
+}
+.lppointer {
+  pointer-events: none !important;
+}
+.notchange {
+  pointer-events: none;
+}
+.dropdownstyle {
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #424242;
+  padding: 0 0.55rem;
+}
+.selected-role {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d7d7d7;
+}
+.selected-role-img {
+  height: 30px;
+  border-radius: 50%;
+  padding: 3px;
+}

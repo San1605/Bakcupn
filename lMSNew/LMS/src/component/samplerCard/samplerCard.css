@@ -1,0 +1,60 @@
+.searchContainer {
+  border: 1px solid #c6c6c6;
+}
+
+.sampler-search:focus-visible {
+  outline: none;
+}
+
+.sampler-card {
+  background: #ffffff;
+  border-radius: 4px;
+  max-height: 15rem;
+} 
+
+.NoSamplerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3px;
+  padding: 18px 0;
+}
+.NoSamplerCard img {
+  width: 100px;
+}
+.nosamplertext {
+  font-size: 12px;
+  color: #424242;
+}
+.sampler-item-row {
+  border-bottom: 0.5px solid #eaeaea;
+}
+.sampler-item-row:hover {
+  background-color: #f8f8f8;
+  cursor: default;
+}
+
+@media screen and (min-width: 1500px) {
+  .sampler-card {
+    min-height: 80%;
+  }
+}
+@media screen and (min-width: 1285px) and (max-width: 1440px) {
+  .sampler-card {
+    /* min-height: 11rem; */
+    /* max-height: 9rem !important; */
+    height: 13rem !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1285px) {
+  .sampler-card {
+    max-height: 9rem !important;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 992px) {
+  .sampler-card {
+    min-height: 13rem;
+  }
+}
+/* @media screen and (min-width: 992px) and (max-width: 1440px) {} */

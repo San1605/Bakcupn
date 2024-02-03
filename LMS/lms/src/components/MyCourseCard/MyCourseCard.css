@@ -1,0 +1,83 @@
+.myCourseCard{
+    height: 15rem;
+    width: 18rem;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 6px;
+    text-decoration: none !important;
+    
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.myCourseCard:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.myCourseCard a{
+    text-decoration:none !important;
+}
+
+.myCourseCardImg{
+    height: 75%;
+    border-radius: 6px;
+}
+
+.myCourseName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid red; */
+
+}
+.myCourseName .myCoursename{
+    font-weight: 600;
+    width: 50%;
+    font-size: 13px;
+    text-align: start;
+
+}
+
+.myCourseName  .progressbar{
+    font-weight: 600;
+    width: 50%;
+    text-align: end;
+    font-size: 13px;
+
+}
+.myComplexity{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.myComplexity .myBegineer{
+ width: 50%;
+ font-size: 12px;
+ text-align: start;
+
+}
+
+.myComplexity .myCoursename{
+    text-align: end;
+    font-size: 12px;
+}
+
+
+.myCourseCard .CircularProgressbar {
+    width: 10%;
+    vertical-align: middle;
+}
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #F49159 !important;
+}
+
+.myCourseCard .CircularProgressbar .CircularProgressbar-text {
+    fill: black;
+    font-weight: 700;
+    font-size: 32px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}

@@ -1,0 +1,11 @@
+.upload-thumbnail-div {
+  border: 1px solid #d7d7d7 !important;
+}
+.upload-thumbnail-placeholder-text {
+  font-size: 12px;
+  color: #616161;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 10px;
+}

@@ -1,0 +1,31 @@
+.pagination {
+  width: fit-content;
+  margin: 0;
+}
+.page-item {
+  width: 100%;
+}
+.page-link:focus {
+  box-shadow: none !important;
+}
+.page-link {
+  border: none;
+  color: black;
+  margin: 0;
+  column-gap: 1rem;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  display: unset !important;
+}
+.page-link.active,
+.active > .page-link {
+  background: #4f52b2 !important;
+  border-radius: 3px !important;
+}
+
+p .page-link {
+  padding: 6px 6px 6px 6px;
+}

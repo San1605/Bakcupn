@@ -1,0 +1,191 @@
+.app {
+  /* width: 100vw; */
+  /* overflow-x: hidden !important;/ */
+}
+
+.messages-container {
+  height: calc(100% - 112px);
+}
+.messages-container-data-driven {
+  height: calc(100% - 50px);
+}
+
+.ilustration-container {
+  height: calc(100% - 67px);
+}
+
+.input input {
+  width: calc(100% - 17px);
+  padding-right: 1rem;
+}
+
+.data-driven-page {
+  min-width: calc(100% - 256px);
+  width: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+  height: 6px;
+  background-color: transparent;
+}
+
+/* Add a thumb */
+*::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 25px;
+}
+.top {
+  max-height: calc(100% - 70px);
+}
+
+.yesterday {
+  max-height: calc(100% - 48px);
+  overflow-y: auto;
+}
+
+.errorMessage {
+  color: #b3261e;
+  font-size: 11px;
+  /* height: 0.9rem; */
+  margin-top: 1px;
+}
+
+.incorrect-input {
+  outline: 1.5px solid #b3261e !important;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+/* .citation-bottom{
+  height: calc(100% - 49px);
+} */
+
+.ellipsis-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to display */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.react-pdf__Page {
+  width: 100% !important;
+}
+
+.citation-cont {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.citation-bottom {
+  height: calc(100% - 64px);
+}
+
+.react-pdf__Document {
+  height: 100%;
+  width: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+}
+
+.react-pdf__Page__annotations {
+  height: 3rem !important;
+}
+
+.react-pdf__Page {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider-hitbox {
+  z-index: 10;
+  position: absolute;
+  transform: translate(-15px, 50%);
+}
+
+.textLayer {
+  display: none !important ;
+}
+
+.react-pdf__Page__annotations {
+  display: none !important;
+}
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+}
+
+/* responsive css */
+
+#aside {
+  height: 100%;
+}
+
+.outlet {
+  width: calc(100% - 255px);
+}
+/* 
+#root {
+  overflow: hidden;
+}
+
+body,
+html {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 635px) {
+  *::-webkit-scrollbar {
+    width: 0px;
+    background-color: #fff;
+    height: 0px;
+    background-color: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 25px;
+  }
+} */
+
+/* html{
+  height: calc(100vh + 30px);
+  width: 100vw;
+} */
+
+.disclaimer{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.qwertyShow {
+  left: -100% !important;
+}
+.dealProfileShow {
+  left: -100%;
+  animation: DealProfileShow 0.2s linear forwards !important;
+}
+.dealProfileHide {
+  animation: DealProfileHide 0.2s linear forwards !important;
+}
+@keyframes DealProfileShow {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+@keyframes DealProfileHide {
+  100% {
+    left: 0%;
+  }
+  0% {
+    left: -100%;
+  }
+}

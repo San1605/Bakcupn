@@ -1,0 +1,70 @@
+.adminTicketsPageContainer {
+  padding: 1rem 2.5rem;
+}
+.adminListContainer{
+  border: 1.5px solid #eff0f6;
+  border-radius: 4px;
+}
+.ticketsFirstBlock {
+  padding-left: 0.75rem;
+}
+.adminTicketList {
+  min-height: fit-content;
+  max-height: 60vh;
+}
+.adminPageTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+.adminTicketsTableHead {
+  font-size: 12px;
+}
+.adminTicketsTablecontent {
+  font-size: 12px;
+}
+.adminthead,
+.adminheadrow {
+  border-style: hidden;
+}
+.adminthead {
+  background-color: #f5f5ff;
+}
+.admincontentrow {
+  border-bottom: 1px solid #eaeaea;
+  border-style: solid;
+}
+.adminCoursesList .thead {
+  background-color: #f5f5ff;
+}
+.adminTicketContentText {
+  padding-top: 3px;
+}
+.adminTicketStatus-pending {
+  color: #fca600;
+  padding-left: 1rem;
+}
+.adminTicketStatus-approved {
+  color: #3bbd37;
+  padding-left: 1rem;
+}
+.adminTicketStatus-rejected {
+  color: #e73550;
+  padding-left: 1rem;
+}
+.ticketApprove,
+.ticketReject {
+  font-size: 10px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 4px;
+}
+.ticketApprove {
+  background-color: #4f52b2;
+  color: #fff;
+}
+.ticketReject {
+  background-color: transparent;
+  border: 1px solid #cfcfcf;
+  color: #424242;
+  margin-left: 1rem;
+}

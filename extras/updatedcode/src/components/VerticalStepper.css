@@ -1,0 +1,102 @@
+.vertical-stepper {
+  display: flex;
+  flex-direction: column; /* Stacking containers vertically */
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  width: fit-content;
+}
+.step-container {
+  position: relative;
+  display: flex;
+  min-width: 100%;
+}
+
+.step {
+  display: flex;
+  height: 5rem;
+  /* align-items: center; */
+  padding:0px 5px 8px 4px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.step-line {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #ccc;
+  left: 10px;
+  top: 0;
+}
+
+.step-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  position: absolute;
+  
+  left: 4px;
+  top: 0;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.step.active .step-line {
+  background-color: #007bff;
+}
+
+.step.active .step-dot {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.step-content {
+  flex: 1;
+  padding-top: 0px !important;
+  padding: 10px;
+}
+
+.step-title {
+  font-weight: bold;
+  min-width: 3rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
+
+.step-description {
+  padding-left: .5rem;
+  min-width: 7rem;
+  display: flex;
+  justify-content: start;
+  color: #353535;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+  /* margin-top: 5px; */
+}
+.active{
+  color: #00829B !important;
+
+}
+.activelines{
+  background-color: #00829B;
+}
+.activedot{
+  border: 4px solid #00829B;
+}
+.header{
+  background: #fff;
+border-bottom: 1px solid #e3e3e3;
+border-radius: 8px 8px 0px 0px;
+color: #000;
+font-size: 15px;
+font-weight: 500;
+padding: 7px 1.5rem;
+}

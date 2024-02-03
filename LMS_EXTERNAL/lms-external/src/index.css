@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #654E8A)
+  );
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+}
+
+
+
+
+a{
+  text-decoration: none; 
+}

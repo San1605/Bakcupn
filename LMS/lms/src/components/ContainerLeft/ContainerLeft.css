@@ -1,0 +1,47 @@
+.containerLeft{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    padding: 1rem;
+    background-color: #FBFBFB;
+}
+.containerLeftImg{
+height: 40%;
+background-image: url(">../../../../assets/HomeBg.svg");
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 6px;
+}
+.ongoingCourse{
+    height: 55%;
+}
+.coursesCardDiv{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    height: calc(100% - 2.5rem);
+    flex-wrap: wrap;
+    overflow: scroll;
+    gap: 20px;
+}
+
+.coursesCardDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.viewAllDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2.5rem;
+    align-items: center;
+
+}
+
+.viewAllDiv p{
+    color: #424242;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0  !important;
+}

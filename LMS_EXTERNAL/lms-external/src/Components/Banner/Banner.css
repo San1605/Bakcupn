@@ -1,0 +1,90 @@
+.collegeLoginrightDiv {
+    height: 100%;
+    width: 39%;
+    overflow-y: scroll;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.reverseOrderScroll {
+    animation-delay: -10s;
+    animation: scrollAnimationReverse 400s linear infinite;
+}
+
+.normalOrderScroll {
+    animation-delay: -10s;
+    animation: scrollAnimation 400s linear infinite;
+}
+
+
+@keyframes scrollAnimationReverse {
+    100% {
+        transform: translateY(0);
+    }
+
+    0% {
+        transform: translateY(calc(-100% * 10));
+    }
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(calc(-100% * 10));
+    }
+}
+
+.collegeLoginrightDiv .collegeLoginRightBox {
+    width: 100%;
+    min-height: 34%;
+
+    border-radius: 8px;
+}
+
+.collegeLoginrightDiv .collegeLoginRightBox img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.reverseDivBanner>div:first-child {
+    margin-top: -35px;
+}
+
+
+
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 82% !important;
+    height: 12%;
+    background: linear-gradient(179.8deg,
+            rgba(246, 246, 244, 0) 0.18%,
+            rgba(246, 246, 244, 0.31) 30.95%,
+            #E4E4FF 90.32%);
+}
+
+.gallery-overlay-top {
+    top: 3%;
+    background: linear-gradient(0deg,
+            rgba(246, 246, 244, 0) 0.18%,
+            rgba(246, 246, 244, 0.31) 30.95%,
+            #E4E4FF 90.32%);
+}
+
+.gallery-overlay-bottom {
+    bottom: 0%;
+    background: linear-gradient(180deg,
+            rgba(246, 246, 244, 0) 0.18%,
+            rgba(246, 246, 244, 0.31) 30.95%,
+            #E4E4FF 90.32%);
+}

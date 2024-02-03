@@ -1,0 +1,42 @@
+.yearmatch{
+  border: 1px solid #4F52B2;
+  border-radius: 5px;
+  padding: 2px 2px 1px;
+  background-color: #f5f5ff !important;
+}
+.month-row-padding{
+  padding-top: 6px
+}
+.month-row-padding button{
+  font-size: 15px;
+}
+.year-dropdown{
+  border-right: 1px solid #DEDEDE;
+}
+.calendar-year-dropdown{
+  outline: none;
+  border: none;
+}
+
+@media screen and (max-width: 769px){
+  .report-calender-row{
+    flex-direction: column;
+  }
+  .year-dropdown{
+    border: none !important;
+  }
+  .month-row{
+    width: 100%;
+  }
+  .reportMonthFilter{
+    width: 16%;
+    margin-bottom: 3px;
+  }
+  
+}
+@media screen and (max-width: 500px){
+  .reportMonthFilter{
+    width: 25%;
+  }
+
+}

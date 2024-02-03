@@ -1,0 +1,132 @@
+.hrbuddyListContainer {
+  margin-top: 12px;
+  height: calc(100vh - 150px);
+}
+.Accordian-container {
+  height: calc(100vh - 280px);
+}
+.hrbuddyContainer {
+  padding: 0 2.5rem 0.75rem;
+}
+.hrbuddy-head-row {
+  padding-top: 0.75rem;
+  height: 50px;
+}
+.hrbuddyHeadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hrbuddyHead {
+  font-size: 22px;
+  font-weight: 600;
+}
+.hrbuddyPageTitle {
+  color: #242424;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hrbuddyTotalCount {
+  color: #fff;
+  background-color: #4f52b2;
+  font-weight: 400;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 50%;
+}
+.hrbuddyList {
+  min-height: fit-content;
+  max-height: 60vh;
+}
+.searchContainer-hrbuddy .hrbuddy-modal-row {
+  display: flex;
+  column-gap: 1rem;
+}
+.action-column {
+  display: flex;
+  column-gap: 1rem;
+}
+.action-icon {
+  height: 16px;
+  cursor: pointer;
+}
+div:nth-of-type(1) .courselisttable-container {
+  height: 62vh;
+  overflow-y: scroll;
+}
+.employee-details-col {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.employee-details-col-img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.employee-details-col-img > img {
+  width: 100%;
+}
+.team-icon-count {
+  position: absolute;
+  top: -7px;
+  right: -9px;
+  height: 13px;
+  width: 13px;
+  background-color: #4f52b2;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .searchContainer {
+    width: 28%;
+  }
+  .hrbuddyListSearch::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 427px) and (max-width: 998px) {
+  .searchContainer {
+    width: 38%;
+  }
+  .hrbuddyListSearch::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .hrbuddyContainer {
+    padding: 0.75rem 1.5rem;
+  }
+  .hrbuddyHeadContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.75rem;
+  }
+  .hrbuddy-search-pagination-row {
+    flex-direction: column;
+  }
+  .hrbuddy-pagination {
+    padding: 1rem 0;
+  }
+  .hrbuddy-head-row {
+    flex-direction: column;
+  }
+  .hrbuddyHead {
+    align-self: flex-start;
+  }
+  .hrbuddy-modal-row {
+    align-self: flex-end;
+    padding-top: 10px;
+  }
+}

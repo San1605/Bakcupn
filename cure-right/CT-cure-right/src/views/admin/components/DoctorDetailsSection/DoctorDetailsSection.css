@@ -1,0 +1,144 @@
+.doctor_div{
+    background: rgba(205, 119, 224, 0.08);
+    border-radius: 12px;
+    padding: 0.8rem 0.8rem !important;
+    /* height: 210px; */
+    text-align:center
+    /* height: 85vh; */
+}
+.doctor_div img{
+    height: 2rem;
+    width: 2rem;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+}
+.doctor_border{
+
+    text-align:center;
+
+    padding:0.5rem 0 !important;
+    /* padding-bottom: .5rem; */
+    /* margin-left: .5rem;
+    margin-right: .5rem; */
+    /* border :1px solid black */
+}
+  
+.charge{
+    width: fit-content;
+    height: 27px;
+    background: #F4E8FF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-weight: 400;
+    font-size: 16px; 
+}
+.doctor_div1{
+    padding:0.5rem 0.5rem !important;
+    background: #FFFFFF;
+    border-radius: 12px;
+    /* height: 95%; */
+}
+.about_img{
+    width: 2.5rem;
+    padding-bottom: 1rem;
+}
+.doctor_font{
+    font-weight: 600;
+}
+.font{
+   font-size: .7rem;
+   color: #2C2C2C;
+line-height: .5rem;
+}
+
+.patient_div{
+    gap: 2rem!important;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    /* width: rem; */
+    height:2rem;
+    background: var(--primary);
+    border-radius: 4px;
+    color: #FFFFFF;
+    white-space:nowrap;
+    font-size: 12px;
+    margin-left:2px;
+}
+
+.bold_text{
+     font-size: .8rem;
+     font-weight: 600;
+}
+.gap{
+    gap: 1rem !important;
+    display: flex;
+}
+.year_div{
+ line-height: 0.1rem;
+}
+.year_font{
+    font-weight: 400;
+font-size: 12px;
+font-style: normal;
+color: #2C2C2C;
+}
+
+.font_contact{
+    font-size: .7rem;
+    color: #616161;
+ line-height: .5rem;
+ }
+
+
+/* .patients_div{
+    background: #FFFCE9;
+    border-radius: 12px;
+    height: 85vh;
+}
+.list_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+   height: 1rem;
+   background: #E4F8FE;
+border-radius: 16px;
+   border: none;
+   color: #00A7DB;
+}
+
+.font_size{
+    font-size: .7rem;
+    color:  #616161;
+}
+
+.detail_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rempx;
+height: 1.3rem;
+   background: #FFFFFF;
+border: 1px solid var(--primary);
+border-radius: 4px; 
+   color: var(--primary);
+}
+
+.header_size{
+    font-size: .8rem;
+} */
+
+
+.aboutDoctor{
+    text-align:left;
+}

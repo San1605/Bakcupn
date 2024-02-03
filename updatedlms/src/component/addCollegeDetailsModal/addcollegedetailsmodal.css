@@ -1,0 +1,50 @@
+.details-modalbody {
+  padding-bottom: 0 !important;
+}
+.details-upload-modal .modal-dialog {
+  max-width: 600px !important;
+}
+.details-upload-modal .modal-content {
+  border: unset !important;
+}
+.infoModalHead {
+  background: #4f52b2;
+  color: #ffffff;
+  padding: 10px;
+}
+.details-upload-modal .form-label {
+  color: #424242;
+  line-height: 1.1;
+  font-size: 13px;
+  font-weight: 500;
+}
+.details-upload-modal input {
+  color: #424242;
+  font-size: 14px;
+}
+.details-upload-modal .form-label span {
+  color: #ed4343;
+  font-weight: 600;
+}
+.infoModalHead .modal-title {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.details-inputField {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  align-items: center;
+}
+.submit-Button {
+  padding: 4px 25px;
+  background-color: #4f52b2;
+  color: #ececeb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.numberinput::-webkit-outer-spin-button,
+.numberinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

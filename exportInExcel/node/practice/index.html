@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <!-- http://media.w3.org/2010/05/sintel/trailer.mp4 -->
+
+<iframe id="videoFrame"
+        src="https://celebaltech.sharepoint.com/sites/ctlms/_layouts/15/embed.aspx?UniqueId=3e0a3c03-97d2-4d52-9163-a38b0f0b977f&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+        width="640" height="360" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
+    <!-- <script>
+        const videoFrame = document.getElementById("videoFrame");
+        window.addEventListener("message", (event) => {
+            console.log(event?.data?.currentTime)
+        })
+
+        setInterval(() => {
+            videoFrame?.contentWindow.postMessage("getVideo", "*")
+        }, 1000)
+    </script> -->
+</body>
+
+</html>

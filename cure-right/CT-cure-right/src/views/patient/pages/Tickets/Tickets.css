@@ -1,0 +1,62 @@
+.ticket-status-table tr {
+  height: 55px !important;
+}
+
+.ticket-status-table th,
+.ticket-status-table td {
+  vertical-align: middle;
+  max-width: 13rem;
+}
+.ticket-status-table th {
+  font-weight: 600 !important;
+}
+
+.ticket-status-table td {
+  width: 100px;
+  text-overflow: clip;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-wrap: wrap !important;
+  font-size: 13px !important;
+}
+.tid {
+  text-align: center;
+  max-width: 4.5rem !important;
+}
+
+.col-desc {
+  min-width: 11rem;
+}
+
+.ticket-status-table td::-webkit-scrollbar {
+  display: none;
+}
+
+.ticket_font {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(97, 97, 97, 1);
+}
+
+.ticket_font1 {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(97, 97, 97, 1);
+}
+.ticket_font2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.resolved {
+  color: rgba(42, 181, 20, 1);
+}
+.pending {
+  color: rgba(250, 174, 0, 1);
+}
+.onhover_tickets {
+  background-color: white;
+}
+.onhover_tickets:hover {
+  background-color: rgba(252, 249, 255, 1);
+  cursor: pointer;
+}

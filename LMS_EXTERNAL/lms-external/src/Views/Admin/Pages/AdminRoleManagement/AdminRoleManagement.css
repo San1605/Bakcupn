@@ -1,0 +1,16 @@
+.courseListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #FBFCFE;
+    /* position: relative; */
+}
+.RoleList {
+    overflow: scroll;
+    width: 100%;
+    height: calc(100% - 30px);
+    ;
+}

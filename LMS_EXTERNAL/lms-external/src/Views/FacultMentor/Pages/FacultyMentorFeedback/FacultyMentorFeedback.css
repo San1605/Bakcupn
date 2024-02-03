@@ -1,0 +1,16 @@
+.FacultyMentorFeedback {
+    height: 100%;
+    width: 100%;
+    background-color: #F2ECF6;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.FacultyMentorFeedbackDiv {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid black; */
+}

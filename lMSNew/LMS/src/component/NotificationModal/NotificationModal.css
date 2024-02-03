@@ -1,0 +1,192 @@
+.modalClass .notificationBox {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #f6f7f8;
+  cursor: pointer !important;
+  background-color: #f4f8fb;
+  /* background-color:  rgb(55,143,233,0.2); */
+  font-size: 12px;
+}
+
+.modalClass .notification {
+  height: calc(100% - 3rem);
+  width: 100%;
+  overflow: scroll !important;
+}
+
+.modalClass .notification::-webkit-scrollbar {
+  display: none;
+}
+
+.modalClass {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 6px;
+  background-color: white;
+  height: calc(100vh - 3.7rem);
+  width: 35vw !important;
+  top: 59px !important;
+  position: absolute !important;
+  z-index: 999;
+  right: 6px;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 998; /* Lower z-index than the modal */
+  display: flex; /* Initially hidden */
+  /* border: 20px solid red; */
+}
+
+.modalBackdropBefore {
+  display: none;
+  /* position: fixed; */
+  /* width: 20px;
+    height: 20px; */
+  /* border: 20px solid red; */
+  /* visibility: collapse; */
+  /* display: none !important; */
+  /* position: absolute;
+    right: -30%; */
+  /* width:0; */
+}
+
+/* .articleHide {
+    right: -35%; 
+ transition: right 0.5s ease-in-out;
+}
+
+.articleShow {
+    right: 0;
+    transition: right 0.5s ease-in-out;
+} */
+
+.modalClass .modalHeader {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #e3e3e3;
+  background-color: white;
+  /* box-shadow: 0 1px 3px rgba(57, 63, 72, 0.3); */
+}
+
+.modalClass .notificationUpperDiv {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.modalClass .NotificationHeaderDiv {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  width: 13rem;
+}
+
+.modalClass .CrossIcon {
+  height: 12px;
+  width: 12px;
+}
+
+.modalClass .notificationLowerDiv {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.NotificationHeaderDivName {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.modalClass .notificationTime {
+  /* margin-left: 1rem; */
+  color: #666;
+  font-size: 12px;
+}
+
+.modalClass .notificationDate {
+  margin-left: 1rem;
+  color: #666;
+  font-size: 12px;
+}
+
+.modalClass .notificationRequestLink {
+  margin-left: 1rem;
+  font-size: 10px;
+  color: #3f4195;
+  text-decoration: underline;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.modalClass .notificationContent {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  line-height: 15px;
+  font-size: 13px;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  line-height: 15px;
+  width: 100%;
+  word-break: break-word;
+  height: 90%;
+}
+
+.modalClass .NotFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modalClass .ViewAllNotificationButton {
+  width: 30%;
+  height: 100%;
+  background-color: #3f4195;
+  font-size: 16px;
+  text-align: center;
+  border-top: 1px solid #2f2f2f;
+  border: none !important;
+  color: white;
+}
+
+.modalClass .ViewAllNotificationButtonDiv {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalClass .NotificationHeaderDivMark {
+  font-size: 12px;
+  color: #4b89dc;
+  margin-top: 2px;
+  cursor: pointer;
+}

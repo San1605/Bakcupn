@@ -1,0 +1,77 @@
+/* .App{
+  position: relative;
+  height: 100vh;
+}
+.App::-webkit-scrollbar {
+  display: none;
+}
+.App {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+.chat_window_popup{
+  position: fixed;
+  bottom: 110px;
+  right: 40px;
+  width: 20rem;
+  height: 30rem;
+  background : linear-gradient(341.68deg, #5DAEE3 13.83%, #8E169F 127.46%);
+  border-radius: 12px;
+}
+.chatbot_img{
+  position: fixed;
+  bottom: 60px;   
+  right: 5px;
+}
+
+@media screen and (max-width : 480px) {
+  .chat_window_popup{
+    width: 18rem;
+    height: 27rem;
+  }
+}
+@media (min-width : 481px) and (max-width :1240px ) {
+  .chat_window_popup{
+    width: 21rem;
+    height: 27rem;
+    bottom: 50px;
+  }
+}
+
+ */
+
+.App {
+  position: relative;
+  height: 100vh;
+}
+.App::-webkit-scrollbar {
+  display: none;
+}
+.App {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.chat_window_popup {
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  width: 28%;
+  height: 79vh;
+  background: linear-gradient(341.68deg, #5daee3 13.83%, #8e169f 127.46%);
+  border-radius: 12px;
+}
+.chatbot_img {
+  position: fixed;
+  bottom: 30px;
+  right: 5px;
+}
+@media screen and (max-width: 480px) {
+  .chat_window_popup {
+    width: 90%; /* height: 27rem; */
+  }
+}
+@media (min-width: 481px) and (max-width: 900px) {
+  .chat_window_popup {
+    width: 36%; /* height: 27rem; */
+  }
+}

@@ -1,0 +1,12 @@
+.remove-modal-body {
+  padding: 1rem 1rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.remove-modal-footer {
+  justify-content: center;
+}
+.removemodal-content {
+  width: 75%;
+}

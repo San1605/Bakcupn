@@ -1,0 +1,111 @@
+.top-header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.25);
+    padding: 5px 25px !important;
+    max-height: 10vh;
+    min-height: 65px;
+}
+
+.top-header .navbar-logos .gt20-logo {
+    width: 90px;
+}
+
+.top-header .navbar-logos .divide-hr {
+    border: 1.25px solid #D9D9D9;
+    margin: 0 10px;
+    padding: 8px 0;
+}
+
+.top-header .globaltradehelpdesk {
+    width: 175px;
+}
+
+.listicon-logo {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.one-line{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: unset;
+    color: #0D5E9F;
+}
+.one-line span{
+    font-weight: 600;
+}
+.top-header .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.top-header .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #FFFFFF;
+    left: -4rem;
+    min-width: 120px;
+    filter: drop-shadow(0px 4px 8px rgba(97, 97, 97, 0.5));
+    z-index: 1;
+    border-radius: 4px;
+    border-bottom: 1px solid #C9C9C9;
+    margin-top: 10px;
+}
+
+.triangle {
+    width: 25px;
+    height: 25px;
+    background-image:
+        linear-gradient(to bottom right, transparent 50%, #f9f9f9 0),
+        linear-gradient(to top right, #f9f9f9 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    margin-top: -15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+.top-header .dropdown-content .dropdown-content-item img {
+    margin-right: 2rem;
+}
+
+.top-header .dropdown-content .dropdown-content-item span {
+    font-size: 16px;
+    color: #353535;
+}
+
+.top-header .dropdown-content .dropdown-content-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    border-bottom: 1px solid #C9C9C9;
+    cursor: pointer;
+}
+
+.top-header .dropdown-content .dropdown-content-item:hover {
+    background-color: #ddd;
+}
+
+.top-header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.top-header .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 425px) {
+    .top-header {
+        padding: 5px 10px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .listicon-logo {
+        margin-right: 1rem;
+    }
+}

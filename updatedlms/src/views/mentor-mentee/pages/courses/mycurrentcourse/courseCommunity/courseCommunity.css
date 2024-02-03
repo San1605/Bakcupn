@@ -1,0 +1,148 @@
+.courseCommunityHead {
+  background-color: #f5f5ff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.hidereplys {
+  height: 0;
+  display: block;
+  transition: all 0.3s linear;
+  overflow: hidden;
+}
+#communityTopicDropdown {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#communityTopicDropdown:focus-visible {
+  outline: none;
+}
+
+.courseCommunity {
+  height: 200px;
+  row-gap: 4px;
+}
+.communityCommentContainer {
+  position: static;
+  bottom: 0;
+  z-index: 1;
+}
+.community-reply {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.community-reply-container {
+  position: relative;
+  height: 110px;
+}
+.reply-close-icon {
+  position: absolute;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 14px;
+  color: #4f52b2;
+}
+.community-reply-profile-img {
+  width: 32px;
+}
+.community-reply-text {
+  font-size: 12px;
+  color: #5f5f5f;
+}
+
+.community-comment,
+.community-comment-input {
+  background-color: #ebebeb;
+  border-radius: 20px;
+}
+.community-comment-input {
+  border: none;
+}
+.community-comment-input:focus-visible {
+  outline: none;
+}
+.community-comment-input::placeholder {
+  font-size: 11px;
+  padding: 10px 5px;
+}
+.community-comment-btn {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: #4f52b2;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 35px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .topicDropdown {
+    width: 35% !important;
+  }
+
+  .sortDropdown {
+    width: 25%;
+  }
+
+  .sortDropdown,
+  .filterDropdownContainer {
+    margin: 0 !important;
+  }
+
+  .filterDropdown {
+    width: 45% !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .topicDropdown {
+    width: 60% !important;
+  }
+
+  .filterDropdown {
+    width: 40% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topicDropdown {
+    width: 57.5% !important;
+  }
+
+  .sortDropdown,
+  .filterDropdownContainer {
+    justify-content: flex-start !important;
+    margin: 0 !important;
+  }
+
+  .filterDropdownContainer {
+    width: 20%;
+    margin: 0;
+  }
+
+  .sortDropdown {
+    padding-left: 0.55rem;
+  }
+
+  .filterDropdown {
+    width: 50% !important;
+  }
+  .communityCommentContainer {
+    padding: 0.5rem 1rem !important;
+  }
+  .community-comment-input {
+    width: 60% !important;
+  }
+  .community-comment-btn-container {
+    width: 40% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  .topicDropdown {
+    width: 37.5% !important;
+  }
+}

@@ -1,0 +1,128 @@
+.PIPRequestModalClass .filterPopover {
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.PIPRequestModalClass .optionBox {
+    height: calc(100% - 52px);
+    width: 100%;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.PIPRequestModalClass .downloadFilterButton {
+    display: flex;
+    flex-direction: row;
+    height: 2.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.PIPRequestModalClass .downloadFilterButtonExport {
+    background-color: #4f52b2;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+    justify-content: center;
+    width: 50%;
+    border: none;
+    border-bottom-right-radius: 8px;
+}
+
+.PIPRequestModalClass .downloadFilterButtonCancel {
+    background-color: #f4f4f4;
+    color: black;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+    justify-content: center;
+    width: 50%;
+    border: none;
+    border-bottom-left-radius: 8px;
+}
+
+.PIPRequestModalClass .downloadFilterSpan {
+    margin-left: 0.5rem;
+    font-size: 13px;
+}
+
+
+
+.PIPRequestModalClass .modal-header {
+    padding: 6px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color:#4f52b2;
+}
+
+.PIPRequestModalClass .modal-header .DownloadFilterHeader {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.PIPRequestModalClass .modal-header .DownloadFilterHeader span {
+    font-size: 14px !important;
+    color: #525252 !important;
+}
+
+.PIPRequestModalClass .modal-header .DownloadFilterHeader div {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+
+
+.PIPRequestModalClass .modal-body {
+    padding: 0 !important;
+}
+
+.PIPRequestModalClass .modal-header .btn-close {
+    padding: 0 !important;
+    opacity: 1 !important;
+}
+
+.PIPRequestModalClass .page-loader-downloadFilter .page-loader {
+    position: fixed;
+    top: 48%;
+    left: 48%;
+    color: #e6e6e6;
+}
+
+.PIPRequestModalClass .radioButtonInputPIP {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.PIPRequestModalClass .radioButtonInputPIP label {
+    padding-left: 10px;
+}
+
+.PIPRequestModalClass .radioButtonInputPIP input {
+    accent-color: #4f52b2;
+}
+
+.PIPRequestModalClass  .employeeDetails{
+    font-size: 14px;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,20 @@
+.container {
+    border-radius: 8px;
+    border: 0.3px solid #0B636F;
+    padding: .3rem .35rem;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    color: #A8A4B5;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dateBox {
+    outline: none;
+    border: none;
+    width: 80%;
+}

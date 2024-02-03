@@ -1,0 +1,186 @@
+.heading-doctor {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+.heading-list-of-doctor {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #707070;
+}
+.Onboard_New {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  border: none;
+  height: 33px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 18px;
+  background: var(--primary);
+  border-radius: 4px;
+}
+/* .admin-custom-table{
+  position:relative !important;
+} */
+
+.adminDoctors .table-pagination {
+  position: absolute;
+  bottom: 10px;
+  right: 2rem;
+}
+
+.adminDoctors .table-pagination button {
+  background-color: #b9a9f3 !important;
+}
+.adminDoctors .table-pagination .nextBtn {
+  background-color: var(--primary) !important;
+}
+.adminDoctors .table-pagination input {
+  border: 2px solid var(--primary) !important;
+}
+
+.admin-custom-table {
+  height: calc(100% - 86px) !important;
+}
+
+/* admin-custom-table css pasted below */
+
+th,
+td {
+  width: fit-content;
+}
+.table-header {
+  font-weight: 600;
+  font-size: 14px !important;
+  color: #2c2c2c;
+  background-color: white;
+}
+
+.admin-custom-table tbody tr:hover {
+  background-color: #fcf9ff !important;
+}
+.table-body {
+  font-weight: 400;
+  font-size: 13px;
+  color: #616161;
+  vertical-align: center;
+}
+.admin-custom-table td,
+.admin-custom-table th {
+  border-bottom: 2px solid #f5f6f7 !important;
+}
+.admin-custom-table th {
+  font-weight: 600;
+}
+.admin-custom-table td {
+  font-weight: 400;
+}
+.form-check-input:checked {
+  background-color: #f6edff !important;
+  border-color: #f6edff !important;
+  background-image: url("../../../../assets/icons/circle.svg") !important;
+}
+.form-check-input :focus {
+  box-shadow: none !important;
+}
+
+.Active_status_show {
+  width: 13px;
+  height: 13px;
+  background: #09d90e;
+  border-radius: 50%;
+}
+.Completed_status_show {
+  width: 13px;
+  height: 13px;
+  background: #ffc132;
+  border-radius: 50%;
+}
+.New_status_show {
+  width: 13px;
+  height: 13px;
+  background: #e400ff;
+  border-radius: 50%;
+}
+.In-Active_status_show {
+  width: 13px;
+  height: 13px;
+  background: #eb5757;
+  border-radius: 50%;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.4rem;
+  font-size: 12px;
+  border-radius: 30px;
+  padding: 3px 0;
+}
+.Canceled_status_show {
+  background: #ffe7e7;
+  color: #eb5757;
+  border: none;
+}
+.Success_status_show {
+  background: #e7ffe7;
+  color: #47a649;
+  border: none;
+}
+.Pending_status_show {
+  background: #fff7e3;
+  color: #e9a200;
+  border: none;
+}
+
+.admin-custom-table .tid {
+  width: 3.5rem !important;
+}
+.admin-custom-table tr {
+  height: 45px !important;
+}
+.admin-custom-table td {
+  padding: 0 !important;
+  width: 100px;
+  text-overflow: clip;
+  border-collapse: collapse;
+  vertical-align: middle;
+  table-layout: fixed;
+  /* text-wrap: wrap !important; */
+  font-size: 13px !important;
+}
+.admin-custom-table .table-header {
+  vertical-align: middle;
+  padding: 0 !important;
+}
+
+.admin-custom-table .dp {
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  border-radius: 3px;
+  margin: 0;
+}
+.admin-custom-table .dp img {
+  height: 100%;
+  width: 100%;
+}
+.admin-custom-table table {
+  position: relative;
+  overflow-y: auto;
+  margin: 0;
+}
+
+.admin-custom-table th {
+  position: sticky;
+  top: 0;
+  background-color: white !important;
+}

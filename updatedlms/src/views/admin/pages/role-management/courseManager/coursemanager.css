@@ -1,0 +1,85 @@
+.coursemanagerContainer {
+  padding: 0.75rem 2.5rem;
+}
+.coursemanagerHeadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.coursemanagerHead {
+  font-size: 22px;
+  font-weight: 600;
+}
+.coursemanagerPageTitle{
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+}
+.coursemanagerTotalCount{
+    color: #424242;
+    font-weight: 500;
+}
+.coursemanagerList {
+  min-height: fit-content;
+  max-height: 57vh;
+}
+.searchContainer-coursemanager
+
+.coursemanager-modal-row {
+    display: flex;
+    column-gap: 1rem;
+}
+.action-column {
+    display: flex;
+    column-gap: 1rem;
+}
+.action-icon {
+  height: 16px;
+  cursor: pointer;
+}
+.courselisttable-container {
+  height: 56vh;
+  overflow-y: scroll;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .searchContainer {
+    width: 28%;
+  }
+  .coursemanagerListSearch::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 427px) and (max-width: 998px) {
+  .searchContainer {
+    width: 38%;
+  }
+  .coursemanagerListSearch::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .coursemanagerContainer {
+    padding: 0.75rem 1.5rem;
+  }
+  .coursemanagerHeadContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.75rem;
+  }
+  .coursemanager-search-pagination-row {
+    flex-direction: column;
+  }
+  .coursemanager-pagination {
+    padding: 1rem 0;
+  }
+  .coursemanager-head-row {
+    flex-direction: column;
+  }
+  .coursemanagerHead {
+    align-self: flex-start;
+  }
+  .coursemanager-modal-row {
+    align-self: flex-end;
+    padding-top: 10px;
+  }
+}

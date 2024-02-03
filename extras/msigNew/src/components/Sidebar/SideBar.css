@@ -1,0 +1,134 @@
+.SideBar {
+    height: 100%;
+    width: 16.25rem;
+    background-color: #FAFAFA;
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.newChat {
+    border: 0.3px solid #030413;
+    border-radius: 8px;
+    padding: 10px 15px;
+    text-align: left;
+    /* padding-left: 15px; */
+    font-size: 16px;
+    color: #030413;
+    cursor: pointer;
+}
+
+.upperPart {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+
+}
+
+.lowerPart {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 1rem;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.history {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid brown; */
+}
+
+.historyText {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    padding-left: 5px;
+}
+.historyItems{
+    height: calc(100% - 40px);
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    overflow-y: scroll;
+}
+
+.historyItemDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    gap: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+.historyItemDiv span {
+    font-size: 13px;
+    text-overflow: ellipsis;
+    max-height: 2rem;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.historyItemDiv img {
+    height: 16px;
+    width: 16px;
+}
+
+.profile{
+    padding-top: 13px;
+    padding-bottom: 5px;
+    display: flex;
+    padding-left: 6px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.SideBarBottom{
+    /* padding: 10px 0px ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.profile-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.profile-icon span{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.manageUser{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 2px 6px;
+    border-radius: 8px;
+    background: linear-gradient(94deg, rgba(252, 221, 117, 0.80) 10.28%, rgba(252, 184, 110, 0.80) 99.19%);
+}
+
+.manageUser span{
+    color: #29304D !important;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+ a{
+    text-decoration: none !important;
+}

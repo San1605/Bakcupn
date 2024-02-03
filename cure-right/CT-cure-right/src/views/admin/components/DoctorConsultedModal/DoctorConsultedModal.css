@@ -1,0 +1,46 @@
+.DoctorConsulted .modal-header {
+  border-bottom: none !important;
+  background-repeat: no-repeat;
+}
+
+.tabla_image {
+  position: absolute !important;
+  width: 13rem !important;
+}
+
+.DoctorConsulted .ModelTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+.consult_open {
+  color: var(--primary);
+  background-color: white;
+  border: 1px solid rgba(118, 87, 225, 1);
+  border-radius: 4px;
+  padding: 3px 12px;
+  font-size: 12px;
+}
+
+.consult_open img {
+  width: 0.7rem;
+}
+.DoctorConsulted .table-header1 {
+  font-family: "Work Sans";
+  vertical-align: middle;
+  padding-left: 1rem;
+  font-weight: 600;
+  font-size: 14px !important;
+  color: #2c2c2c;
+  background-color: #fbf5fd !important;
+}
+
+.DoctorConsulted .table-body1 {
+  padding-left: 1rem !important;
+  font-weight: 400;
+  font-size: 12px;
+  color: #636363;
+}
+
+.DoctorConsulted-table {
+  padding-top: 0 !important;
+}

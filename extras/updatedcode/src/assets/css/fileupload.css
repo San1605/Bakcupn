@@ -1,0 +1,78 @@
+.filelist-body {
+    padding: 0 15px;
+}
+
+.filelist-body .title {
+    color: #5A5A5A;
+    font-weight: 500 !important;
+    font-size: 16px;
+}
+
+.filelist-body .search-bar {
+    width: 70% !important;
+}
+
+.s-bar-flex {
+    justify-content: end;
+}
+
+.filelist-body .search-bar input {
+    border-radius: 15px 0 0 15px !important;
+    padding: 5px 0 4px 1rem;
+    border-right: unset;
+}
+
+.filelist-body .input-group-text {
+    background: #fff;
+    border-radius: 0 15px 15px 0 !important;
+    padding-right: 1rem !important;
+    border-left: unset;
+}
+
+.filelist-body .upload-btn {
+    background: #00829B;
+    border-radius: 4px;
+    border: 1px solid #00829B;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 1rem;
+    padding: 0 1.5rem;
+}
+
+.mb-file {
+    margin-bottom: .8rem;
+}
+
+.file-div {
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px 1px #f4f4f4;
+    padding: 10px 10px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.file-div span {
+    color: #848484;
+    font-size: 12px;
+}
+.file-div img {
+    margin: 0 auto;
+    display: block;
+}
+.file-div h6 {
+    text-align: center;
+    font-size: 13px;
+    color: #565656;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 426px) {
+    .s-bar-flex {
+        justify-content: start;
+        margin-top: 1rem;
+    }
+}

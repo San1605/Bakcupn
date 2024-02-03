@@ -1,0 +1,94 @@
+.doctorAvailabilityCard {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  padding-right: 0.5rem;
+  height: 9.7rem;
+  /* border: 2px solid red; */
+  display: flex;
+  border: 1px solid #f4f4f4;
+  border-radius: 6px;
+  font-size: 12px;
+  height: fit-content;
+  height: 10rem;
+}
+
+.doctorAvailabilityCard .left {
+  width: 45%;
+  padding: 0.5rem 0;
+  padding-bottom: 0.6rem;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.doctorAvailabilityCard .right {
+  width: 55%;
+  background: #faf9ff;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.left .doctorDetail {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.left .star-cont img {
+  height: 1rem;
+}
+.left .d-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #636363;
+}
+
+.left .specialization .d-name {
+  line-height: 1.5rem;
+}
+.timeslot-chip {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  padding: 0.15rem 0.6rem;
+  cursor: pointer;
+  height: fit-content;
+}
+.timeslot-chip-active {
+  background: var(--primary);
+  color: white;
+}
+.right .heading-right {
+  font-size: 14px;
+  margin-bottom: 0.2rem;
+}
+.timeslot-chip-container {
+  display: flex;
+  gap: 0.7rem;
+  height: fit-content;
+  padding-bottom: 4px;
+  flex-wrap: wrap;
+}
+.timeslot-chip-container::-webkit-scrollbar {
+  height: 3px;
+}
+.right .slot {
+  margin-bottom: 0.2rem;
+}
+.doctorAvailabilityCard .img-cont {
+  height: 54px !important;
+  width: 54px !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.doctorAvailabilityCard .img-cont img {
+  height: 100%;
+  width: 100%;
+}

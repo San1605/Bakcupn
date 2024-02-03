@@ -1,0 +1,66 @@
+.generalFiles{
+    height: 45%;
+    padding: 0.8rem;
+    padding-top: 0;
+   
+}
+.generalFilesDiv{
+    border: 1px solid #DCDCDC;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.generalFilesBox{
+    height: calc(100% - 51px);  
+    overflow: scroll;
+}
+
+.files{
+    height: 2rem;
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+}
+.files span{
+ width: 80%;
+ font-size: 13px ;
+ text-overflow: ellipsis;
+ overflow: hidden;
+}
+
+
+.generalFilesBox::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.generalfilesinputDiv{
+    border: 1px solid #E7E7E7;
+    padding: 0.2rem;
+    width: 90%;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: 28px;
+   
+}
+
+.generalfilesinputDiv input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+}
+.generalfileHeading{
+    font-size: 16px;
+}

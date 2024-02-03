@@ -1,0 +1,34 @@
+.modalHeading {
+  background: #4f52b2;
+  /* border-radius: 4px; */
+}
+
+.modalContent {
+  text-align: center;
+}
+
+.modalSubHeading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #484644;
+}
+
+.modalConfirmation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.modalCancel {
+  background: #ffffff;
+  color: #4f52b2;
+  border-radius: 6.62136px;
+}
+
+.modalConfirm {
+  background: #4f52b2;
+  color: #ececeb;
+  border-radius: 4px;
+}

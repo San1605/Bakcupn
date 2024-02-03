@@ -1,0 +1,21 @@
+{"response": {"content": [
+      {"Functional Requirements": "Data"
+      },
+      {"------------------------": "-------------------"
+      },
+      {
+        "Integrate with KAHRAMAA's existing systems and platforms": "Retrieve data from the AMI platform at regular intervals"
+      },
+      {"Normalize and aggregate meter data from different types and brands": "Perform basic data cleansing"
+      },
+      {"Combine multiple datasets": "Push processed data back to the AMI platform"
+      },
+      {"Develop data governance RACI matrix": "Ensure end-to-end secure data exchanges"
+      },
+      {"Document crypto mechanisms and key management compliant with recognized standards": "Log security events"
+      },
+      {"Check authorization of any entity requesting access": "Classify systems based on criticality"
+      }
+    ], "type": "table"
+  }
+}

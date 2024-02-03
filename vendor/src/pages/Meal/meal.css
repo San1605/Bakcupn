@@ -1,0 +1,64 @@
+@media (min-width:320px) and (max-width:425px){
+
+.meal{
+    flex-direction:column;
+    margin-left:0;
+    padding:0.7rem;
+    margin-top:0
+}
+.mealLeft{
+    width:94vw !important;
+    height:60vh;
+    padding:0;
+    box-shadow:none
+}
+
+.mealRight{
+    margin-top:2rem;
+    width:94vw !important;
+    padding:0.5rem;
+    border-radius:0;
+    background-color:#F5F5F5;
+}
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after ,
+.swiper-button-next{
+display:none !important;
+}
+.swiper-slide, 
+{
+    margin-right:0
+}
+
+
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+  display:none !important
+}
+
+
+
+.foodCardResp{
+    width:94vw;
+}
+.download{
+    display:none;
+}
+
+.cancel {
+    width:7rem;
+    font-size:14px
+}
+.submit{
+    width:7rem;
+    font-size:14px
+}
+.foodcardClass{
+    margin-left:0rem;
+    margin-right:0rem;
+    height:8rem !important
+}
+
+}
+    

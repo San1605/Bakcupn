@@ -1,0 +1,386 @@
+.container {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 1.7rem 3rem;
+    background-color: #F8FAFF;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.backButton img {
+    height: 1.2rem;
+}
+
+.headerHeading {
+    color: #000000;
+}
+
+.profileName {
+    color: #3280FC;
+}
+
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.profileHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userProfile {
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 2rem 2rem;
+    display: flex;
+    width: 60%;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+}
+
+.displayPic img {
+    height: 5rem;
+}
+
+.profileDetail {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 4rem;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.primaryDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameSection {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.userName {
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nameSection img {
+    scale: .9;
+    cursor: pointer;
+}
+
+.userEmail {
+    color: #7D7D7D;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.userType {
+    color: #0B636F;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .76rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secondaryDetail {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.detailTile {
+    display: flex;
+    gap: 1.5rem;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tileTitle {
+    color: #000;
+}
+
+.tileValue {
+    color: #0B636F;
+}
+
+.historySection {
+    border-radius: 8px;
+    /* background: #F4F5FA; */
+    border: 0.2px solid rgba(50, 128, 252, 0.20);
+    padding: .8rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.historyHeader {
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .98rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.historyDetails {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conversationSec {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem
+}
+
+.conversationHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conversationHeading {
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.convRight {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.listItemHeader {
+    border-radius: 8px 8px 0px 0px;
+    background: #9BB5FA;
+    display: flex;
+    /* gap: 1rem; */
+    padding: .3rem .4rem .4rem;
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conversationList {
+    border-radius: 8px;
+    background: #FFF;
+    /* overflow-y: auto;
+    height: 38vh; */
+}
+
+.listItemContainer {
+    border-bottom: 1px solid #B6DEFF;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem .4rem .2rem;
+}
+
+.listItem {
+    display: flex;
+    /* gap: 2rem; */
+    width: 100%;
+}
+
+.listItemContainer img {
+    cursor: pointer;
+}
+
+.itemDetail {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+}
+
+.itemSno {
+    width: 5%;
+}
+
+.itemDate {
+    width: 10%;
+}
+
+.itemTitle {
+    width: 40%;
+}
+
+.itemType {
+    width: 20%;
+}
+
+.conversationFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paginationContainer {
+    display: flex;
+    align-items: center;
+    gap: .6rem
+}
+
+.paginationText {
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .88rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.listItemActive {
+    border-radius: 8px;
+    background: #F8FAFF;
+    border-bottom: 1px solid #B6DEFF;
+    padding-bottom: .2rem;
+}
+
+.listItemActiveHeader {
+    display: flex;
+    padding: .3rem .4rem .4rem;
+    /* gap: 2rem; */
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 97%;
+}
+
+.listItemActiveBody {
+    background: rgba(255, 255, 255, 0.34);
+    padding: .5rem 1rem;
+}
+
+.itemDetailHeader {
+    display: flex;
+    gap: 3rem;
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .94rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 92%;
+}
+
+.itemDetailActive {
+    display: flex;
+    gap: 3rem;
+    color: #000;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .94rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+.statusValue {
+    border-radius: 15px;
+    border: 0.3px solid #088B34;
+    background: rgba(0, 188, 8, 0.14);
+    font-family: 'Jaldi', sans-serif;
+    font-size: .85rem;
+    line-height: .85rem;
+    padding: 0 .4rem;
+    color: #007628;
+    position: absolute;
+    top: .7rem;
+    right: .7rem;
+}
+
+.messageContainer {
+    padding: 1rem 0;
+    height: calc(100% - 2rem);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 1.5rem;
+}
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.roboDiv {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.messageBotImg {
+    margin-right: 1.5rem;
+    height: 25px;
+    width: 25px;
+}
+
+.messageUserImg {
+    height: 25px;
+    width: 25px;
+    margin-left: 1rem;
+}
+
+.messageBotSpan {
+    border-radius: 12px 12px 0px 12px;
+    padding: 10px 14px;
+    word-break: break-word;
+    background-color: white;
+    font-size: .8rem;
+    color: #010E2A;
+}
+
+.messageUserSpan {
+    border-radius: 12px 12px 0px 12px;
+    padding: 10px 14px;
+    word-break: break-word;
+    background-color: #9BB5FA;
+    font-size: .8rem;
+    color: #010E2A;
+}

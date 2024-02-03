@@ -1,0 +1,26 @@
+.rightContainer{
+    height: calc(100% - 54px);
+    width: calc(100% - 13.875rem);
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.convertButton{
+    position: absolute;
+    border :1px solid blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: #251C88;
+    border-radius: 4px;
+    padding: 4px 10px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}

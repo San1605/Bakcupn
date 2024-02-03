@@ -1,0 +1,110 @@
+.nowrap {
+  white-space: nowrap;
+}
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.login-page-logo-row {
+  position: fixed;
+  height: 68.4px;
+  padding: 1rem 2rem;
+}
+.login-page-col-6-left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+.login-welcome-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  row-gap: 0.75rem;
+  white-space: nowrap;
+}
+
+.login-welcome-text-img {
+  position: absolute;
+  left: -37px;
+  top: -90px;
+  z-index: -1;
+}
+.ad-signin-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f52b2;
+  color: white;
+  font-size: 0.9rem;
+  z-index: 2;
+}
+.spiral-bg {
+  position: absolute;
+  left: -22%;
+  bottom: -33%;
+}
+.person-tab-bg,
+.clock-bg,
+.plant-bg {
+  position: absolute;
+}
+.person-tab-bg,
+.plant-bg {
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.plant-bg {
+  z-index: -2;
+}
+.clock-bg {
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.mob-clock-bg {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .spiral-bg {
+    width: 100%;
+    bottom: -20%;
+    left: -23%;
+  }
+  .clock-bg {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .login-welcome-text{
+    font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  }
+  .clock-bg {
+    display: none;
+  }
+  .mob-clock-bg {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+  }
+  .plant-bg {
+    width: 22%;
+    z-index: 1;
+  }
+  .spiral-bg {
+    position: relative;
+    bottom: -90%;
+    z-index: -2 !important;
+  }
+}

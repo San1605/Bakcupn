@@ -1,0 +1,57 @@
+.tree-chart{
+    overflow-y: auto;
+}
+.tree-node{
+    border: 1px solid #B5BCC2;
+    max-width: 250px;
+    margin: 0 auto;
+    height: 70px;
+    min-width: 175px;
+}
+.tree-node .tree-node-up{
+    background: #fff;
+    height: 40px;
+    position: relative;
+}
+.tree-node .tree-node-down{
+    height: 28px;
+    padding: .5px;
+    background: #E7F2DA;
+}
+.tree-node .tree-node-down.color-green{
+    background: #E7F2DA !important;
+}
+.tree-node .tree-node-down.color-orange{
+    background: #FBF6D9 !important;
+}
+.tree-node .tree-node-down.color-shadow{
+    background: #FCF4F6 !important;
+}
+.tree-node .tree-node-up .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+.tree-node .tree-node-up .name img {
+    width: 35px;
+}
+.tree-node .tree-node-up .name span{
+    color: #000000;
+    margin-left: 7px;
+}
+.tree-node .tree-node-down .sub-name{
+    color: #000000;
+    font-size: 12px;
+    margin-left: 4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left !important;
+}
+.css-4h8rul:first-child:before{
+    display: none;
+}

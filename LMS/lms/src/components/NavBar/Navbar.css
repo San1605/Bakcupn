@@ -1,0 +1,47 @@
+.navbarDev {
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px soild red !important;
+    position: relative !important;
+}
+
+
+.bellImg {
+    height: 100%;
+}
+
+.profileimg {
+    height: 100%;
+}
+
+.imgDiv {
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.notificationCount {
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    font-size: 8px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+}
+
+.notificationCountDiv {
+    position: relative;
+}

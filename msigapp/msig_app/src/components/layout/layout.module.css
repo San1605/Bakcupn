@@ -1,0 +1,13 @@
+.layoutContainer {
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "sidebar children";
+}
+
+.childrenContainer {
+    grid-area: children;
+    height: 100vh;
+}

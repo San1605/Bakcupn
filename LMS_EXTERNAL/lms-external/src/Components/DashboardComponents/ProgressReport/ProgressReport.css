@@ -1,0 +1,77 @@
+.ProgressReport {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    border-radius: 4px;
+    flex-direction: column;
+    background: #FFF;
+    padding: 6px 10px;
+}
+
+.progressReportHeading {
+    height: 25px;
+    width: 100%;
+    color: #272742;
+    font-size: 14px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #F9F6FF; */
+
+}
+
+.progressReportDiv {
+    display: flex;
+    height: calc(100% - 25px);
+    flex-direction: row;
+    padding: 8px 8px;
+    /* border: 1px solid; */
+    /* gap: 2px; */
+    /* overflow-y: scroll; */
+    /* border: 1px solid; */
+    /* gap: 10px; */
+}
+
+
+.apexcharts-toolbar {
+    display: none !important;
+}
+
+.reportParamsList {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+.reportParamsList>ul {
+    padding-left: 1rem !important;
+}
+
+.reportParamsList>ul>li {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.progressReportDiv>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+}
+
+/* .apexcharts-canvas {
+    height: 100% !important;
+    padding: 0 !important;
+    width: 100% !important;
+} */
+
+.apexcharts-yaxistooltip {
+    display: none !important;
+}
+
+.apexcharts-legend {
+    display: none !important;
+}

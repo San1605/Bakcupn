@@ -1,0 +1,13 @@
+.moduleheading {
+  background: #ffffff;
+  padding: 5px;
+}
+.coursemodulediv {
+  color: #424242;
+  font-weight: 400;
+  line-height: 17px;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  display: flex;
+  justify-content: flex-start;
+}

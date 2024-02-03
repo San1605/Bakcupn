@@ -1,0 +1,70 @@
+.CreateNewFilterModalBody{
+ height: 10rem;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ padding: 10px !important;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.CreateNewFilterModal .modal-header{
+ padding: 5px 10px !important;
+ font-size: 18px;
+}
+.CreateNewFilterModalBody .FilterModalSelectDiv{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+}
+
+.CreateNewFilterModalBody .FilterModalSelectDiv label{
+   font-weight: 600;
+    font-size: 12px;
+}
+
+.CreateNewFilterModalBody .FilterModalSelectDiv select{
+    width: 12rem !important;
+    height: 2rem !important;
+    border-radius: 6px;
+    background-color: #00C89714;
+    font-size: 12px;
+    padding: 0px 10px;
+    outline: none;
+}
+
+/* .CreateNewFilterModalBody  .modalButton{
+    width: 10rem !important;
+    height: 2rem !important;
+    background-color: #00C897;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: none;
+    padding: auto;
+} */
+
+
+.CreateNewFilterModalBody .outerDiv{
+    display: flex!important;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.CreateNewFilterModalBody  .modalButton{
+    background-color: #383548;
+    /* background-color:#00C897 ; */
+    color: white;
+    width: 12rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.CreateNewFilterModalBody  .modalButton:hover {
+    background-color:#00C897 ;
+    color: white;
+    border: none;
+  }

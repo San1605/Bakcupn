@@ -1,0 +1,76 @@
+.celebalLogin {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E4E4FF;
+}
+
+.celebalLogin ::-webkit-scrollbar {
+    display: none !important;
+    width: 0px !important;
+}
+
+.loginLogo {
+    height: 45px;
+    width: 135px;
+    /* margin-bottom: 10%; */
+}
+
+.loginLogo img {
+    height: 100%;
+    width: 100%;
+}
+
+.loginFormCelebal {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 30px;
+}
+
+.loginFormCelebal>div:first-child {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.loginFormCelebal>div:first-child>div:first-child {
+    color: #424242;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.loginFormCelebal>div:first-child>div:last-child {
+    color: #424242;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+
+.loginBtnMicrosoft {
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    background: #654E8A;
+    width: 60%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.loginBtnMicrosoft span {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    /* border: 1px solid black; */
+}
+
+.loginBtnMicrosoft img {
+    /* border: 1px solid black; */
+}

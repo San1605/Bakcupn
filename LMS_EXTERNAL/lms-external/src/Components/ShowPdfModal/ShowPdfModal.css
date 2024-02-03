@@ -1,0 +1,47 @@
+.pdfModal .modal-header {
+    padding: 9px 15px;
+    background: #654E8A;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+.modalheaderPdf {
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalheaderPdf img{
+    height: 15px;
+    width: 15px;
+}
+
+.modal-header img {
+    cursor: pointer !important;
+}
+
+.pdfModal .modal-content {
+    border-radius: 4px !important;
+    height: 90vh !important;
+    width: 35vw !important;
+}
+
+.pdfModal .modal-body {
+    height: calc(100% - 43px) !important;
+    padding: 5px 10px !important;
+}
+
+.pdfModal .modal-header div {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pdfModal .modal-dialog {
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+
+}

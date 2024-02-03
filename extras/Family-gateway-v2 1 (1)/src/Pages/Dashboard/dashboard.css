@@ -1,0 +1,162 @@
+.dashboard-main-div {
+    background: #F5F5F5;
+    min-height: calc(100vh - 10vh);
+    padding: 10px;
+}
+
+.dashboard-main-div .page-heading {
+    color: var(--primary-color);
+    font-size: 22px;
+    display: flex;
+    margin: 5px 0 1rem;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.dashboard-main-div .page-heading img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.customer-list-div {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.customer-list-div .selected-nums {
+    background: #FBF6D9;
+    border-radius: 22px;
+    color: #424242;
+    width: 125px;
+    padding: 3px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.customer-list-div .submit-btn {
+    float: right;
+}
+
+.customer-list-div .customer-table {
+    margin-top: 1rem;
+    border-bottom: 1px solid #B5BCC2;
+}
+
+.customer-list-div .customer-table table {
+    margin-bottom: unset !important;
+}
+
+.customer-list-div .customer-table table thead th,
+.customer-list-div .customer-table table tbody td {
+    padding: 8px;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.customer-list-div .customer-table table thead th {
+    background: #FAFAFA;
+    padding: 10px;
+    color: var(--primary-color);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.customer-list-div .customer-table table tbody tr {
+    vertical-align: middle;
+}
+
+.customer-list-div .customer-table table tbody td {
+    color: #7E7E7E;
+    font-size: 14px;
+    height: 60px;
+
+}
+
+.customer-list-div .customer-table table tbody td.user-name {
+    color: var(--primary-color) !important;
+}
+
+.customer-list-div .customer-table table tbody td.user-name img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.pagination-main-div {
+    display: flex;
+    justify-content: end;
+}
+
+/* household*/
+.household-list button {
+    width: 100%;
+}
+
+.household-list {
+    display: block;
+}
+
+.household-list .household-row {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 15px 5px;
+    margin-bottom: 1rem;
+}
+
+.household-list .household-row .household-left h4 {
+    margin-bottom: 5px;
+}
+
+.household-list .household-row .household-left .customer-p {
+    display: flex;
+    align-items: center;
+}
+
+.household-list .household-row .household-left .customer-p .img-icon {
+    min-width: 21px;
+}
+
+.household-list .household-row .household-left .address {
+    color: var(--secondary-color);
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+.household-list .household-row .household-left .address img{
+    margin-right: 8px;
+}
+
+.household-list .household-row .household-left .household-customer {
+    padding: 7px 5px;
+}
+.household-list .household-row .household-left .customer-row .col-1:not(:last-child){
+    border-right: 1.5px solid #D1D1D1;
+}
+.household-list .household-row .household-left .household-customer h5 img {
+    margin-right: 10px;
+}
+.household-list .household-row .household-left .customer-row .col-1{
+    margin-bottom: 10px;
+}
+.household-list .household-row .household-left .household-customer h5{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.household-list .household-row .household-left .household-customer .customer-p{
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-size: 13px;
+    margin-left: 7px;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+}
+
+@media only screen and (max-width: 767px){
+    .household-list .household-row .household-left .customer-row .col-1:not(:last-child){
+        border-right: unset;
+    }
+}

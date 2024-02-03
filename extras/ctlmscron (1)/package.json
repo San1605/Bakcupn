@@ -1,0 +1,31 @@
+{
+  "name": "ct_lms_crons",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/msal-node": "^1.7.0",
+    "@azure/storage-blob": "^12.9.0",
+    "app-root-path": "^3.0.0",
+    "azure-functions-core-tools": "^4.0.4629",
+    "azure-storage": "^2.10.7",
+    "convert-excel-to-json": "^1.7.0",
+    "csvtojson": "^2.0.10",
+    "debug": "^3.2.7",
+    "dotenv": "^15.0.0",
+    "exceljs": "^4.3.0",
+    "format": "^0.2.2",
+    "json-to-txt": "^2.1.1",
+    "mkdirp": "^1.0.4",
+    "mssql": "^8.0.2",
+    "nodemailer": "^6.9.5",
+    "object-sizeof": "^1.6.2",
+    "pg-format": "^1.0.4",
+    "randomstring": "^1.2.2",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1"
+  }
+}

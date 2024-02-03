@@ -1,0 +1,53 @@
+.Navbar {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 12px 15px;
+}
+
+.navbarIconsDiv {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.navbarheading {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbarheading span {
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Navbar .notificationDiv {
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+}
+
+.Navbar .notificationDiv .notificationCount {
+    position: absolute;
+    background-color: #D23427;
+    color: white;
+    width: 16px;
+    height: 16px;
+    color: #FFF;
+    font-size: 9px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: -5px;
+    right: 0px;
+}

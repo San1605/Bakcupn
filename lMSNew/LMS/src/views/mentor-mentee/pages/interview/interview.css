@@ -1,0 +1,27 @@
+.status-Skipped {
+  color: #cc8d16;
+}
+.status-Completed {
+  color: #30b02c;
+}
+.status-Scheduled {
+  color: #3968c5;
+}
+.status-Cancelled {
+  color: #c4314b;
+}
+.form-link {
+  color: #4060d4;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.interviewSchedule-saveBtn {
+  position: absolute;
+  right: 16px;
+  top: 6px;
+  height: 28px;
+  width: 5.25rem;
+  font-size: 12px;
+  padding: 4px;
+}

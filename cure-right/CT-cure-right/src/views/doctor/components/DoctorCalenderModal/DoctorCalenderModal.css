@@ -1,0 +1,97 @@
+.book-calendar .ModelTitle {
+  margin-left: 0.2rem;
+  width: 98%;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.book-calendar .modal-content {
+  width: 34rem !important;
+  border: none !important;
+}
+.book-calendar .modal-header {
+  height: 4.2rem !important;
+  border: none;
+}
+.book-calendar .ModalBody .book-calendar1 {
+  background-color: #f9f3ff;
+  height: 9.6rem;
+  border-radius: 4px;
+}
+.book-calendar1 .book_time {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+.book-calendar2 .book_time img {
+  width: 1rem;
+}
+.book-calendar .ModalBody .book-calendar2 {
+}
+
+.book-calendar2 input {
+  height: 34px;
+  width: 107%;
+  background: #fbf8ff;
+  border: 1px solid #b979fc;
+  border-radius: 4px;
+  padding: 0.3rem;
+  font-size: 12px;
+  position: relative;
+}
+.book-calendar2 select {
+  height: 35px;
+  width: 12.6rem;
+  background: #fbf8ff;
+  border: 1px solid #b979fc;
+  border-radius: 4px;
+  padding: 0.3rem;
+  font-size: 12px;
+  position: relative;
+}
+.book-calendar2 .date-time {
+  width: 107%;
+  color: #616161;
+}
+.book-calendar2 .select-button {
+  font-size: 12px !important;
+  color: #2c2c2c;
+}
+
+.book-calendar2 .radio-input + span {
+  border: 2px solid #f2f3f5;
+  background-color: #f9f3ff;
+}
+.book-calendar2 .book-time {
+  width: 17rem;
+}
+.book-save {
+  height: 1.9rem;
+  background-color: rgba(118, 87, 225, 1);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.book-calendar .ModelTitle .cal-personal {
+  border-bottom: 3.5px solid rgba(118, 87, 225, 1);
+  width: 10rem;
+  padding-bottom: 0.9rem;
+  font-size: 18px !important;
+  text-align: left;
+  font-weight: 600;
+}
+.book-calendar .ModelTitle .cal-personal-border {
+  border-bottom: 3.5px solid #f9f3ff;
+  width: 100% !important;
+}
+.modal-dialog-centered {
+  justify-content: center !important;
+}

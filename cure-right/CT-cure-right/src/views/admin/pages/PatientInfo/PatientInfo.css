@@ -1,0 +1,199 @@
+.about_patient {
+  background: rgba(205, 119, 224, 0.08);
+  border-radius: 12px;
+  max-height: 18rem !important;
+}
+.files_patient {
+  background: #fbf5fd;
+  border-radius: 12px;
+  height: 100%;
+}
+.files_patient_heading {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  padding-top: 0.2rem;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.about_patient_heading {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  padding-top: 0.2rem;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.about_patient_info {
+  width: 100%;
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.about_ticket_info {
+  height: calc(100% - 43px) !important;
+  max-height: calc(100% - 43px) !important;
+  margin-right: 0.3rem;
+  overflow-y: scroll;
+  margin-left: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.files_patient_info {
+  width: 100%;
+  padding-top: 2px;
+  display: flex;
+  height: calc(100% - 30px);
+  flex-direction: column;
+  overflow: auto;
+  gap: 6px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.about_patient_personal_name {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.about_patient_personal_info_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: -0.5rem;
+}
+.about_patient_personal_info_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  border: 0.5px solid var(--primary);
+  border-radius: 4px;
+  color: var(--primary);
+  background: white;
+  height: fit-content;
+}
+.about_patient_basic_info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.about_patient_med_label {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  color: #616161;
+}
+.about_patient_med_label_info {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+.table-header {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 12px !important;
+  color: #2c2c2c;
+}
+.table-body {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #636363;
+}
+
+.ticket_date_and_time {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 10px;
+  color: #a0a0a0;
+}
+.ticket_id {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #616161;
+}
+.ticket_number {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--primary);
+}
+.ticket-description {
+  font-family: "Work Sans";
+  font-weight: 500;
+  line-height: 0.8rem;
+  font-size: 11px;
+  color: #2c2c2c;
+}
+.ticket_info:hover {
+  background-color: rgba(205, 119, 224, 0.08);
+}
+.appointment_btn_status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 16px;
+  background: #f3efff;
+  border-radius: 58px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: var(--primary);
+}
+.appointment_btn_file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #6d43ff;
+}
+.admin_patient_ticket_dot {
+  position: absolute;
+  left: -10px;
+  height: 20px;
+  width: 20px;
+  background-color: var(--primary);
+  border-radius: 50%;
+}
+.ticket_text {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
+.appoitment-follow-ups {
+  position: relative;
+  height: 50px;
+  border-left: 1px dashed #b9b9b9;
+}
+
+.ticket {
+  width: 1.2rem;
+}
+
+.eyes_icon {
+  width: 0.9rem;
+}

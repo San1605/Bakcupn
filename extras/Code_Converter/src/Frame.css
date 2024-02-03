@@ -1,0 +1,49 @@
+.editor {
+    width: 580px !important;
+   
+    height: 300px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Customize the appearance of the editor gutter */
+  .monaco-editor .margin {
+    background-color: #f6f6f6;
+  }
+  
+  /* Customize the appearance of the editor line numbers */
+  .monaco-editor .margin .line-numbers {
+    color: #888;
+  }
+  
+  /* Customize the appearance of the editor text content */
+  .monaco-editor .inputarea {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Customize the appearance of the editor selected text */
+  .monaco-editor .focused .selected-text {
+    background-color: rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Customize the appearance of the editor cursor */
+  .monaco-editor .focused .cursor {
+    border-color: #007bff;
+  }
+  
+  /* Customize the appearance of the editor scrollbars */
+  .monaco-editor .scrollbar .slider {
+    background-color: #ccc;
+  }
+  
+  /* Customize the appearance of the editor scrollbar thumb */
+  .monaco-editor .scrollbar .slider .thumb {
+    background-color: #888;
+  }
+  
+
+  .minimap.slider-mouseover {
+    display: none !important;
+}

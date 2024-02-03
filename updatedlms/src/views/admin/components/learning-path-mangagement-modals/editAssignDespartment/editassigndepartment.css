@@ -1,0 +1,41 @@
+.editDepartment-modal > div > div {
+  padding: 1rem;
+}
+.edit-department-modal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.edit-department-modal-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.edit-department-modal-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #242424;
+}
+.edit-department-modal-head > .btn-close {
+  font-size: 12px;
+}
+.edit-department-inputs,
+.edit-department-input-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.edit-department-input-div {
+  row-gap: 4px;
+}
+
+.edit-department-input-div label {
+  font-size: 14px;
+}
+.dep-input {
+  font-size: 12px !important;
+  padding: 4px 10px !important;
+  border: 1px solid #d7d7d7 !important;
+}

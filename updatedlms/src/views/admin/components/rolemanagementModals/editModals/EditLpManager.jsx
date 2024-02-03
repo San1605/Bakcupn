@@ -1,0 +1,140 @@
+import React, { useState, useEffect } from "react";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import Modal from "react-bootstrap/Modal";
+import CloseButton from "react-bootstrap/CloseButton";
+import Select from "react-select";
+import { toast } from "react-hot-toast";
+import { useContext } from "react";
+import { GlobalContext } from "../../../../../context/GlobalState";
+
+function EditLpManager(props) {
+  const { newlpmanageradd, lpnamerelevent, lpnamesapi } = useContext(GlobalContext);
+  const [reportshow, setReportshow] = useState(false);
+  const [innerlplist, setInnerlplist] = useState([]);
+  const [multiDropdown, setMultiDropdown] = useState([]);
+
+  const editeditor = () => {
+    if ((innerlplist.length == 0 )) {
+      toast.error(" Invalid Credentials");
+    } else {
+      newlpmanageradd({ emailId: props.items.emailId, learningPath: innerlplist });
+      setInnerlplist([]);
+      setReportshow(!reportshow);
+    }
+  };
+ 
+  useEffect(()=>{
+    lpnamesapi();
+  },[])
+
+  useEffect(() => {
+    if(lpnamerelevent)
+   { let multiDropArr = lpnamerelevent.map((el) => {
+      return { label: el, value: el };
+    });
+    setMultiDropdown(multiDropArr);
+  }
+  }, [lpnamerelevent]);
+
+  const handlelps = (data)=>{
+    const depdata = data.map((ele)=>{
+      return(ele.value)
+    })
+    setInnerlplist(depdata);
+  }
+  useEffect(()=>{
+    if(!reportshow)
+    {
+      setInnerlplist([]);
+    }
+  },[reportshow])
+  return (
+    <>
+      <p
+        style={{ color: "#0356D3" }}
+        className="pointer"
+        onClick={() => setReportshow(!reportshow)}
+      >
+        + Assign Learning Path
+      </p>
+      <Modal
+        show={reportshow}
+        onHide={() => setReportshow(!reportshow)}
+        size="lg"
+        centered
+        className="report-upload-modal"
+      >
+        <Modal.Header className="modal-head-block">
+          <Modal.Title style={{ fontSize: "18px", fontWeight: "400" }}>
+            Edit Details
+          </Modal.Title>
+          <CloseButton
+            onClick={() => setReportshow(false)}
+            variant="white"
+            style={{ fontSize: "14px" }}
+          />
+        </Modal.Header>
+        <div>
+          <Modal.Body style={{ padding: "12px 16px 0px 16px" }}>
+            <Form className="p-2">
+              <div className="employee-details-col mb-3">
+                <div className="employee-details-col-img">
+                <img src={`https://storageaccountforprofile.blob.core.windows.net/profile/${props.items.emailId.split('@')[0]}.jpg`} alt="Employee" />
+                </div>
+                <div className="employee-details-col-name">
+                  <p style={{ fontSize: "14px" }}>{props.items.name}</p>
+                  <p style={{ fontSize: "12px" }}>{props.items.emailId}</p>
+                </div>
+              </div>
+              <div
+                className="mb-2 d-flex inputField"
+                controlId="exampleForm.ControlInput1 "
+              >
+                <Form.Label className="col-3 pt-2">Role Assigned:</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="LP Manager"
+                  className="inputFieldTextarea bo-none w-100"
+                  disabled
+                />
+              </div>
+              <div
+                className="mb-2 d-flex inputField"
+                controlId="exampleForm.ControlInput1 "
+              >
+                <Form.Label className="col-3 pt-2">
+                  Assign LP<span>*</span>
+                </Form.Label>
+                <Select
+                  isMulti
+                  name="Conversion Tyoe"
+                  options={multiDropdown}
+                  className="basic-multi-select w-100"
+                  classNamePrefix="multiSelect"
+                  placeholder="Select Learning Path"
+                  onChange={(e)=>handlelps(e)}
+                />
+              </div>
+            </Form>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button
+              className="modal-inner-sec-btn"
+              onClick={() => {
+                setReportshow(!reportshow);
+              }}
+            >
+              Discard
+            </Button>
+            <Button className="modal-inner-primary-btn" onClick={()=> editeditor()}>
+              <div>Save</div>
+            </Button>
+          </Modal.Footer>
+        </div>
+      </Modal>
+    </>
+  );
+}
+
+export default EditLpManager;

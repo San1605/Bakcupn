@@ -1,0 +1,137 @@
+.tickets-pie-height-home {
+  width: 100% !important;
+  height: 140px !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.tickets-pie-height-home > div {
+  top: -13px;
+  width: 75% !important;
+  height: 105% !important;
+  position: absolute;
+}
+.legendName {
+  white-space: nowrap;
+}
+.tickets-pie-height-ticket > div {
+  height: 100% !important;
+  width: 80% !important;
+}
+.tickets-pie-legend-container > div:nth-of-type(4) {
+  display: none !important;
+}
+@media screen and (min-width: 1550px) {
+  .tickets-pie-height {
+    height: 250px !important;
+  }
+  .tickets-pie-height-home {
+    height: 210px !important;
+  }
+  .tickets-pie-height-home > div {
+    top: 0;
+  }
+  .tickets-pie-chart-height {
+    height: 90% !important;
+  }
+  .tickets-pie-height svg {
+    height: 290px !important;
+  }
+  .tickets-pie-legend-container {
+    margin-top: 2.5rem !important;
+  }
+  .legendName {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
+  .tickets-pie-height-home > div {
+    top: 0;
+  }
+  .tickets-pie-height {
+    height: 200px !important;
+  }
+  .tickets-pie-height-home {
+    height: 150px !important;
+  }
+  .tickets-pie-chart-height {
+    height: 90% !important;
+  }
+  .tickets-pie-height svg {
+    height: 290px !important;
+  }
+  .tickets-pie-legend-container {
+    margin-top: 2.5rem !important;
+  }
+}
+
+/* _______________________________________________________________________ */
+/* .tickets-pie-height-home {
+  width: 100% !important;
+  height: 130px !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.tickets-pie-height-home > div {
+  top: -13px;
+  width: 75% !important;
+  height: 105% !important;
+  position: absolute;
+}
+.legendName {
+  white-space: nowrap;
+}
+@media screen and (min-width: 1550px) {
+  .tickets-pie-height {
+    height: 250px !important;
+  }
+  .tickets-pie-height-home {
+    height: 270px !important;
+  }
+  .tickets-pie-height-home > div {
+    top: 0;
+  }
+  .tickets-pie-chart-height {
+    height: 90% !important;
+  }
+  .tickets-pie-height svg {
+    height: 290px !important;
+  }
+  .tickets-pie-legend-container {
+    margin-top: 2.5rem !important;
+  }
+  .legendName {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
+  .tickets-pie-height-home > div {
+    top: 0;
+  }
+  .tickets-pie-height {
+    height: 250px !important;
+  }
+  .tickets-pie-height-home {
+    height: 180px !important;
+  }
+  .tickets-pie-chart-height {
+    height: 90% !important;
+  }
+  .tickets-pie-height svg {
+    height: 290px !important;
+  }
+  .tickets-pie-legend-container {
+    margin-top: 2.5rem !important;
+  }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1399px) {
+  .tickets-pie-height-home {
+    height: 180px !important;
+  }
+} */

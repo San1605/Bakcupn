@@ -1,0 +1,21 @@
+.cure-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: none;
+  border-radius: 4px;
+  font-size: 11px;
+  border: 1px solid var(--primary);
+  padding: 0.5rem 1rem;
+}
+.red-bordered-btn {
+  border: 1px solid #eb5757 !important;
+  color: #eb5757;
+}
+.primary-bordered-btn {
+  border: 1px solid var(--primary) !important;
+  color: var(--primary) !important;
+  background-color: transparent !important;
+  
+}

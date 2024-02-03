@@ -1,0 +1,21 @@
+export const initialState = {
+    loginScreenType : "login",
+    isUser: false,
+    userEmail: '',
+    userRole: '',
+    userRegion: '',
+    selectedUser: '',
+    selectedEmail: '',
+    selectedRole: '',
+    selectedStatus: '',
+    selectedValidity: '',
+    selectedToken: null,
+    selectedCardData: {},
+    chatArr: [],
+    userList:[],
+    chatMessage :{},
+    conversationId:"",
+    loadingForBotPage:true,
+    activeIndex:-1,
+    disableSidebarList:false
+}

@@ -1,0 +1,42 @@
+.OuterDiv {
+    border: 1px solid black;
+    height: calc(100% - 3rem);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.innerDiv {
+    height: 90%;
+    border: 2px solid black;
+    width: 70%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.messageDiv{
+    display: flex;
+}
+.rightMessage {
+    justify-content: flex-end;
+}
+
+.leftMessage {
+    justify-content: flex-start;
+}
+.message{
+    border: 1px solid black;
+    height: min-content;
+    width: 20rem;
+    border-radius: 6px;
+    padding: 8px;
+}
+/* 
+
+.toggleButton{
+
+} */

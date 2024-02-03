@@ -1,0 +1,7 @@
+.selected-option {
+  background-color: #f1f2f2;
+}
+.autocomplete-options{
+  max-height: 7rem;
+  overflow-y: auto
+}

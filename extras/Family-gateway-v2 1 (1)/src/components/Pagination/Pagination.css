@@ -1,0 +1,25 @@
+.pagination{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    align-items: center;
+}
+.pagination input{
+    width: 35px;
+    text-align: center;
+    height: 30px;
+}
+.pagination .img1, .pagination .img2{
+    cursor: pointer;
+}
+/* .pagination .img1 img{
+    width: 9px;
+}
+.pagination .img2 img{
+    width: 12px;
+} */
+.input-item{
+    color: #191919;
+    word-spacing: 3px;
+    font-size: 16px;
+}

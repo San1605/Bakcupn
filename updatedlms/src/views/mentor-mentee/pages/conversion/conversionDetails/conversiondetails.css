@@ -1,0 +1,117 @@
+.menteelistcard {
+  background: #ffffff;
+  border: 1px solid #eff0f6;
+  border-radius: 4px;
+}
+.conversion-container {
+  height: 65vh;
+  overflow-y: auto;
+}
+.conversion-card-header {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.conversion-card {
+  border: 1px solid #ececec;
+  border-radius: 0;
+}
+.first-th {
+  visibility: hidden;
+}
+.conversion-details-text {
+  margin-top: 3px;
+}
+.form-btn {
+  cursor: pointer;
+  white-space: nowrap;
+  margin-right: 1rem;
+  width: fit-content;
+  padding: 4px 16px;
+  border-radius: 4px;
+  z-index: 2;
+  background-color: #4f52b2 !important;
+  color: #fff;
+}
+.conversion-card-body {
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.conversion-card-body-content {
+  display: flex;
+  flex-direction: column;
+}
+.conversion-card-body-content-row {
+  padding: 8px 34px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.conversion-card-body-content-row:nth-last-child(1) {
+  border: none;
+}
+.feedback-profile {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 500;
+}
+.feedback-profile span {
+  font-size: 10px;
+  font-weight: 400;
+}
+.feedback-details-content {
+  display: flex;
+  /* width: 100%; */
+}
+.conversion-status {
+  font-weight: 500;
+}
+.conversion-status-Approved {
+  color: #258535;
+}
+.conversion-status-Pending {
+  color: #e89f13;
+}
+.conversion-status-Rejected {
+  color: #e73550;
+}
+.feedback-status-div {
+  display: flex;
+  align-items: center;
+}
+.feedback-status {
+  color: #515151;
+  font-weight: 400;
+  font-size: 12px;
+  width: 5.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 4px 0;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+.feedback-status-Approved {
+  background-color: #b4e9ac;
+}
+.feedback-status-Pending {
+  background-color: #f5d98f;
+}
+.feedback-status-Rejected {
+  background-color: #ffa5a5;
+}
+.feedback-view {
+  background-color: #ffffffb3;
+  border-radius: 3px;
+  width: fit-content;
+  padding: 3px 2rem;
+  font-size: 14px;
+  margin-left: 2.75rem;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  font-weight: 400;
+}
+.conversion-accordian-row:hover {
+  background: #f8f8f870 !important;
+}

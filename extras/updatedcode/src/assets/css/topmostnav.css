@@ -1,0 +1,16 @@
+.topnav-bar {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 4px 4px rgba(230, 230, 230, 0.15);
+}
+.topnav-bar .usericon {
+    width: 25px;
+}
+
+.topnav-bar .navbarlogo {
+    width: 160px;
+    margin-top: 4px;
+}
+.topnav-bar .row{
+    margin: unset !important;
+}

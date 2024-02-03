@@ -1,0 +1,221 @@
+import React, { useState, useEffect, useRef } from 'react';
+import "./CreateUserModal.css";
+import Modal from 'react-bootstrap/Modal';
+import CloseButton from 'react-bootstrap/esm/CloseButton';
+import adduserIconBlack from '../../assets/addUserIconBlack.svg';
+
+const CreateUserModal = (props) => {
+    const [formDataArr, setFormData] = useState([
+        {
+            emailUser: '',
+            passwordUser: '',
+            roleUser: '',
+            tokenCountUser: '',
+            validityUser: ''
+        }
+    ]);
+    const [errorsArr, setErrorsArr] = useState([]);
+    const alphabetRegex = /^[A-Za-z]+$/
+    const numberRegex = /^[0-9]+$/
+    const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*()-+])(?=.{6,})/
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const currentFormErrors = isValidate(formDataArr[formDataArr.length - 1]);
+        if ( Object.keys(currentFormErrors).length > 0) {
+            // console.log(currentFormErrors, "erros")
+        }
+        else {
+            setErrorsArr([])
+            // console.log(formDataArr);
+        }
+    };
+
+    const handleInputChange = (e, index) => {
+        const { name, value } = e.target;
+        const newFormData = [...formDataArr];
+        newFormData[index] = {
+            ...newFormData[index],
+            [name]: value
+        }
+        setFormData(newFormData);
+        const currentFormErrors = isValidate(newFormData[index]);
+        if (Object.keys(currentFormErrors).length > 0) {
+            e.target.style.borderColor = 'red';
+        } else {
+            e.target.style.borderColor = '';
+        }
+    };
+
+    const isValidate = (formData) => {
+        const error = {};
+        if (!emailRegex.test(formData?.emailUser)) {
+            error.emailUser = "Please enter a valid email";
+        }
+        if (!passwordRegex.test(formData?.passwordUser)) {
+            error.passwordUser = "Password is not valid";
+        }
+        if (!alphabetRegex.test(formData?.roleUser)) {
+            error.roleUser = "Role must contain only alphabetic characters.";
+        }
+        if (!formData?.validityUser) {
+            error.validityUser = "These fields cannot be empty";
+        }
+        if (!formData?.tokenCountUser) {
+            error.tokenCountUser = "These fields cannot be empty";
+        }
+        return error;
+    }
+
+
+    const addMore = () => {
+        const currentFormErrors = isValidate(formDataArr[formDataArr.length - 1]);
+        console.log(currentFormErrors, "current")
+        console.log(errorsArr,"errorArr")
+        if (Object.keys(currentFormErrors).length === 0) {
+            setFormData((prevFormDataArr) => [
+                ...prevFormDataArr,
+                {
+                    emailUser: '',
+                    passwordUser: '',
+                    roleUser: '',
+                    tokenCountUser: '',
+                    validityUser: ''
+                }
+            ]);
+            // console.log(currentFormErrors, "current")
+            // console.log(errorsArr,"errorArr2")
+            setErrorsArr((prevErrorsArr) => [...prevErrorsArr, {}]);
+        } else {
+            setErrorsArr((prevErrorsArr) => [...prevErrorsArr, currentFormErrors]);
+        }
+    };
+
+
+    useEffect(() => {
+        if (!props.show) {
+            setFormData([
+                {
+                    emailUser: '',
+                    passwordUser: '',
+                    roleUser: '',
+                    tokenCountUser: '',
+                    validityUser: ''
+                }
+            ]);
+            setErrorsArr([]);
+        }
+    }, [props.show]);
+    // console.log(errorsArr, "error")
+
+    const AlwaysScrollToBottom = () => {
+        const elementRef = useRef();
+        useEffect(() => elementRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' }))
+        return <div ref={elementRef} />;
+    };
+
+    return (
+        <Modal
+            {...props}
+            size="md"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            className='createUserModal'
+        >
+            <Modal.Header >
+                <div className='modalheader'>
+                    <img src={adduserIconBlack} alt='' />
+                    <span>Create users</span>
+                </div>
+                <CloseButton
+                    style={{ fontSize: "12px" }}
+                    onClick={() => props.onHide()}
+                />
+            </Modal.Header>
+            <Modal.Body>
+                <form onSubmit={handleSubmit} autoComplete='off' >
+                    <div className='modalBodyForm'>
+                        {
+                            formDataArr?.map((formData, index) => (
+                                <div className='formBody' key={index}>
+                                    <div className='formRow'>
+                                        <span>Email Id</span>
+                                        <div className='inputError'>
+                                            <input
+                                                type='email'
+                                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                                required
+                                                name="emailUser"
+                                                value={formData.emailUser}
+                                                onChange={(e) => handleInputChange(e, index)}
+                                                title="Invalid email address" />
+                                            {/* {errorsArr[index]?.emailUser && <p className='errorCreateUser'>{errorsArr[index]?.emailUser}</p>} */}
+                                        </div>
+                                    </div>
+                                    <div className='formRow'>
+                                        <span>Password</span>
+                                        <div className='inputError'>
+                                            <input
+                                                type='password'
+                                                required
+                                                name="passwordUser"
+                                                value={formData.passwordUser}
+                                                onChange={(e) => handleInputChange(e, index)}
+                                                pattern=".{6,}"
+                                                title="Password must contain at least 5 characters" />
+                                            {/* {errorsArr[index]?.passwordUser && <p className='errorCreateUser'>{errorsArr[index]?.passwordUser}</p>} */}
+                                        </div>
+                                    </div>
+                                    <div className='formRow'>
+                                        <span>Role</span>
+                                        <div className='inputError'>
+                                            <input
+                                                type='text'
+                                                required
+                                                name="roleUser"
+                                                value={formData.roleUser}
+                                                onChange={(e) => handleInputChange(e, index)} />
+                                            {/* {errorsArr[index]?.roleUser && <p className='errorCreateUser'>{errorsArr[index]?.roleUser}</p>} */}
+                                        </div>
+                                    </div>
+                                    <div className='formRow'>
+                                        <span>Token Count</span>
+                                        <div className='inputError'>
+                                            <input
+                                                type='number'
+                                                required
+                                                name="tokenCountUser"
+                                                value={formData.tokenCountUser}
+                                                onChange={(e) => handleInputChange(e, index)} />
+                                            {/* {errorsArr[index]?.tokenCountUser && <p className='errorCreateUser'>{errorsArr[index]?.tokenCountUser}</p>} */}
+                                        </div>
+                                    </div>
+                                    <div className='formRow'>
+                                        <span>Validity</span>
+                                        <div className='inputError'>
+                                            <input
+                                                type="date"
+                                                required
+                                                name="validityUser"
+                                                value={formData.validityUser}
+                                                onChange={(e) => handleInputChange(e, index)} />
+                                            {/* {errorsArr[index]?.validityUser && <p className='errorCreateUser'>{errorsArr[index]?.validityUser}</p>} */}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                        <AlwaysScrollToBottom />
+                    </div>
+                    <div className='buttonDiv'>
+                        <span onClick={() => addMore()}>Add more</span>
+                        <button type="submit">Save</button>
+                    </div>
+                </form>
+            </Modal.Body>
+        </Modal>
+    )
+};
+export default CreateUserModal;

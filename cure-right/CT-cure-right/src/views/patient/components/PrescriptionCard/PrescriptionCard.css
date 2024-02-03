@@ -1,0 +1,60 @@
+.prescriptionCard {
+  width: 18rem;
+  /* min-height: 14rem; */
+  border-radius: 12px;
+  background: url("../../assets/images/medicineCardBg.svg"),
+    linear-gradient(148deg, #b38cff 0%, #9065e4 100%);
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 15px 8px;
+  padding-right: 12px;
+  background-size: contain;
+  cursor:pointer
+}
+.prescriptionCard * {
+  color: #fff;
+}
+.prescriptionCard .pres-top {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  padding: 0 7px;
+}
+.prescriptionCard hr {
+  margin: 0.8rem 0;
+  color: #fff;
+}
+
+.prescriptionCard .pres-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.prescriptionCard .pres-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0 7px;
+}
+
+.prescriptionCard .pres-bottom label {
+  font-size: 13px;
+  font-weight: 600;
+  cursor:pointer !important;
+}
+.prescriptionCard .pres-bottom span {
+  font-size: 14px;
+  margin-bottom: 0.6rem;
+}
+
+.dignosis_state{
+  font-weight: 400;
+  font-size: 12px;
+}
+.prescription-concern{
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+
+.prescription-concern1{
+  font-weight: 500 !important;
+}

@@ -1,0 +1,102 @@
+[{
+    "type": "message",
+    "id": "Ir8bcRGXdCNKOCwrISsDWA-in|0000003",
+    "timestamp": "2023-04-07T10:07:42.6053634Z",
+    "channelId": "directline",
+    "from": {
+        "id": "BFSIAzureBot",
+        "name": "Bot",
+        "role": "bot"
+    },
+    "conversation": {
+        "id": "Ir8bcRGXdCNKOCwrISsDWA-in"
+    },
+    "locale": "en-US",
+    "inputHint": "adaptiveCardFormat",
+    "attachments": [
+        {
+            "content": [
+                {
+                    "cardTitle": "Question Paper Details",
+                    "icon": "",
+                    "rows": [
+                        {
+                            "icon": "",
+                            "title_eng": "Grade",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "icon": "",
+                            "title_eng": "Subject",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "icon": "",
+                            "title_eng": "Book",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "icon": "",
+                            "title_eng": "Chapter ",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "icon": "",
+                            "title_eng": "Number of questions ",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "icon": "",
+                            "title_eng": "Type of questions ",
+                            "type": "dropdown",
+                            "dropdownvalue": [
+                                "MCQ",
+                                "TF",
+                                "FILL",
+                                "Short Ans",
+                                "Long Ans"
+                            ],
+                            "dropdowntype": "inputBox",
+                            "value": ""
+                        },
+                        {
+                            "icon": "",
+                            "title_eng": "Difficulty level ",
+                            "type": "dropdown",
+                            "dropdownvalue": [
+                                "Easy",
+                                "Medium",
+                                "Difficult"
+                            ],
+                            "dropdowntype": "checkbox",
+                            "value": ""
+                        }
+                    ],
+                    "buttons": [
+                        {
+                            "icon": "",
+                            "title_eng": "Submit",
+                            "type": "imBack",
+                            "value": "Submit"
+                        },
+                        {
+                            "icon": "",
+                            "title_eng": "Cancel",
+                            "type": "imBack",
+                            "value": "Cancel"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "replyToId": "Ir8bcRGXdCNKOCwrISsDWA-in|0000001",
+    "channelData": {
+        "webchat:sequence-id": 1680862062605
+    }
+}]

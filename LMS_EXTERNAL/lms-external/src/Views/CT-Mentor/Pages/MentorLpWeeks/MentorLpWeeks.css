@@ -1,0 +1,185 @@
+.weekListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #FBFCFE;
+}
+
+.mentorCourseHeader {
+    height: 35px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 4px 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.weekDiv {
+    width: 100%;
+    height: calc(100% - 35px);
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 15px;
+}
+
+
+.weekList {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid black; */
+    border-radius: 0px 4px 4px 0px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.11);
+    overflow-y: scroll;
+}
+
+.courseListMentor {
+    width: 75%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.weekItem {
+    display: flex;
+    padding: 11px 13px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EEE;
+    background: #FFF;
+    color: #979797;
+    font-size: 15px;
+}
+
+.selectedWeek {
+    background: #E4E4FF;
+    color: #424242;
+    font-weight: 500;
+}
+
+.mentorCoursesHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    color: #242424;
+    font-size: 15px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+}
+
+.mentorCourseList {
+    height: calc(100% - 35px);
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    overflow: scroll;
+}
+
+
+.unlockButton {
+    cursor: pointer;
+    display: flex;
+    padding: 3px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #654E8A;
+    color: #654E8A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mentorCourseList .accordion {
+    height: 100%;
+    width: 100%;
+}
+
+.mentorCourseList .accordianHeader button {
+    color: #424242 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    padding: 16px 16px !important;
+}
+
+.mentorCourseList .accordion-body ul {
+    margin: 0 !important;
+    padding: 0 0px !important;
+    /* padding-left: 1rem !important; */
+    list-style: none;
+}
+
+.mentorCourseList .accordion-body ul li {
+    font-size: 13px;
+    padding: 5px !important;
+    color: #424242;
+    font-weight: 500;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 14px 14px !important;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.mentorCourseList .accordion-body ul li .liDivAccordian {
+    width: calc(100% - 22px);
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    gap: 10px;
+
+}
+
+.liDivAccordian span {
+    word-wrap: break-word;
+
+}
+
+.liDivAccordian img {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.mentorCourseList .accordion-body {
+    padding: 0px !important;
+}
+
+
+.mentorCourseList .accordion-button:not(.collapsed) {
+    color:black !important;
+    background-color: #F7F7FF !important;
+}
+
+.mentorCourseList .accordion-button:focus {
+    border-color: #F7F7FF !important;
+    box-shadow: 0 0 0.25rem #F7F7FF !important;
+}
+
+

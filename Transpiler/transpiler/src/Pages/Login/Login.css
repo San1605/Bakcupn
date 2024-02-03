@@ -1,0 +1,114 @@
+.loginBackground {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/background.png") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.login {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.login-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.login-main-card {
+    width: 65%;
+    margin-top: 3rem;
+}
+
+.back-image {
+    background-color: #F8FAFB;
+    ;
+}
+
+.details {
+    color: rgba(130, 130, 130, 1);
+    font-size: 14px;
+
+}
+
+.login-height {
+    margin-top: 1.5rem;
+    line-height: 1rem;
+    border-bottom: 3px solid rgba(212, 225, 244, 1);
+}
+
+.login-height1 {
+    width: 3rem;
+    border-bottom: 3px solid rgba(37, 28, 136, 1);
+    position: absolute;
+    top: 10rem;
+}
+
+.vector {
+    position: absolute;
+    bottom: -7rem;
+    left: 0;
+    width: 3rem;
+}
+
+.vector1 {
+    position: absolute;
+    bottom: -9rem;
+    left: 7rem;
+}
+
+.input-container label {
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+
+.input-container input {
+    outline: none;
+    height: 32px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: .7rem;
+    border: 1px solid rgba(208, 213, 221, 1);
+    font-size: 12px;
+}
+
+.input-container input::placeholder {
+    font-size: 12px;
+    color: #696F79;
+}
+
+.login-btn {
+    background: rgba(37, 28, 136, 1);
+    border-radius: 1rem;
+    box-shadow: 0px 1px #696F79;
+    color: #fff;
+    border: unset;
+    width: 100%;
+    padding: .3rem 0rem;
+    font-weight: 500;
+}
+
+
+.forgot-password {
+    color: rgba(37, 28, 136, 1) !important;
+    font-size: 14px;
+    padding-left: 1px;
+    font-weight: 600 !important;
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+.forget input[type=checkbox] {
+    accent-color: white !important;
+    border: 1px solid #000000 !important;
+
+}
+
+.error{
+ color: red;
+ font-size: 14px;
+}

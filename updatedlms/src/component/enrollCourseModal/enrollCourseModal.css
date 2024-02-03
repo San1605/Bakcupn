@@ -1,0 +1,92 @@
+.enroll-modal-header {
+  background: #4f52b2;
+  height: 60px !important;
+}
+.enrollButton {
+  border: unset;
+  font-size: 15px;
+  background: #4f52b2;
+  border-radius: 4px;
+  padding: 7px 20px 5px;
+}
+.modalContent {
+  text-align: center;
+}
+.modalHeading {
+  color: #fff;
+  font-size: 22px;
+}
+
+.modalSubHeading {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  color: #484644;
+}
+
+.modalicon {
+  height: 4rem;
+  width: 4rem;
+  border: 2px solid #4f52b2;
+  bottom: -30%;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-icon {
+  font-size: 2.5rem;
+  color: #4f52b2;
+  font-weight: 600;
+}
+
+.modalConfirmation {
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.modalCancel {
+  background: #ffffff;
+  color: #4f52b2;
+  border-radius: 4px;
+  border: 1px solid #4f52b2;
+  padding: 3px 15px 5px;
+}
+.modalCancel:active {
+  background-color: transparent !important;
+  border: 1px solid #4f52b2 !important;
+  color: #4f52b2 !important;
+}
+
+.modalConfirm {
+  background: #4f52b2;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #4f52b2;
+  padding: 3px 15px 5px;
+}
+.enrolled-modal .modal-footer {
+  border-top: unset !important;
+}
+.enrolled-modal .modal-content {
+  border: unset !important;
+}
+.Request-pending {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 12px;
+  padding-right: 10px;
+}
+.enrolled-state{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  column-gap: 6px;
+  padding-right: 1rem;
+  color: #18B531;
+}

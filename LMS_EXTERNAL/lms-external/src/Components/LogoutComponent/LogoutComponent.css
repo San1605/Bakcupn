@@ -1,0 +1,87 @@
+.logoutComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 1px solid #E4E4FF;
+    background: #FCFCFF;
+    box-shadow: -1px 2px 3px 0px rgba(101, 78, 138, 0.11);
+    position: absolute;
+    top: 45px;
+    z-index: 101;
+    right: 10px;
+
+}
+
+
+.logoutComponent .UserName {
+    width: 100%;
+    display: flex;
+    height: 50%;
+    padding: 8px 12px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.UserName>div:first-child {
+    color: #1D1B20;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.UserName>div:nth-child(2) {
+    color: #1D1B20;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.UserName>div:nth-child(3) {
+    color: #654e8a;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.UserName >div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+}
+
+.UserName span{
+    color: #1D1B20;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* .UserName .switchSelect {
+    color: #654e8a;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    padding: 0 !important;
+    width: fit-content;
+    background-color: transparent;
+
+} */
+
+
+.logoutComponent .logoutComponentButton {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #1D1B20;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}

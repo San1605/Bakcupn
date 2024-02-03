@@ -1,0 +1,7 @@
+.chatContainerBox {
+    height: 75%;
+    width: 100%;
+    overflow-y: auto;
+    /* padding: 6px; */
+    /* border: 1px solid black; */
+}

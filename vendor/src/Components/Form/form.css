@@ -1,0 +1,34 @@
+@media (min-width:320px) and (max-width:425px){
+    .formclass{
+       /* height:21rem; */
+    }
+
+    .account{
+        font-size:18px;
+    }
+    .paragraph{
+        font-size:14px;
+        margin-top:0
+    }
+    .resptext{
+        font-size:15px;
+    }
+    .emailResp{
+        font-size:15px;
+        margin-top:0.2rem;
+        margin-bottom:0.2rem
+    }
+
+    .passResp{
+        font-size:15px;
+        margin-top:0.2rem;
+    }
+
+   .loginBtnResp{
+      height:3rem
+   }
+   .textResp{
+    margin-top:0.2rem;
+    font-size:13px;
+   }
+}

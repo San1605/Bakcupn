@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.unenrolled-course-page {
+  padding: 0.625rem 2rem 0 2rem;
+}
+.aboutHeading {
+  margin-left: 0.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #242525;
+}
+.courseHeading {
+  font-weight: 600;
+  font-size: 3.5vh;
+  line-height: 29px;
+  color: #000000;
+}
+.courseContent {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #595959;
+}
+.aboutCourse {
+  display: flex;
+  padding: 1rem 0;
+}
+.aboutCourseButtons {
+  display: flex;
+  white-space: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.courseDuration {
+  background: #fff8f8;
+  border: 1px solid #f1eaea;
+  border-radius: 22px;
+  font-size: 14px;
+  text-align: center;
+  color: #f96633;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12.5px;
+  padding: 3px 10px 2px;
+}
+.allCourseDescription {
+  font-weight: 400;
+  height: 6rem;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  color: #484848;
+}
+.coursePlayerContainer {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    rgba(51, 51, 51, 0.35);
+}
+.videoDescriptionSection {
+  margin-top: 1rem;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 21px rgb(215 229 255 / 25%);
+}
+.react-player {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+.courseContentContainer {
+  font-size: 18px;
+  color: #242424;
+  font-weight: 500;
+  padding: 20px;
+}
+.unenrolled-page-content-tab {
+  padding-right: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .videoDescriptionSection {
+    margin-bottom: 1rem;
+  }
+  .unenrolled-course-page {
+    padding: 0.5rem 1rem;
+  }
+
+  .unenrolled-page-content-tab {
+    padding: 0 1rem ;
+    margin-bottom: 1rem;
+  }
+}

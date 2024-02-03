@@ -1,0 +1,357 @@
+.inner-details-down {
+  background: #f9f3ff;
+  border-radius: 12px;
+}
+.heading-overview {
+  font-size: 18px !important;
+  text-align: left;
+  font-weight: 600;
+}
+.heading-homepage {
+  color: #707070;
+  font-size: 15px !important;
+  font-weight: 400;
+}
+.book-appointment {
+  background: url("../../assets/images/bookAppointmentBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: fit-content;
+  background-position-x: left !important;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+.book-appointment input {
+  font-size: 12px;
+}
+.appointment-details-alag {
+  /* padding-right: 10px; */
+  margin-bottom: 12px !important;
+  max-height: 34vh;
+}
+.inner-details {
+  background: rgba(118, 87, 225, 0.11);
+  border-radius: 12px;
+  height: 100%;
+}
+.ticketStatusContainer {
+  background: var(--primary)1c;
+  border-radius: 12px;
+  height: 6rem;
+}
+.statusTile {
+  width: 35%;
+  height: 80%;
+}
+.admin-ticket-heading {
+  font-size: 0.9rem !important;
+}
+.ticketStatusContainer .add-new {
+  font-size: 0.8rem !important;
+  width: 70% !important;
+}
+.consulted_doctor_alag {
+  height: 50%;
+}
+.consulted_doctor_alag-down {
+  height: 50%;
+}
+.consulted_doctor_alag-down .innerprescription {
+  background: #f8bbff30;
+}
+.inner-doctor {
+  background: #fdecff;
+  border-radius: 12px;
+  height: 100%;
+}
+.innerreport {
+  background: #cd77e014;
+  border-radius: 12px;
+  height: 100%;
+  padding: 12px 16px;
+  max-height: 13.3rem !important;
+}
+.innerprescription {
+  background: #fbd9231a;
+  border-radius: 12px;
+  height: 100%;
+}
+.appoint_table {
+  padding-top: 15px;
+  height: 277px;
+}
+.inner-table {
+  background: #fffbe9;
+  border-radius: 12px;
+  height: 100%;
+}
+.pre-text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2c2c2c;
+}
+.presmall-text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #707070;
+}
+*:focus {
+  outline: none;
+}
+.firstlook {
+  width: 35%;
+  background: #fff;
+  border-radius: 3px;
+}
+.secondlook {
+  background: #fff;
+  border-radius: 3px;
+  height: 45%;
+}
+.btn-view {
+  background: #cd77e0 !important;
+  border: none !important;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 19px;
+}
+.btn-view-down {
+  background: var(--primary) !important;
+  border: none !important;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px !important;
+  line-height: 5px;
+  border-radius: 4px !important;
+}
+.btn-view-down1 {
+  background: #cfbd5c !important;
+  border: none !important;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px !important;
+  line-height: 5px;
+  border-radius: 4px !important;
+}
+.btn-view-down:hover {
+  color: var(--primary) !important;
+  background-color: #ffffff !important;
+}
+.btn-view-down1:hover {
+  color: #cfbd5c !important;
+  background-color: #ffffff !important;
+}
+.btn-view:hover {
+  color: #cd77e0 !important;
+  background-color: #ffffff !important;
+}
+.btn-cancel {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 19px;
+  color: var(--primary) !important;
+  border: 1px solid var(--primary) !important;
+  border-radius: 3px;
+  width: 89%;
+  height: 45%;
+}
+.btn-cancel:hover {
+  color: #ffffff !important;
+  background-color: var(--primary) !important;
+}
+.book-appointment-heading {
+  color: #352768;
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+.calender-icon {
+  position: absolute;
+  left: 6px;
+  top: 8px;
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+  z-index: 9999;
+}
+.calender_input {
+  border-radius: 2px !important;
+  height: 28px !important;
+}
+
+.form-select {
+  font-size: 10px !important;
+  color: #a1a1a1 !important  ;
+  border-radius: 2px !important;
+}
+.input_doctor_search {
+  width: 173px;
+  height: 28px;
+  border-radius: 2px;
+}
+.input_doctor_search::-webkit-input-placeholder {
+  font-size: 12px;
+  text-align: left;
+  color: #a1a1a1;
+}
+input.Brief-description.form-control {
+  height: 4.5rem !important;
+}
+input.Brief-description.form-control::-webkit-input-placeholder {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.calender_input_outside {
+  width: 150px !important;
+  max-width: 150px !important;
+}
+.brief-input {
+  width: 300px;
+  max-width: 300px;
+}
+.Brief-description {
+  border-radius: 2px !important;
+}
+.form-control {
+  border-radius: 2px !important;
+}
+.row-hover:hover {
+  background-color: #fbf5fd !important;
+}
+.row-hover1:hover {
+  background-color: #fffce9 !important;
+}
+.row-hover2:hover {
+  background-color: #fef3ff !important;
+}
+.book-appointment-heading input {
+  height: 70px !important;
+}
+.radio-input {
+  display: flex;
+  align-items: center;
+}
+.radio-input label {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+.book-appointment .textarea {
+  font-size: 0.8rem;
+  border: 0.2px solid var(--primary);
+  resize: none;
+  border-radius: 4px;
+  background: #ffffff;
+}
+.view-meeting-btn {
+  border: var(--primary) !important;
+}
+.carousel-cont {
+  background: #e4dcff;
+  border-radius: 8px;
+  padding: 15px 15px 25px;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.book-appointment {
+  background-position-x: right !important;
+}
+.clock-container {
+  height: 4rem !important;
+  width: 4rem !important;
+  border-radius: 8px;
+}
+.bottom-right-cont {
+  padding-left: 12px !important;
+}
+.medicine-tracker {
+  background: #f9f3ff;
+  border-radius: 12px;
+  width: 100%;
+  padding: 12px 16px;
+}
+
+.my-appointments-table {
+  background-color: white;
+  border-radius: 8px;
+  padding: 0 0.4rem !important;
+  min-height: 9rem;
+  max-height: calc(100% - 42px);
+
+}
+.my-appointments-table {
+  font-size: 0.6rem;
+  white-space: nowrap;
+  border-radius: 8px !important;
+} 
+
+.my-appointments-table tr td {
+  border-bottom: 1px solid #f9f3ff !important;
+}
+.my-appointments-table thead {
+  position: sticky;
+  border-bottom: 1px solid #efefef !important;
+
+}
+.my-appointments-table td {
+  color: #636363;
+  padding: 0.3rem 0.2rem !important;
+  vertical-align: middle;
+  font-size: 11px !important;
+  background-color: white !important;
+
+}
+.my-appointments-table th {
+  padding: 0.3rem 0.2rem !important;
+  background-color: white !important;
+  border-bottom: 1px solid #efefef !important;
+}
+.btn-join {
+  height: 1.3rem !important;
+  width: 3rem !important;
+  padding: 0.1rem 0.6rem !important;
+  margin: 0;
+}
+.medicine-tracker {
+  height: fit-content !important;
+  /* height: 90%; */
+}
+.innerreport1 {
+  background: #cd77e014;
+  border-radius: 12px;
+  height: 13rem;
+  padding: 12px 16px;
+}
+@media (max-width: 768px) {
+  .book-appointment {
+    background-position-x: left !important;
+  }
+}
+.issue {
+  padding-right: 1rem !important;
+}
+.issue p {
+  width: 8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  padding-right: 1rem;
+}
+
+.patientTicketSpan{
+  font-weight:600 !important;
+}
+

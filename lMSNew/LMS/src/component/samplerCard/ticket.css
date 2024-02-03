@@ -1,0 +1,14 @@
+@media screen and (min-width:1600px) {
+    .tickets-pie-height{
+        height: 250px !important;
+    }
+    .tickets-pie-chart-height{
+        height: 90% !important;
+    }
+    .tickets-pie-height svg{
+        height: 290px !important;
+    }
+    .tickets-pie-legend-container{
+        margin-top: 2.5rem !important;
+    }
+}

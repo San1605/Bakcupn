@@ -1,0 +1,91 @@
+.uploadCourseDocument {
+    display: flex;
+    /* padding:0px 4px; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #EEE;
+    outline: none;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 5px;
+}
+
+.uploadCourseInput {
+    max-width: 45% !important;
+    display: flex;
+    font-size: 12px !important;
+    padding: 0 !important;
+      border: none  !important;
+      background-color: transparent !important;
+    
+}
+.uploadCourseButton {
+    display: flex;
+    padding: 8px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 4px;
+    width:55%;
+    background: #654E8A;
+    cursor: pointer;
+}
+
+
+
+.uploadCourseButton span {
+    border: none;
+    font-size: 10px;
+    color: white;
+    font-size: 500;
+}
+
+.uploadCourseRadioDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.uploadCourseRadio{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    padding: 4px 0px;
+    /* border: 1px solid black; */
+    /* justify-content: space-between; */
+}
+.uploadCourseRadio input{
+    width: 10%  !important;
+    display: flex;
+    padding: 0 !important;
+    align-items: center;
+    border:none !important;
+    accent-color: #654E8A !important;
+}
+.uploadCourseRadio label{
+    margin-left: 8px;
+    width: 90%  !important;
+    color: #424242 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+}
+
+.fieldDivWithErrorCourse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.fieldDivWithErrorCourse > input,textarea{
+    width: 100% !important;
+}

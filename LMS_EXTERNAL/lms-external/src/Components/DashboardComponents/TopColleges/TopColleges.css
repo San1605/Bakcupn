@@ -1,0 +1,45 @@
+.reportParamsList {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reportParamsList > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .reportParamsList > ul > li {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .reportParamsList > ul > li:nth-child(1)::marker {
+  color: #4DB4AE;
+}
+
+.reportParamsList > ul > li:nth-child(2)::marker {
+  color: #FFC300;
+}
+.reportParamsList > ul > li:nth-child(3)::marker {
+  color: #33FF57;
+}
+.reportParamsList > ul > li:nth-child(4)::marker {
+  color: #3377FF;
+}
+.reportParamsList > ul > li:nth-child(5)::marker {
+  color: #E833FF;
+}
+
+  
+  .top-colleges-heading {
+    color: #272742;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 112.5% */
+    letter-spacing: 0.16px;
+  }
+  

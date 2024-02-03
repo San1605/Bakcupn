@@ -1,0 +1,34 @@
+.courseNavIcon {
+  transform: scale3d(1.25, 1.25, 1.25);
+}
+.rankers {
+  height: 90px;
+}
+.courseNavIcon:hover,
+.courseNavIcon:focus,
+.courseNavIcon:active,
+.courseNavIcon:target {
+  color: #4f52b2;
+}
+
+.leftNavClick {
+  transform: translateX(100%);
+}
+.rightNavClick {
+  transform: translateX(-100%);
+}
+
+.myRank {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #4f52b2;
+}
+
+.ranklist {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.leaderBoardCourse-nav {
+  background: #EDEDFF;
+  border-radius: 4px;
+}

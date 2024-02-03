@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "NotoSansArabic";
+  src: url("../../assets/NotoSansArabic-Regular.ttf") format("truetype");
+}
+.d-none1{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+li {
+  list-style: none
+}
+
+.parat table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  display: grid;
+}
+
+/* Styles for the table header (th) */
+.parat table th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+
+.buttondown {
+  /* position: fixed; */
+  /* bottom: 10px; */
+  /* left: 45%; */
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Styles for the table cells (td) */
+.parat table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+}
+.parat table tr td:first-child, .parat table tr th:first-child{
+  min-width: 250px !important;
+  max-width: 250px !important;
+  font-size: 11px !important;
+}
+
+.parat table tr td:not(:first-child), .parat table tr th:not(:first-child){
+  min-width: 65px !important;
+  max-width: 65px !important;
+  font-size: 12px ;
+}
+
+.parat table tbody td {
+  color: rgb(85, 85, 85) !important;
+
+}
+
+/* Styles for table rows (tr) on hover */
+.parat table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.para p {
+  font-size: 11px !important;
+  padding-left: 15px;
+  color: hsl(0, 0%, 33%) !important;
+  white-space: pre-line;
+}
+
+.arbic-content {
+  font-family: "NotoSansArabic";
+}
+
+p.para {
+  font-size: 11px !important;
+  padding-left: 15px;
+  color: rgb(85, 85, 85) !important;
+  white-space: pre-line;
+  /* break-inside: avoid !important */
+}
+
+h3:not(:first-child) {
+  margin-top: 75px;
+}
+
+h3 {
+  font-size: 16px !important;
+}
+
+h4 {
+  font-size: 14px !important;
+}

@@ -1,0 +1,125 @@
+.login-div {
+    height: 100vh;
+    background-image: url("../../assets/images/loginPageBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.login-div .row>* {
+    padding: unset !important;
+}
+
+.login-card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 12rem;
+    width: 100%;
+}
+.curelogo{
+    width: 200px;
+}
+
+.login-main-card {
+    min-width: 400px;
+    max-width: 400px;
+}
+.login-main-card .form-label {
+    font-size: 14px;
+    color: #212121;
+}
+.login-main-card .form-control {
+    background-color: #F9F3FF !important;
+}
+
+.login-card h4 {
+    color: #212121;
+    margin-bottom: 0 !important;
+    font-weight: 600;
+}
+
+.login-card p {
+    color: #616161;
+    font-size: 14px;
+}
+
+.login-card .create-account-text span {
+    color: #0F16B5;
+    cursor: pointer;
+}
+.login-card .btn-group{
+    width: 100%;
+    gap: 20px;
+}
+.login-btn {
+    background: var(--primary);
+    border-radius: 40px;
+    color: #fff;
+    border: unset;
+    padding: 9px;
+    width: 100%;
+    font-weight: 500;
+}
+.signup-btn{
+    background: #FFF;
+    border-radius: 40px;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 9px;
+    width: 100%;
+    font-weight: 500;
+}
+.login-form{
+    display: unset !important;
+}
+
+@media only screen and (max-width: 1199px) {
+    .login-main-card {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .login-div {
+        background-image: unset;
+    }
+    .login-card {
+        justify-content: center;
+        padding-top: 0;
+        padding-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+}
+.forgot-password-text{
+    color: #0F16B5;
+    padding-left: 7px;
+}
+.forgot-pass-desc{
+    font-size: 13px !important;
+}
+
+.password-input-container{
+    position: relative;
+}
+
+.password-input-container img{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    height: 19px;
+}
+
+
+.loginLink{
+    color:var(--primary);
+    font-weight:600;
+    text-decoration:underline    !important;
+}
+
+.login-text{
+    
+}

@@ -1,0 +1,27 @@
+/* NotFound.css */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.not-found-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.go-back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #654E8A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.go-back-button:hover {
+    background-color: #2980b9;
+}

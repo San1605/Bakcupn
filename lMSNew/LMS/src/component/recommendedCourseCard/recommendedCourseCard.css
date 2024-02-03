@@ -1,0 +1,37 @@
+.recommended-coursecard-details {
+  padding: 2rem;
+}
+
+.recommended-course-title {
+  margin-left: 35%;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  .recommended-coursecard {
+    width: 100%;
+  }
+  .recommended-coursecard-details {
+    padding: 1.5rem;
+  }
+  .recommended-course-title {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .recommended-coursecard {
+    width: 100%;
+  }
+  .recommended-coursecard-details {
+    padding: 1.5rem;
+  }
+  .recommended-course-title {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (min-width: 1439px) {
+  .recommended-coursecard {
+    width: 85%;
+  }
+}

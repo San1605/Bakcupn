@@ -1,0 +1,227 @@
+.AdminCollegeStudents {
+    height: 100%;
+    width: 100%;
+
+}
+
+.adminCollegesStudentDiv {
+    height: calc(100% - 40px);
+    width: 100%;
+    padding: 15px;
+    background-color: #F2ECF6;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.KpiContainer {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    height: 15%;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.studentListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: calc(100% - 15%);
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #FBFCFE;
+}
+
+.studentListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px ;
+    width: 100%;
+    /* border:1px solid black; */
+}
+
+.studentListHeader>span {
+    color: #242424;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.studentList {
+    overflow: scroll;
+    width: 100%;
+    height: calc(100% - 32px);
+    ;
+    /* border: 1px solid black; */
+}
+
+
+
+
+.studentList table {
+    width: 100%;
+    border-collapse: collapse !important;
+    border-spacing: 1px !important;
+}
+
+.studentList table thead {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000;
+}
+
+.studentList table th {
+    text-align: left !important;
+    color: #5C5C77;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 11px 11px;
+    white-space: nowrap;
+}
+
+
+td.stickyColumn {
+    position: sticky;
+    z-index: 998;
+    left: 0;
+    border-right: 1px solid #E4E4FF;
+    background-color: #F7F7FF;
+}
+
+
+th.stickyColumnth{
+    position: sticky;
+    left: 0;
+    top:0;
+    /* z-index: 1000; */
+    border-right: 1px solid #E4E4FF;
+    background-color: #F7F7FF;
+}
+
+.headingRow {
+    background-color: #F7F7FF !important;
+    /* padding: 5px 5px; */
+}
+
+.tbodyAdminTable {
+    overflow-y: scroll !important;
+    overflow-x: auto !important;
+}
+
+.studentList table tbody td {
+    color: #242424;
+    font-size: 13px;
+    padding: 11px 11px;
+    text-align: left !important;
+}
+
+.tableRowadmin {
+    border-bottom: 1px solid #E4E4FF;
+}
+
+.studentList table tbody tr:nth-child(odd) .stickyColumn {
+    background-color: #FFF;
+}
+
+.studentList table tbody tr:nth-child(even) {
+    background-color: #F7F7FF;
+}
+
+/* .tableRowadmin:hover {
+    box-shadow: 0px 2px 2px 0px #00000040;
+} */
+
+
+.NoStudentdata {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 32px);
+    /* border: 1px solid black */
+
+    ;
+}
+
+.uploadFileName {
+    color: #242424;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    /* border: 1px solid black; */
+    margin-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.uploadFileName img{
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+.studentTabRightHeader {
+    width: 63%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 10px; */
+    align-items: flex-end;
+    border-bottom: 1px solid #ECE8EF;
+    /* border: 1px solid black; */
+}
+
+.studentTabRightHeader .tabs {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+}
+
+.studentTabRightHeader .tab {
+    display: flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #979797;
+    font-size: 13px;
+    border-radius: 4px 4px 0px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.studentTabRightHeader .selectedTabCC {
+    background: #EEF2F5;
+    color: #654E8A !important;
+    font-size: 13px;
+}
+
+
+.studentCollegeGrid{
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    /* Adjust the minmax value based on your card width */
+    gap: 10px;
+    overflow-y: scroll;
+    align-content: baseline;
+    /* border: 1px solid black; */
+}

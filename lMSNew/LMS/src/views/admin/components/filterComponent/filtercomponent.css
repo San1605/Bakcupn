@@ -1,0 +1,222 @@
+.filter-icon {
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  height: 1.75rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 7px;
+  padding: 0 5px;
+  font-size: 14px;
+}
+.filter-icon-active {
+  font-size: 14px;
+  color: #4f52b2;
+  border: 1px solid #4f52b2;
+}
+.filter-popover {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  background-color: #fff;
+  min-width: 37vw;
+  border-radius: 8px;
+  box-shadow: 4px 6px 14px rgba(115, 115, 115, 0.55);
+  overflow: hidden;
+}
+.filter-head-div {
+  padding: 8px 14px;
+}
+.filter-pane {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-pane-head {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.filter-count {
+  background-color: #4f52b2;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-pane-clear {
+  background-color: #f4f4f4;
+  padding: 4px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.filter-head-text {
+  font-size: 14px;
+}
+.filter-content {
+  display: flex;
+  column-gap: 14px;
+}
+.filter-actions {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-type {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  border-right: 1px solid #e7e7e7;
+}
+.filter-option-div {
+  display: flex;
+  flex-direction: column;
+}
+.filter-type-item {
+  background-color: #f4f4f4a3;
+  height: 2.25rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  font-size: 13px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.filter-type-item:hover {
+  background-color: #e8e8e881;
+}
+.filter-type-item-active,
+.filter-type-item-active:hover {
+  background-color: #f5f5ff;
+}
+.filter-type-count-div {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding-right: 6px;
+}
+.filter-count-type {
+  height: 20px;
+  width: 20px;
+}
+.filtered-chips {
+  padding: 5px 7px;
+  overflow: auto;
+  max-height: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 6px;
+}
+.filter-chip {
+  font-size: 12px;
+  background-color: #fff;
+  height: fit-content;
+  padding: 3px 8px 3px 12px;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+}
+.close-icon {
+  font-size: 16px;
+  color: #4f52b2;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+.filter-type-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.search-tab {
+  padding: 6px 10px;
+  border-bottom: 1px solid #000;
+}
+.filter-search {
+  border: none;
+}
+.select-all-div {
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+  height: 1.75rem;
+  column-gap: 8px;
+  background-color: #fff;
+}
+.filter-action-btn {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.search-result-item-block {
+  height: 170px;
+  overflow-y: auto;
+}
+.filter-cancel {
+  background-color: #f4f4f4;
+}
+.filter-save {
+  background-color: #4f52b2;
+  color: #fff;
+}
+.filter-search::placeholder {
+  color: #a8a8a8;
+}
+.search-result-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: flex-start;
+}
+.search-result-item {
+  display: flex;
+  align-items: center;
+  height: 1.75rem;
+  column-gap: 8px;
+}
+.filter-checkbox {
+  height: 16px;
+  width: 16px;
+  border: 1px solid #c0c0c0;
+  outline: none;
+  cursor: pointer;
+}
+.active-filter-dot {
+  background-color: #4f52b2;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+.filter-count-outer {
+  width: 18px;
+  height: 18px;
+}
+.filter-right-arrow {
+  display: none;
+}
+.filter-type-item:hover .filter-right-arrow {
+  display: block !important;
+}
+.filter-type-item-active .filter-right-arrow {
+  display: block !important;
+}

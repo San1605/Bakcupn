@@ -1,0 +1,75 @@
+.backgrondColor {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #000002 81.26%, #031021 100%);
+}
+
+.backgroundVector {
+    height: 100vh;
+    width: 100%;
+    background: url('../../assets/login-back.png');
+    background-size: cover;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.Ctlogo img {
+    height: 2rem;
+}
+
+.botImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.botImage img {
+    height: 68vh;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 65%;
+}
+
+.mainHeader img {
+    height: 4.5rem;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    .Ctlogo img {
+        height: 1.3rem;
+    }
+
+    .mainHeader img {
+        height: 3rem;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1999px) {
+    .Ctlogo img {
+        height: 3rem;
+    }
+
+    .mainHeader img {
+        height: 5rem;
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2600px) {
+    .backgroundVector {
+        padding: 4rem;
+    }
+
+    .Ctlogo img {
+        height: 4rem;
+    }
+
+    .mainHeader img {
+        height: 8rem;
+    }
+}

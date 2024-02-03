@@ -1,0 +1,158 @@
+.FacultyMentorFeedbackComponent {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 76%;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 8px 10px;
+}
+
+.FacultyMentorFeedbackComponentMain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FacultyMentorFeedbackComponentHeading {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #F9F6FF;
+    color: #272742;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.studentFeedbackTimeDiv {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* justify-content: space-between; */
+    /* border: 1px solid black; */
+
+}
+
+.studentFeedbackMonths {
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+
+.studentFeedbackMonths div {
+    padding: 4px 9px;
+    /* border: 1px solid; */
+    border-radius: 8px;
+    /* border: 1px solid #654E8A; */
+    cursor: pointer;
+    color: #242424;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.studentFeedbackMonths div :active {
+    border: 1px solid #654E8A;
+}
+
+
+.studentFeedbackTimeDiv select {
+    display: flex;
+    width: 10% !important;
+    padding: 6px !important;
+    font-size: 14px !important;
+}
+
+.FeedbackScoreDiv {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    gap: 20px;
+}
+
+.feedbackPerformance {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.feedbackPerformanceHeading {
+    color: #242424;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.feedbackPerformanceRadioButtons {
+    display: flex;
+    gap: 25px;
+}
+
+.PerformanceRadioButtonDiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.studentFeedbackFooter {
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid; */
+}
+
+.submitFeedback {
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #ECECEB;
+    font-size: 13px;
+    font-weight: 500;
+    background: #654E8A;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sendViaMail {
+    display: flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid #654E8A;
+}
+
+.feedbacktextArea {
+    height: 25%;
+    display: flex;
+    color: #929292;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 4px;
+    border: 1px solid #E2DCDC;
+
+    background: #FFF;
+    font-weight: 500;
+}
+
+.sendViaMail span {
+    color: #654E8A;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.selectedMonth {
+    border: 1px solid #654E8A;
+}
+
+.PerformanceRadioButtonDiv input {
+    accent-color: #654E8A !important;
+}

@@ -1,0 +1,169 @@
+.view-all-btn {
+  font-size: 12px;
+  color: #595959;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.sampler-path-row {
+  padding: 0rem 1rem 0.5rem 2.5rem;
+}
+.leaderboardHeight {
+  min-height: 30vh;
+}
+.dueDatesHeight {
+  min-height: 45vh;
+}
+.ticketsHeight {
+  min-height: 45vh;
+}
+.sampler-search {
+  font-size: 14px;
+  padding: 3px;
+}
+.sampler-path-container,
+.learning-path-box-shadow {
+  box-shadow: 0px 4px 21px rgba(215, 229, 255, 0.25);
+}
+.kpi-card-2 {
+  margin-left: 0.5rem !important;
+}
+.sampler-container {
+  padding-left: 0.75rem;
+}
+.my-course-card-row {
+  margin: 0 !important;
+}
+.my-course-card-row:nth-child(1) {
+  padding-right: 0.35rem;
+}
+.my-course-card-row:nth-child(2) {
+  padding: 0 0.35rem;
+}
+.my-course-card-row:nth-child(3) {
+  padding-left: 0.35rem;
+}
+.leaderboardinfo-icon-tooltip-container {
+  width: 150px;
+  padding: 3px 7px;
+}
+.report-icon-tooltip-container {
+  width: 350px;
+  padding: 3px 7px;
+}
+.leaderboardinfo-icon-tooltip-text {
+  text-align: center;
+  font-size: 12px;
+}
+.reportinfo-icon-tooltip-text {
+  text-align: start;
+  font-size: 13px;
+  padding: 0.3rem;
+}
+.reportinfo-icon-tooltip-text > p {
+  margin-top: 5px;
+}
+.workshop-div {
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #f9f9ff;
+  color: #242424;
+  border: 1px solid #4f52b2;
+  box-shadow: 2px 2px 0px #4f52b2;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.workshop-div:hover,
+.workshop-div:active {
+  color: #242424;
+}
+@media screen and (min-width: 992px) and (max-width: 1450px) {
+  .content-lg-3 {
+    padding: 1rem !important ;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .media-padding {
+    padding: 1rem 1rem 0rem 1rem !important;
+  }
+  .content-lg-3 {
+    padding: 1rem !important ;
+  }
+  .my-course-card-row:nth-child(1) {
+    padding-right: 0.35rem;
+  }
+  .my-course-card-row:nth-child(2) {
+    padding-left: 0.35rem;
+    padding-right: 0;
+  }
+  .my-course-card-row:nth-child(3) {
+    padding-top: 0.35rem;
+    padding-left: 0;
+  }
+  .sampler-path-row {
+    padding: 0 1rem;
+  }
+  .sampler-card {
+    max-height: 13.9rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .lg-3-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .my-course-card-row:nth-child(1) {
+    padding-right: 0;
+  }
+  .my-course-card-row:nth-child(2) {
+    padding-left: 0;
+  }
+  .kpi-card-2 {
+    margin: 0 !important;
+  }
+  .sampler-container {
+    padding-left: 0 !important;
+    padding-top: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .duedate-div {
+    height: 37vh !important;
+  }
+  .dash-col3-div {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 1290px) and (max-width: 1450px) {
+  .duedate-div {
+    height: 42vh !important;
+  }
+  .dash-col3-div {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1285px) {
+  .duedate-div {
+    height: 45vh !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .duedate-div {
+    height: 50vh !important;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .duedate-div {
+    height: 56vh !important;
+  }
+}

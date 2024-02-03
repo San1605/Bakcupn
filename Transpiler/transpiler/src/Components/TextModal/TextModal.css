@@ -1,0 +1,71 @@
+.modal-header {
+    padding-top: 2rem !important;
+    padding-bottom: 6px !important;
+    padding-left: 1.3rem !important;
+    padding-right: 1.3rem !important;
+    border-top-right-radius: 4px !important;
+    border-top-left-radius:4px !important;
+    border: none  !important;
+    /* background: linear-gradient(to right, blue 50%, red 50%) !important; */
+}
+
+.modal-body {
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    /* padding-bottom: 1.5px !important; */
+    padding-left: 1.3rem !important;
+    padding-right: 1.3rem !important;
+}
+
+.textModal .textarea {
+    height: 89%;
+    width: 100%;
+    outline: none;
+    border: none !important;
+    background-color: #F5F5F5;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.textModalHeading {
+    color: #252423 !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.textModal {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 40vw; */
+}
+
+.textModalBottom {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.textModalCancelButton {
+    border: 1px solid #F3F3F3;
+    border-radius: 4px;
+    background-color: white;
+    color: #251C88;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 6px 16px;
+
+}
+
+.textModalSubmitButton {
+    border: 1px solid #F3F3F3;
+    border-radius: 4px;
+    background-color: #251C88;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 6px 20px;
+
+}

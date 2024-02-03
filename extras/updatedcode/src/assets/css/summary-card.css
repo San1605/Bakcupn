@@ -1,0 +1,100 @@
+.summary-card, .overall-summary{
+    border: 1px solid #E7E7E7;
+border-radius: 7px;
+margin-bottom: 1rem;
+}
+.summary-card .header{
+    padding: .6rem 1rem;
+    border-bottom: 1px solid #E7E7E7;
+}
+.summary-card .header h6{
+    margin-bottom: unset;
+    font-weight: 500;
+    color: #575757;
+    font-size: 14px;
+    letter-spacing: .2px;
+}
+.summary-card .c-body{
+    padding: 1rem;
+    max-height: 25vh;
+    height: 25vh;
+    overflow-y: auto;
+}
+.setiment-graph-div{
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+.keywords{
+    min-height: 23vh;
+    max-height: 23vh;
+    overflow-y: auto;
+}
+.keywords span{
+    color: #686868;
+    background: #F4F9FA;
+    border-radius: 2px;
+    font-size: 11px;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    letter-spacing: .3px;
+}
+
+.overall-summary .nav-tabs{
+    padding: 0 10px 0px;
+}
+.overall-summary .nav-tabs .nav-item.show .nav-link, .overall-summary .nav-tabs .nav-item.show .nav-link:hover{
+    border: unset;
+}
+.overall-summary .nav-tabs  .nav-link{
+    color: #424242;
+    font-weight: 500;
+    font-size: 13px;
+}
+.overall-summary .nav-tabs .nav-link.active{
+    border-bottom: 2px solid #00829B !important;
+    border: unset;
+}
+.overall-summary .tab-content{
+    color: #989898;
+    padding: 5px 1rem 10px;
+    font-size: 12.5px;
+    font-weight: normal;
+    min-height: 13vh;
+    max-height: 13vh;
+    overflow-y: auto;
+}
+
+.name-entity-body table{
+    margin-bottom: unset !important;
+}
+.name-entity-body table thead th{
+    font-size: 12px;
+    background: #E2F0F2;
+}
+.name-entity-body table tbody td{
+    font-size: 12px;
+}
+
+.word-cloud-body{
+    height: 21.5vh;
+}
+.wbtn-active{
+    color: #00829B;
+    background: #EBF3FF;
+}
+.wbtn{
+    color: #828282;
+    background: #F4F4F4;
+}
+.word-cloud button{
+    border: unset;
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-bottom: unset;
+    padding-bottom: unset;
+}
+.word-cloud .header{
+    padding: .4rem 1rem;
+}

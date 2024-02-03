@@ -1,0 +1,19 @@
+{
+  "name": "video_stream_backend",
+  "version": "1.0.0",
+  "description": " video_stream_backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Nitesh Gidwani",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2",
+    "socket.io": "^4.6.1"
+  }
+}

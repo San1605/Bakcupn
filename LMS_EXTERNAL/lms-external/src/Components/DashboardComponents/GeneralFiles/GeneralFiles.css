@@ -1,0 +1,28 @@
+.GeneralFileBox {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    border-radius: 4px;
+    flex-direction: column;
+    background: #FFF;
+    padding: 6px 10px;
+}
+
+.generalFileHeading {
+    height: 25px;
+    width: 100%;
+    color: #272742;
+    font-size: 14px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #F9F6FF; */
+}
+
+.generalFileDiv {
+    height: calc(100% - 25px);
+    /* border: 1px solid; */
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+

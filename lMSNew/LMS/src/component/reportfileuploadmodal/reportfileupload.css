@@ -1,0 +1,143 @@
+.report-upload-modal .modal-dialog {
+  max-width: 600px !important;
+}
+.report-upload-modal .modal-content {
+  border: unset !important;
+}
+
+.infoModalHead {
+  background: #4f52b2;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.report-upload-modal .form-label {
+  color: #424242;
+  line-height: 1.1;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.report-upload-modal input {
+  color: #424242;
+  font-size: 14px;
+}
+
+.report-upload-modal .form-label span {
+  color: #ed4343;
+  font-weight: 600;
+}
+
+.infoModalHead .modal-title {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.radioInputBtn {
+  margin-left: 3.3rem;
+}
+
+.inputField {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+}
+
+.inputFieldTextarea {
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  width: 80%;
+  height: 2rem;
+}
+
+.taskInputFieldTextarea {
+  background: #ffffff;
+  border-radius: 2px;
+  width: 69%;
+  height: 3rem;
+}
+
+.chooseFileBtn {
+  padding: 7px 11px;
+  border: none;
+  width: 7rem;
+  height: 3rem;
+  font-size: 12px;
+  background: #e7e8ff;
+  border-radius: 2px;
+}
+
+.chooseupload {
+  background: #e7e8ff;
+  color: #616161;
+  font-size: 14px;
+  padding: 4px 10px;
+}
+
+.uploadLink::placeholder {
+  color: #0047fd;
+  text-decoration-line: underline;
+  opacity: 1;
+  font-size: 13px;
+}
+
+.submitButton {
+  width: 87px;
+  height: 38px;
+  background-color: #aeaeae;
+  color: #ececeb;
+  border-radius: 4px;
+}
+
+.cancelButton {
+  width: 87px;
+  height: 38px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #616161;
+}
+
+.inputRadio {
+  margin-right: 0.5rem;
+}
+
+.radioLabels {
+  margin-left: -7px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.interviewdate-input {
+  position: relative;
+  padding: 0 12px;
+  width: 100%;
+}
+.interviewdate-input::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  z-index: 1;
+}
+.calendar-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  font-size: 18px;
+  transform: translateY(-50%);
+  z-index: 0;
+}

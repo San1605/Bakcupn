@@ -1,0 +1,56 @@
+.rfp-text1{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+}
+.rfp_text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.table-div{
+    height: 45vh;
+    overflow-y: auto;
+}
+.profile_header{
+    height: 2.5rem;
+    background-color: black;
+    border-top: 3px solid rgba(0, 200, 151, 1) ;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    /* width: 100%; */
+  }
+  .rfp_text2{
+    font-size: 14px;
+  }
+  .profile_header1{
+    font-size: 16px;
+    font-weight: 400 !important;
+
+  }
+.profile_tab{
+    cursor: pointer;
+}
+
+ .table-div th, td {
+    padding: 4px;
+    text-align: left;
+  }
+  .table-div th{
+    border-bottom: 1px solid rgba(0, 200, 151, 1);
+  }
+  
+.table-div  .hovers:hover {
+    background-color: rgba(0, 200, 151, 1);
+    /* border-radius: 8px; */
+}
+.active-tab{
+  padding-top: 6px;
+ border-bottom: 4px solid rgba(0, 200, 151, 1);
+ border-radius: 3px;
+}

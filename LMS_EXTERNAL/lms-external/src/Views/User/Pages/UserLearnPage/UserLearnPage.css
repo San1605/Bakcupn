@@ -1,0 +1,297 @@
+.userlearnPage {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.userLearnPageLayout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.studentLearn {
+    height: calc(100% - 45px);
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+
+    display: flex;
+}
+
+.studentLearn .videoplayer {
+    padding: 10px;
+    background-color: #F2ECF6;
+    /* padding:10px; */
+    height: 100%;
+    width: 77%;
+    /* background-color: #FBFCFE; */
+    display: flex;
+    /* border: 1px solid black; */
+    /* background-color: #486EF9; */
+    flex-direction: column;
+    /* gap: 5px; */
+    /* border-radius: 6px; */
+}
+
+.studentLearn .videoplayer .videoPlayerHeading {
+    display: flex;
+    padding: 8px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    border-bottom: 1px solid #EAEAEA;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    /* border: 1px solid black; */
+}
+
+
+.videoPlayerHeading span {
+    color: #242424;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.videoPlayerHeading .topicNotComplete {
+    cursor: pointer;
+    display: flex;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1.5px solid #654E8A;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #654E8A;
+}
+
+.videoPlayerHeading .topicCompleted {
+   pointer-events: none;
+    display: flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #CBBBD8;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    background: #CBBBD8;
+}
+
+.videoPlayerContainer{
+    height: calc(100% - 47px);
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    background: #FFF;
+    display: flex;
+    /* padding: 10px; */
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+.studentLearnLeft {
+    height: 100%;
+    width: 23%;
+    /* padding: 10px; */
+    background-color: #FBFCFE;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    border-radius: 0px 4px 4px 0px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.studentLearnLeftNavbar {
+    border: 1px solid #EAEAEA;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    ;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 100;
+    color: #424242;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.studentLearnLeft .accordion {
+    height: calc(100% - 40px);
+    width: 100%;
+}
+
+
+
+.studentLearnLeft .accordianHeader button {
+    color: #424242 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    padding: 16px 16px !important;
+}
+
+.studentLearnLeft .accordion-body ul {
+    margin: 0 !important;
+    padding: 0 0px !important;
+    /* padding-left: 1rem !important; */
+    list-style: none;
+}
+
+.studentLearnLeft .accordion-body ul li {
+    font-size: 13px;
+    padding: 5px !important;
+    color: #424242;
+    font-weight: 500;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px 14px !important;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.studentLearnLeft .accordion-body ul li .liDivAccordian {
+    /* width: calc(100% - 22px); */
+    display: flex;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    gap: 10px;
+    /* padding-top: 10px; */
+
+}
+
+.liDivAccordian span {
+    word-wrap: break-word;
+    /* border: 1px solid black; */
+
+}
+
+.liDivAccordian img {
+    height: 15px;
+    margin-top: 4px;
+    width: 15px;
+}
+
+.markasDoneDiv {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+
+.studentLearnLeft .accordion-body {
+    padding: 0px !important;
+}
+
+.studentLearnLeft .accordionButton button {
+    /* background-color: #bbb !important; */
+    color: #424242 !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    padding: 16px 16px !important;
+}
+
+
+
+.descriptionVideo {
+    width: 100%;
+    height: 25%;
+    font-size: 12px;
+    /* border: 1px solid black; */
+}
+
+.learnmore {
+    /* top: 7px; */
+    bottom: -1px;
+    left: 44px;
+    position: absolute;
+    font-size: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    /* margin: 10px 0px; */
+}
+
+.readingContent {
+    height: 100%;
+    width: 100%;
+    /* border :1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.readingContentImage{
+    width: 32%;
+    height: 50%;
+}
+.openButton {
+    border-radius: 4px;
+    display: flex;
+    gap: 8px;
+    background-color: #654E8A;
+    align-items: center;
+    color: white;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.studentLearn .accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: #F7F7FF !important;
+}
+
+.studentLearn .accordion-button:focus {
+    border-color: #F7F7FF !important;
+    box-shadow: 0 0 0.25rem #F7F7FF !important;
+}
+
+
+
+
+
+.opacityDull {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(36, 36, 36, 0.50) !important;
+    position: absolute;
+    z-index: 9000;
+    top: 0;
+    left: 0;
+}
+
+
+.opacityDull.show {
+    display: flex;
+}
+
+.opacityDull.hide {
+    display: none;
+}
+
+/* .ytp-gradient-bottom .ytp-chrome-bottom{
+    display: none !important;
+}
+
+.ytp-progress-bar-container{
+    display: none !important;
+}
+.ytp-chrome-controls{
+    display: none !important;
+} */

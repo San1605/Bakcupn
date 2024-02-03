@@ -1,0 +1,19 @@
+.courseReferences {
+  height: 180px;
+}
+
+/* .active {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+} */
+
+.courseReferences .thead {
+  font-size: 14px;
+  font-weight: 500 !important;
+  color: #333333 !important;
+}
+
+.courseReferences .trow {
+  font-size: 14px;
+  font-weight: 300 !important;
+}

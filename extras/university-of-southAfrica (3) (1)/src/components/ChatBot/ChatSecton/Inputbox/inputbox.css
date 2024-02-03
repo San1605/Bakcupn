@@ -1,0 +1,20 @@
+.chat_search_bar {
+    display: flex;
+    padding: 5px 6px 5px 5px;
+    background: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 28px;
+  }
+  .chat_search_box_input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 12px;
+    width: 94%;
+    background-color: #f9f9f9;
+    letter-spacing: 0.26px;
+    color: #1c3444;
+  }
+  .chat_search_box_input:focus {
+    border: none;
+  }

@@ -1,0 +1,7 @@
+.prescriptions-cards-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 35px;
+  max-width: 935px;
+  width: 100%;
+}

@@ -1,0 +1,226 @@
+.formContainer {
+    z-index: 10;
+    border-radius: 8px;
+    border: 1px solid rgba(1, 25, 100, 0.59);
+    background: rgba(255, 255, 255, 0.97);
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem
+}
+
+.formHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    color: #223A72;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.backArrow {
+    cursor: pointer;
+}
+
+.backArrow img {
+    height: 1.2rem;
+}
+
+.passwordContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .5rem;
+}
+
+.forgot {
+    color: #0F61F0;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.submitBut {
+    border-radius: 8px;
+    background: #223A72;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+
+.fieldContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .3rem
+}
+
+.label {
+    color: #223A72;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputfield {
+    border: none;
+    border-bottom: 1px solid #29304D;
+    width: 20rem;
+    display: flex;
+    gap: .5rem
+}
+
+.inputfield input {
+    outline: none;
+    width: 85%;
+    font-size: .9rem;
+    background-color: transparent;
+    border: none;
+}
+
+.inputButton {
+    display: flex;
+    gap: .4rem
+}
+
+.inputButton img {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+
+    .formContainer {
+        padding: 1.5rem;
+        gap: 1.7rem;
+    }   
+
+    .header {
+        font-size: 1rem;
+    }
+
+    .forgot {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1999px) {
+    .backArrow img {
+        height: 2.2rem;
+    }
+
+    .formContainer {
+        padding: 3rem 2.5rem;
+        gap: 2.5rem
+    }
+
+    .header {
+        font-size: 2rem;
+    }
+
+    .forgot {
+        font-size: 1.2rem;
+    }
+
+    .submitBut {
+        font-size: 1.3rem;
+        padding: .6rem 3rem;
+    }
+
+    .fieldContainer {
+        gap: .4rem
+    }
+
+    .label {
+        font-size: 1.5rem;
+    }
+
+    .inputfield {
+        width: 35rem;
+    }
+
+    .inputfield input {
+        font-size: 1.7rem;
+    }
+
+    .inputButton {
+        gap: .8rem
+    }
+
+    .inputButton img {
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2600px) {
+
+    .backArrow img {
+        height: 2.5rem;
+    }
+
+    .formContainer {
+        padding: 4rem 3rem;
+        gap: 4rem
+    }
+
+    .header {
+        font-size: 2.7rem;
+    }
+
+    .fieldContainer {
+        gap: .6rem
+    }
+
+    .label {
+        font-size: 1.7rem;
+    }
+
+    .inputfield {
+        font-size: 2rem;
+        width: 40rem;
+    }
+
+    .inputfield input {
+        font-size: 2rem;
+    }
+
+    .inputButton {
+        gap: .8rem
+    }
+
+    .inputButton img {
+        height: 100%;
+    }
+
+    .forgot {
+        font-size: 1.2rem;
+    }
+
+    .submitBut {
+        font-size: 1.7rem;
+        padding: .8rem 3.5rem;
+    }
+}

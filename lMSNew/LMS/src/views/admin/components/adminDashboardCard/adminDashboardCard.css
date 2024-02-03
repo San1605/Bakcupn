@@ -1,0 +1,89 @@
+.chart-skills-rentStatus::after {
+  content: none !important;
+}
+.padding-admin-kpi-card:first-child{
+  padding-right: 10px;
+}
+.padding-admin-kpi-card:last-child{
+  padding-right: 0px !important;
+}
+.padding-admin-kpi-card:not(:first-child){
+  padding: 0 10px;
+}
+
+.AdminDashboardKpiCard {
+  /* width: 32%; */
+  overflow: hidden;
+}
+
+.adminCardPieWidth {
+  width: 40%;
+}
+
+.adminDashboardKpiPadding {
+  padding: 0 0.75rem;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  border-radius: 8px;
+}
+
+.adminDashboardCardTitle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #4f52b2;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.adminDashboardLabelMainContainer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #616161;
+}
+
+.adminDashboardCardLabelContainer {
+  column-gap: 8px;
+}
+
+.adminDashboardCardLabelDot {
+  border-radius: 50%;
+}
+
+.adminDashboardCardLabelOne {
+  background-color: #4e4cac;
+}
+
+.adminDashboardCardLabelTwo {
+  background-color: #9698d5;
+}
+
+.adminDashboardCardLabelThree {
+  background-color: #afcaff;
+}
+
+.adminDashboardCardComponentContainer {
+  position: relative;
+  height: 100px !important;
+  overflow: hidden;
+}
+
+.adminDashboardSubContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.adminDashboardLabelSubContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.adminCardPie {
+  width: 100%;
+  position: absolute;
+  bottom: -1.6rem;
+  left: 0px;
+}

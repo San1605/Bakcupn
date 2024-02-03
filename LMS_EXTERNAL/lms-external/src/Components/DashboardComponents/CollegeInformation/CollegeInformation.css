@@ -1,0 +1,28 @@
+.collegeInformation {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    border-radius: 4px;
+    flex-direction: column;
+    background: #FFF;
+    padding: 6px 10px;
+}
+
+.collegeInformationHeading {
+    height: 35px;
+    width: 100%;
+    /* border: 1px solid black; */
+    color: #272742;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid #F9F6FF; */
+}
+
+.collegeInformationDiv {
+    height: calc(100% - 35px);
+    /* border: 1px solid; */
+    overflow-y: scroll;
+}

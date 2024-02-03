@@ -1,0 +1,68 @@
+.pdfViewerTaskModule {
+    height: 100% !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.pdf-container {
+    height: 100% !important;
+    width: 100% !important;
+    display: flex;
+    overflow-y: scroll;
+    border: none !important;
+}
+
+.rpv-toolbar {
+    display: none !important;
+}
+
+.rpv-default-layout__toolbar {
+    display: none !important;
+}
+
+.rpv-default-layout__sidebar {
+    display: none !important
+}
+
+.rpv-default-layout__body {
+    padding-top: 0 !important;
+    border: none !important;
+}
+.rpv-default-layout__container{
+    border: none !important;
+}
+
+.rpv-core__page-layer::after{
+    box-shadow: none !important;
+
+}
+
+
+.changeDocumentDiv {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+.changeDocumentDiv>span:nth-child(2) {
+    font-family: Segoe UI;
+    text-align: center !important;
+    font-size: 15px;
+    color: #000000;
+    /* border: 1px solid; */
+    vertical-align: middle;
+}
+
+.changeDocumentDiv>img {
+    /* border: 1px solid; */
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+}

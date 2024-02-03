@@ -1,0 +1,153 @@
+.schedule-calender-block .row-bor-bot {
+  border-bottom: 1.5px solid #dedede;
+  width: 100%;
+}
+.scheduleInterview .nav-tabs .nav-link.active {
+  background-color: transparent !important;
+}
+.schedule-calender-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+.schedule-calender-block-content {
+  display: flex;
+}
+.schedule-calender-block-left {
+  min-width: 30%;
+  max-width: 30%;
+}
+.schedule-calender-block-right {
+  min-width: 70%;
+  max-width: 70%;
+  border-left: 1.5px solid #dedede;
+  border-right: 1.5px solid #dedede;
+}
+.row-height {
+  min-height: 2.25rem;
+  max-height: 2.25rem;
+}
+.day-date-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #424242;
+  font-size: 14px;
+  border: 1.5px solid #dedede;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  height: 100%;
+}
+.cal-overflow-x {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+}
+.timeslots-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.timeslot {
+  background-color: #fff;
+  min-height: 2.25rem;
+  max-height: 2.25rem;
+  min-width: 7rem;
+  max-width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #424242;
+  cursor: default;
+  border-bottom: 1px solid #d6d6d6;
+  border-right: 1px solid #dedede;
+}
+.timeslot:last-child {
+  border-right: none;
+}
+.emptySlot {
+  background: none;
+  border-right: none;
+}
+.schedule-calender-block-left-row {
+  display: flex;
+  justify-content: start;
+}
+.schedule-calender-block-left-row > p {
+  font-size: 14px;
+  color: #424242;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 2rem;
+}
+.schedule-user-div {
+  min-height: fit-content;
+}
+.schedule-inner-margin {
+  margin: 0.125rem 0;
+}
+.schedule-name-chip {
+  background-color: transparent;
+  margin-left: 2rem;
+}
+.add-user-interview {
+  color: #4060d4 !important;
+  cursor: pointer;
+  width: 100%;
+}
+.required-user-list {
+  display: flex;
+  flex-direction: column;
+}
+.bold-heading {
+  font-weight: 500 !important;
+}
+.cal-labels-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  column-gap: 2rem;
+  padding-left: 2rem;
+}
+.cal-label {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.label-visual {
+  height: 10px;
+  width: 10px;
+}
+.label-busy {
+  background-color: #444791;
+}
+.label-available {
+  background-color: #e1e1e1;
+}
+.label-tentative {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.label-tentative > img {
+  height: 20px;
+}
+.userslot {
+  background-color: #e1e1e1;
+}
+.busySlot {
+  background-color: #444791;
+}
+.tentativeSlot {
+  background: url("../../assets/tentative.png"), no-repeat;
+  background-position: center;
+  background-size: cover;
+}

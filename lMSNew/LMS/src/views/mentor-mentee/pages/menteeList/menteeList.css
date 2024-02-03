@@ -1,0 +1,135 @@
+.menteeListPage {
+  padding: 1rem 2.5rem;
+}
+
+.menteelistcard {
+  background: #ffffff;
+  border: 1px solid #eff0f6;
+  border-radius: 4px;
+}
+.current-courses-dropdown {
+  border: unset;
+}
+.pointer-report {
+  font-size: 14px;
+  color: #0356d3 !important;
+  text-underline-offset: 3px;
+}
+.menteePageTitleRow {
+  border-bottom: 1.5px solid #eaeaea;
+}
+.menteePageTitle {
+  font-size: 18px;
+  line-height: 3rem;
+  font-weight: 600;
+  color: #242424;
+}
+
+.menteesTotalCount {
+  margin-left: 0.8rem;
+  color: rgba(47, 47, 47, 0.4);
+}
+.ticketIconContainer {
+  position: relative;
+}
+
+.ticketIcon-dot {
+  position: absolute;
+  top: -4px;
+  right: -10px;
+  height: 16px;
+  width: 16px;
+  background-color: red;
+  color: #fff;
+  font-size: 8px;
+  padding: 0.2rem;
+}
+
+.ticketIconStyle {
+  width: 17px;
+}
+.menteelist-container {
+  height: 63vh;
+  overflow-y: scroll;
+}
+.userdata-input {
+  border: none;
+  outline: none;
+  width: 7rem;
+  background-color: transparent;
+}
+.addsecmentorinput-div:hover {
+  background-color: #fff;
+}
+.addsecmentorinput-div:hover .edit-pencil-icon {
+  visibility: visible;
+}
+.edit-pencil-icon {
+  visibility: hidden;
+  cursor: pointer;
+}
+.userdata-input:focus {
+  border: none;
+  outline: none;
+}
+.userdata-list {
+  position: absolute;
+  background-color: #fff;
+  z-index: 2;
+  /* width: 80%; */
+  border: 1px solid #c1c1c7;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  overflow: hidden;
+  height: 110px;
+  overflow: scroll;
+}
+.sec-mentor-profilimg {
+  height: 25px;
+}
+.userdatalistrow {
+  padding: 4px 8px;
+  position: relative;
+}
+.userdatalistrow:hover {
+  background-color: #f9f9f9;
+}
+.userdatalistrow:hover::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: #4f52b2;
+  border-radius: 0px 4.16159px 4.16159px 0px;
+  left: 0;
+  top: 0;
+}
+.edit-pencil-icon-fade{
+  filter: grayscale();
+}
+.download-btn-link{
+  color: #242424;
+  text-decoration: none;
+}
+.download-btn-link:hover{
+  color: #242424;
+
+}
+@media screen and (max-width: 1020px) {
+  .menteeListPage {
+    padding: 1rem;
+  }
+
+  .menteeListPage .th,
+  .menteeListPage .td {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .menteesTotalCount {
+    margin-left: 2rem;
+  }
+}

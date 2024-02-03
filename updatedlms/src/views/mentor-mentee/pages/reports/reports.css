@@ -1,0 +1,292 @@
+.reports-col-md-3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  height: fit-content !important;
+}
+.menteeProfileContainer {
+  row-gap: 1rem;
+}
+
+.menteeProfileDetailsContainer {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 14px;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.menteeProfileDetails {
+  line-height: 1.25rem;
+  margin-top: 7px;
+}
+.menteeProfileimg {
+  width: 35%;
+}
+.menteeName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #242424;
+}
+.menteeDesignation {
+  font-size: 14px;
+  color: #424242;
+  margin-top: 2px;
+}
+.otherMenteeDetail {
+  font-size: 13px;
+  color: #424242;
+  column-gap: 5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.otherMenteeDetailContainer {
+  row-gap: 10px;
+}
+.otherMenteeDetail p {
+  flex: 1;
+}
+.otherMenteeDetail span {
+  flex: 1;
+  font-weight: 400;
+  color: #242424;
+  width: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.allcourseheading {
+  font-size: 12px;
+  column-gap: 0.5rem;
+}
+
+.learningPathCardHeading {
+  font-weight: 600;
+  font-size: 16px;
+}
+.learningpathtitle {
+  padding-left: 0.5rem;
+  font-size: 14px !important;
+}
+.learning-path-card-height {
+  height: 100% !important;
+}
+.reports-col-md-9 {
+  padding: 1.25rem 2rem 1rem 1rem;
+}
+.reportHead {
+  font-size: 22px;
+  font-weight: 600;
+}
+.downloadReportBtn {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  height: 38px;
+  font-size: 12px;
+  padding: 1px 16px 0;
+  background: #fefefe;
+  border: 1px solid #c6c8ff;
+}
+.downloadIcon {
+  color: #4f52b2;
+  font-size: 14px;
+  padding-bottom: 1px;
+}
+.reportsCardContainerHead,
+.interview-documentation-ContainerHead {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.75rem 0.5rem;
+}
+.enroll-course-TableContainer {
+  height: 9rem;
+}
+.reportsPageTableContainer table {
+  margin: 0;
+}
+.reportsPageTableContainer thead {
+  background-color: #f5f5ff;
+}
+.reportsPageTableContainer th,
+.reportsPageTableContainer td {
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333;
+}
+.reportsPageTableContainer td {
+  font-weight: 500;
+  color: #424242;
+}
+#ticketstatus {
+  height: 20px;
+  width: 65px;
+}
+.uploadInterviewButton {
+  font-size: 12px;
+  width: 70px;
+  height: 26px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4f52b2;
+  color: #fff;
+  margin-left: 0.5rem;
+}
+.meetingRecordingLink,
+.meetingRecordingLinkPlaceholder::placeholder {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #0047fd !important;
+}
+.reportFeedbackContainer {
+  width: 73.5%;
+  /* width: 100%; */
+  height: fit-content;
+}
+.reportTicketCardContainer {
+  height: fit-content;
+  width: 25%;
+}
+.uploadInterviewModalCloseIcon {
+  font-size: 22px;
+}
+.report-head-row-btns {
+  column-gap: 1rem;
+}
+.feedbackstatus-pending {
+  color: #fca600;
+}
+.feedbackstatus-submit {
+  color: #3bbd37;
+}
+.feedback-submit {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.reports-col-md-3 {
+  height: 100% !important;
+}
+@media screen and (min-width: 1025px) and (max-width: 1261px) {
+  .reports-learning-path-container > div {
+    flex-direction: column;
+    row-gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .reports-learning-path-container > div select {
+    padding-left: 0.75rem;
+  }
+  .reports-learning-path-container p:first-of-type {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .rating-cards {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+  /* .menteemail,.menteerm,.menteeeptype,.menteedepartment{
+    flex-direction: column;
+  } */
+  .reports-learning-path-container > div {
+    flex-direction: column;
+    row-gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .reports-learning-path-container > div select {
+    padding-left: 0.75rem;
+  }
+  .reports-learning-path-container p:first-of-type {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .rating-cards {
+    width: 100%;
+  }
+  /* .menteeName{
+    font-size: 16px;
+  } */
+  #dropdownMenuButton1 {
+    font-size: 14px;
+    padding-left: 0.15rem !important;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 992px) {
+  /* .menteemail,.menteerm,.menteeeptype,.menteedepartment{
+    flex-direction: column;
+  } */
+  .reports-learning-path-container > div {
+    flex-direction: column;
+    row-gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .reports-learning-path-container > div select {
+    padding-left: 0.75rem;
+  }
+  .reports-learning-path-container p:first-of-type {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .rating-cards {
+    width: 100%;
+  }
+  /* .menteeName{
+    font-size: 16px;
+  } */
+  #dropdownMenuButton1 {
+    font-size: 14px;
+    padding-left: 0.15rem !important;
+  }
+  .reports-col-md-3 {
+    width: 33%;
+  }
+  .reports-col-md-9 {
+    width: 67%;
+  }
+  .rating-cards {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .performanceOptions {
+    display: grid !important;
+    align-items: center;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .reportFeedbackContainer,
+  .reportTicketCardContainer {
+    width: 49%;
+  }
+}
+/* @media screen and (min-width:) and (max-width: ) {
+  
+} */
+@media screen and (max-width: 500px) {
+  .feedback-ticket-row {
+    flex-direction: column;
+  }
+  .reportFeedbackContainer,
+  .reportTicketCardContainer {
+    width: 100%;
+  }
+  .reportTicketCardContainer {
+    margin-top: 0.75rem !important;
+  }
+  .rating-cards {
+    width: 100%;
+    grid-template-columns: repeat(1, 70%);
+  }
+  .performanceOptions {
+    display: grid !important;
+    align-items: center;
+    grid-template-columns: repeat(3, 30%);
+  }
+}
+@media screen and (max-width: 425px) {
+  .rating-cards {
+    grid-template-columns: repeat(1, 85%);
+  }
+}
+@media screen and (max-width: 320px) {
+  .rating-cards {
+    grid-template-columns: repeat(1, 100%);
+  }
+}

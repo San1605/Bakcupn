@@ -1,0 +1,99 @@
+.upload-filemodal .upload-text-t {
+    font-weight: 500;
+    color: #5A5A5A;
+    font-size: 1.25rem;
+}
+
+.upload-filemodal .modal-dropzone {
+    padding: 1rem .2rem;
+    text-align: center;
+    color: #363636;
+}
+
+.upload-filemodal .modal-dropzone .fileupload {
+    background: #FDFDFF;
+    border: 1px dashed #00829B;
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+.upload-filemodal .modal-dropzone h6 {
+    line-height: 1.5;
+    font-weight: 500;
+    color: #636363;
+}
+
+.modal-dropzone span {
+    font-weight: 500;
+}
+
+.modal-dropzone p {
+    font-size: 12px;
+    color: #989898;
+    margin-top: .3rem;
+}
+.modal-dropzone .fileupload img{
+    width: 50px;
+    margin-bottom: .5rem;
+}
+.modal-dropzone .fileupload .choose-file-btn{
+    background: #EAEAEA;
+    border: 1px solid #EAEAEA;
+    color: #8C8C8C;
+    font-size: 12px;
+    padding: .3rem 1rem .2rem;
+    margin-top: .5rem;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.upload-filemodal .modal-content {
+    border-radius: 10px !important;
+}
+.upload-filemodal .modal-body{
+    padding: 1.2rem 1.5rem !important;
+}
+
+.upload-filemodal .uploadfilesList {
+    padding: .5rem 0;
+}
+.upload-filemodal .uploadfilesList .file-list{
+    border: 0.6px solid #9C9C9C;
+    border-radius: 7px;
+    padding: .6rem .5rem;
+    margin-bottom: .8rem;
+}   
+
+.upload-filemodal .uploadfilesList .filespathtxt {
+    font-size: 12px;
+    font-weight: normal !important;
+    margin-bottom: 2px;
+    text-decoration: none !important;
+    color: #000000;
+}
+
+.upload-filemodal .uploadfilesList .removeFile {
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: .3rem;
+}
+.file-dinput{
+    text-align: left;
+}
+.file-dinput label{
+    margin-bottom: 0.3rem;
+    color: #8A8A8A;
+    font-size: 13px !important;
+}
+.file-dinput .form-control{
+    font-size: 13px !important;
+}
+
+.upload-filemodal .upload-submitBtn {
+    padding: .3rem 2rem !important;
+    background: #00829B;
+    border-radius: 4px;
+    border: 1px solid #00829B;
+    color: #fff;
+    font-size: 14px;
+}

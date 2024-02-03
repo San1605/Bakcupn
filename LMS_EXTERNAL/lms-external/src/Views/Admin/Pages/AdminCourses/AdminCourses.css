@@ -1,0 +1,77 @@
+.courseListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #FBFCFE;
+}
+
+.CourseList {
+    overflow: scroll;
+    width: 100%;
+    height: calc(100% - 60px);
+    ;
+}
+
+
+.lpListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+}
+
+
+
+.lpListHeaderRight {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lpListHeaderLeft {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courseListHeaderLeftFirst {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courseListHeaderLeftFirst>span:nth-child(1) {
+    color: #B1B1B1;
+    font-size: 14px;
+}
+
+.courseListHeaderLeftFirst>span:nth-child(2) {
+    color: #424242;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.courseListHeaderLeftFirst>span:nth-child(3) {
+    color: #654E8A;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.courseListSecondHeaderLeft span:nth-child(2) {
+    color: #242424;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.courseListSecondHeaderLeft span:nth-child(3) {
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: 500;
+}

@@ -1,0 +1,51 @@
+.studentDashboardPage {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: #F2ECF6;
+    display: flex;
+    gap: 10px;
+}
+
+
+.studentDashboardLeft {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 74%;
+    gap: 10px;
+}
+
+
+.studentDashboardRight {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    width: 26%;
+}
+
+
+.studentDashboardLeftBottom {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+    gap: 10px;
+}
+
+
+.studentDashboardLeftBottomRight {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+    gap: 10px;
+}
+
+
+
+
+
+
+

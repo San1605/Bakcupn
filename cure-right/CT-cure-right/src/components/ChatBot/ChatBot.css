@@ -1,0 +1,122 @@
+.chatbot-toggle-btn {
+  height: 3rem;
+  width: 3rem;
+}
+.cure-chatbot-container {
+  height: 86vh;
+  width: 23rem;
+  background-color: #f9f3ff;
+  box-shadow: 0px 4px 12px rgba(66, 66, 66, 0.25);
+  border-radius: 7px;
+  z-index: 10000;
+}
+.cure-chatbot-header {
+  height: 3rem;
+  background-color: transparent;
+}
+
+.chatbot-logo {
+  height: 2rem;
+  width: 2rem;
+}
+.close-icon img {
+  height: 0.6rem;
+}
+.cure-chatbot-header .chatbot-title {
+  font-size: 0.85rem;
+}
+.chatbot-body {
+  z-index: 999999999;
+  height: calc(100% - 3rem);
+  background-color: transparent;
+  z-index: 10000;
+}
+.chatbot-chats-container {
+  height: calc(100% - 5.1rem);
+  background-color: #fff;
+  padding: 0.3rem;
+  overflow-y: auto;
+  z-index: 10000;
+}
+.chatbot-chats-container .chat-message {
+  align-items: flex-end;
+  gap: 0.3rem;
+}
+.chatbot-chats-container .user {
+  justify-content: flex-end;
+}
+.chatbot-chats-container .chat-message .avatar {
+  width: 1rem;
+  height: 1rem;
+}
+.chatbot-chats-container .chat-message .chat-message-text {
+  font-size: 12px;
+  padding: 0.5rem;
+  padding: 5px;
+  /* width: 80% !important; */
+  max-width: 75%;
+}
+.chatbot-chats-container .bot .chat-message-text {
+  background: #f9f3ff !important;
+  border-radius: 5px 5px 5px 0px;
+  border: 1px solid #f9f3ff !important;
+}
+.chatbot-chats-container .user .chat-message-text {
+  border: 1px solid #dfdfdf !important;
+  border-radius: 5px 5px 0px 5px;
+}
+.chatbot-footer {
+  height: 5.1rem;
+  background-color: transparent;
+  padding-bottom: 0.4rem;
+}
+.chatbot-options {
+  overflow-x: scroll;
+}
+.chatbot-options::-webkit-scrollbar {
+  height: 0 !important;
+}
+.chatbot-options button {
+  background-color: white;
+  color: var(--primary);
+  font-size: 10px;
+  padding: 0.2rem 0.4rem;
+  border: none;
+  outline: none;
+  white-space: nowrap;
+}
+
+.chatbot-footer .chatbot-input {
+  height: calc(100% - 41.5px);
+}
+.chatbot-footer .input-container {
+  position: relative;
+}
+.chatbot-footer .input-container input {
+  border: 0.5px solid var(--primary);
+  font-size: 12px;
+}
+.chatbot-footer .input-container button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translate(0, -55%);
+}
+.chatbot-footer .input-container button img {
+  border: none;
+  background-color: transparent;
+  height: 1.1rem;
+}
+
+.bot button {
+  background-color: var(--primary);
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  position: relative;
+}

@@ -1,0 +1,305 @@
+.CommunityChatContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #FBFCFE;
+    height: 100%;
+}
+
+
+.chatContainer {
+    height: calc(100% - 38px);
+    display: flex;
+    gap: 15px;
+}
+
+.firstChatContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 15px;
+}
+
+
+.inputChatContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+    height: 25%;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #DBD7E5;
+    background: #FFF;
+    gap: 4px;
+}
+
+
+
+
+
+.sendMessagediv {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #E4E4FF;
+    position: absolute;
+    bottom: -15px;
+    right: 3%;
+    border-radius: 50%;
+    background-color: #FBFCFE !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 1.6px rgba(0, 0, 0, 0.07);
+}
+
+.upperinputChatContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    width: 100%;
+    gap: 10px;
+}
+
+.lowerInputChatContainer {
+    /* border: 1px solid black; */
+   
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+
+.upperinputChatContainerImg img {
+    width: 24px;
+    height: 24px;
+}
+
+.upperinputChatContainer textarea {
+    display: flex;
+    flex: 1;
+    width: calc(100% - 24px);
+    height: 95%;
+    color: #979797;
+    outline: none;
+    font-size: 14px;
+    border: none;
+}
+
+.lowerInputChatContainer .selectDomain {
+    display: flex !important;
+    padding: 3px !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-radius: 4px !important;
+    border: 1px solid #D7D7D7 !important;
+    background: #EEF2F5 !important;
+    outline: none !important;
+    color: #424242 !important;
+    width: 145px !important;
+    font-size: 14px !important;
+    gap: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondChatContainer {
+    height: 100%;
+    width: 25%;
+    border-radius: 4px;
+    border: 1px solid #DBD7E5;
+    background: #FFF;
+}
+
+
+.secondChatBody {
+    /* border: 1px solid black; */
+    height: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+}
+
+.CommunityMembers {
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.CommunityMembers .members {
+    /* border: 1px solid black; */
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #EEE;
+}
+
+.CommunityMembers .members>span {
+    width: 100%;
+    align-items: flex-start;
+    font-size: 14px;
+    font-style: normal;
+    padding: 0px 10px;
+}
+
+
+.CommunityMembers .members .membersList {
+    width: 100%;
+    /* border: 1px solid black; */
+    height: calc(100% - 21px);
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 2px 0px;
+    align-items: flex-start;
+}
+
+.CommunityMembers .students {
+    /* border: 1px solid black; */
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.CommunityMembers .students>span {
+    width: 100%;
+    align-items: flex-start;
+    font-size: 14px;
+    font-style: normal;
+    padding: 0px 10px;
+}
+
+.CommunityMembers .students .membersList {
+    width: 100%;
+    /* border: 1px solid black; */
+    height: calc(100% - 21px);
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 2px 0px;
+    align-items: flex-start;
+}
+
+.communityGeneralFiles {
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.communityChatRightHeader {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: flex-end;
+    border-bottom: 1px solid #ECE8EF;
+    /* border: 1px solid black; */
+}
+
+.communityChatRightHeader .tabs {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+
+
+}
+
+.communityChatRightHeader .tab {
+    display: flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #979797;
+    font-size: 13px;
+    border-radius: 4px 4px 0px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.selectedTabCC {
+    background: #EEF2F5;
+    color: #654E8A !important;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.MemberCard {
+    display: flex;
+    width: 100%;
+    padding: 8px 14px;
+    align-items: center;
+    gap: 15px;
+}
+
+.MemberCardImgDiv {
+    /* width: 15%; */
+}
+
+.MemberCardRight {
+
+    /* width: 85%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.MemberCardImgDiv img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.MemberCardRightName {
+    color: #424045;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.MemberCardRightStatus {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.MemberCardRightStatus span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.MemberCardRightStatus img {
+    height: 8px;
+    width: 8px;
+}

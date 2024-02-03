@@ -1,0 +1,96 @@
+.AdminLearningPaths {
+    height: 100%;
+    width: 100%;
+
+}
+
+.AdminLearningPathsDiv {
+    height: calc(100% - 40px);
+    width: 100%;
+    padding: 15px;
+    background-color: #F2ECF6;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.KpiContainer {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    height: 15%;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lpListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: calc(100% - 15%);
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #FBFCFE;
+}
+
+.lpListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+}
+
+
+.lpListHeaderRight{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lpListHeaderLeft{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lpListHeaderLeftFirst{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lpListHeader>span:nth-child(1) {
+    color: #242424;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lpListHeaderLeftFirst>span:nth-child(1) {
+    color: #242424;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lpListHeaderLeftFirst>span:nth-child(2) {
+    color: #ACACAC;   
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lpList {
+    overflow: scroll;
+    width: 100%;
+    height: calc(100% - 56px);
+    ;
+}
+
+.NoLPdata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 32px);
+    ;
+}

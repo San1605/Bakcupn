@@ -1,0 +1,160 @@
+.main_conatainer-login {
+  min-height: calc(100vh - 10vh);
+}
+
+.login-card {
+  padding-left: 4rem !important;
+  padding-top: 4rem;
+}
+
+.login_card_container {
+  border-radius: 4px;
+  width: 450px;
+}
+
+.login_heading {
+  font-size: 25px;
+  color: #191919;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.login_text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7e7e7e;
+  margin-bottom: 5px;
+}
+
+.login_microsoft_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 48px;
+  background: #feb546;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.email_id {
+  font-size: 14px;
+}
+
+.password {
+  font-size: 14px;
+}
+
+.login_options {
+  text-align: center;
+  color: #7e7e7e;
+  display: block;
+  margin: 0 auto;
+}
+
+.login_options span {
+  border: 1px solid #B5BCC2;
+  display: block;
+}
+
+.login_input {
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  color: #7e7e7e;
+  padding: 12px;
+}
+
+.login_forgot_pass {
+  text-align: end;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c4314b;
+}
+
+.login_page_button {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #7e7e7e;
+  border: 1px solid #7E7E7E;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: #fff;
+}
+
+.login_sign_up {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7e7e7e;
+}
+
+.login_side_img {
+  height: 100vh;
+  background-color: #FEE5BF;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 0px;
+}
+
+@media screen and (max-width: 1025px) {
+  .main_conatainer-login{
+    align-items: center;
+    justify-content: center;
+  }
+  .main_conatainer-login .login-card{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px) {
+  .login-card {
+    padding-left: 1rem !important;
+    padding-top: 1rem;
+  }
+
+  .login_text {
+    text-align: center;
+  }
+
+  .login_sign_up {
+    font-size: 15px;
+    padding-bottom: 9px;
+  }
+
+  .login_side_img {
+    display: none;
+  }
+
+  .login_card_container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .login-card {
+    padding-left: 1rem !important;
+    padding-top: 1rem;
+  }
+
+  .login_text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1340px) {
+  .login-card {
+    padding-left: 4rem !important;
+    padding-top: 3rem;
+  }
+
+}

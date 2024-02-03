@@ -1,0 +1,43 @@
+.deleteText {
+    color: #424242;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 12px;
+}
+
+
+.addLearningPath .footerDelete {
+    display: flex;
+    justify-content: center;
+    gap: 6px !important;
+    margin-top: 15px;
+}
+
+
+.addLearningPath .footerDelete>button:nth-child(1) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #AEAEAE;
+    color: #616161;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.addLearningPath .footerDelete>button:nth-child(2) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #654E8A;
+    color: #ECECEB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}

@@ -1,0 +1,176 @@
+.notification-page {
+  padding: 1rem 2.5rem;
+}
+.notificationListContainer {
+  border: 1.5px solid #eff0f6;
+  border-radius: 4px;
+}
+.notificationFirstBlock {
+  padding-left: 0.75rem;
+}
+.notificationList {
+  min-height: fit-content;
+  max-height: 60vh;
+}
+.notificationPageTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+.notificationPageCount {
+  color: #2f2f2f40;
+  font-size: 16px;
+}
+.notificationthead {
+  background-color: #f5f5ff;
+}
+.notificationContentText {
+  padding-top: 3px;
+  color: #424242;
+  font-weight: 500;
+}
+.notificationApprove,
+.notificationReject {
+  font-size: 10px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 4px;
+}
+.notificationApprove {
+  background-color: #4f52b2;
+  color: #fff;
+}
+.notificationReject,
+.notificationReject:hover,
+.notificationReject:active {
+  background-color: transparent !important;
+  border: 1px solid #cfcfcf !important;
+  color: #424242 !important;
+  margin-left: 1rem !important;
+}
+
+.othersTabContent {
+  padding: 0.5rem 1.25rem;
+  align-items: center;
+  border-bottom: 0.5px solid #eaeaea;
+}
+.notification-content {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.unread-notification {
+  position: relative;
+}
+.unread-dot {
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #4f52b2;
+  position: absolute;
+  top: 5px;
+}
+.notification-text {
+  color: #484848;
+  font-size: 14px;
+  font-weight: 500;
+}
+.notification-time-date {
+  font-size: 12px;
+  color: #959595;
+  font-weight: 500;
+  text-align: end;
+}
+
+.nav-tabs {
+  border: none;
+  margin-bottom: 8px;
+}
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active:focus-visible {
+  border: none !important;
+}
+.nav-tabs .nav-link.active {
+  color: #4f52b2 !important;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+}
+.nav-item {
+  position: relative !important;
+}
+.nav-tabs .nav-link.active::before {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  height: 2px;
+  width: 100%;
+  background-color: #4f52b2;
+}
+.other-notification-container {
+  height: 70vh;
+  overflow-y: auto;
+}
+.mentorTicketStatus-pending {
+  color: #fca600;
+}
+.mentorTicketStatus-approved {
+  color: #3bbd37;
+}
+.mentorTicketStatus-rejected {
+  color: #e73550;
+}
+.ticketApprove,
+.ticketReject {
+  font-size: 10px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 4px;
+}
+.ticketApprove {
+  background-color: #4f52b2;
+  color: #fff;
+}
+.ticketReject {
+  background-color: transparent;
+  border: 1px solid #cfcfcf;
+  color: #424242;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 1500px) {
+  .other-notification-container {
+    height: 70vh;
+  }
+  .notification-text {
+    font-size: 18px;
+  }
+  .notification-time-date {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .other-notification-container {
+    height: 65vh;
+  }
+  .notification-text {
+    font-size: 12px;
+  }
+  .othersTabContent div {
+    font-size: 10px;
+  }
+}
+.con-req-tc {
+  padding-left: 34px;
+}
+.con-req-tc > div:nth-of-type(1),
+.con-req-tc > p:nth-of-type(1) {
+  margin: 0;
+  padding: 3px 0;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px !important;
+}
+.con-req-tc > div:nth-of-type(1) > p:nth-of-type(1) {
+  margin-left: 0 !important;
+}

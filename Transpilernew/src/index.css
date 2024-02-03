@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-family: 'Mulish', sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #b0b0b0)
+  );
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+}
+.layout > div:nth-of-type(1) {
+  height: 100%;
+  width: 100%;
+}
+.LeftEditorBlock > section {
+  height: calc(100% - 95px) !important;
+}
+.rightEditorBlock > section {
+  height: calc(100% - 54px) !important;
+}
+
+.editor {
+  width: 100%;
+  height: 100%;
+}
+.editorRight {
+  width: 100%;
+  height: 100%;
+}
+
+iframe#webpack-dev-server-client-overlay {
+  display: none !important;
+}
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.16);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-content {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 94px 0px rgba(131, 131, 131, 0.15);
+  overflow: hidden;
+}
+.animatedContainer > div {
+  height: 450px !important;
+  width: 200% !important;
+  position: absolute !important;
+  border: 1px solid black !important;
+  padding-top: 50px;
+}
+.accordion-content {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  background-color: #eaf9ff;
+  height: 0;
+  overflow: hidden;
+  padding: 4px 0;
+}
+.accExpand {
+  animation: accExpand 0.3s linear forwards;
+}
+.accCollapse {
+  animation: accCollapse 0.3s linear forwards;
+}
+@keyframes accExpand {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: fit-content;
+  }
+}
+@keyframes accCollapse {
+  0% {
+    height: fit-content;
+  }
+  100% {
+    height: 0;
+    padding: 0;
+  }
+}
+.loader {
+  width: 32px;
+  height: 32px;
+  border: 4px solid #f0f0f0;
+  border-bottom-color: #2d9596;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes accordionAnimation {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 1000px; /* Adjust this value based on your content height */
+  }
+}
+
+
+/* @keyframes contentOpen {
+  from {
+      max-height: 0;
+      opacity: 0;
+  }
+  to {
+      max-height: 1000px; 
+      opacity: 1;
+  }
+}
+
+@keyframes contentClose {
+  from {
+      max-height: 1000px; 
+      opacity: 1;
+  }
+  to {
+      max-height: 0;
+      opacity: 0;
+  }
+}
+
+/* Add class for accordion content animation */
+
+/* Add this to your existing styles.css file */
+
+
+
+
+
+.loader-container {
+  display: flex;
+  animation: bounce 1s infinite;
+}
+
+.loader-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.loader-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 12px;
+  animation: bounceAndColor 1s infinite alternate;
+}
+
+.loader-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounceAndColor {
+  0%, 100% {
+    transform: translateY(0);
+    background-color: #3498db;
+  }
+  50% {
+    transform: translateY(-5px);
+    background-color: #2ecc71;
+  }
+} 

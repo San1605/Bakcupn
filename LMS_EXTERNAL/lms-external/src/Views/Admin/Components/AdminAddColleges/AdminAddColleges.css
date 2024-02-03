@@ -1,0 +1,237 @@
+.addCollegeModal {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(36, 36, 36, 0.62);
+    position: absolute;
+    z-index: 22220;
+    top: 0;
+    left: 0;
+}
+
+.addCollegeModal.show {
+    display: flex;
+}
+
+.addCollegeModal.hide {
+    display: none;
+}
+
+.addColleges {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    background-color: white;
+}
+
+ .articleShow {
+    animation: DealProfileShow 0.3s linear forwards !important;
+}
+
+ .articleHide {
+    animation: DealProfileHide 0.3s linear forwards !important;
+}
+
+@keyframes DealProfileShow {
+    0% {
+        right: -25vw;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes DealProfileHide {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: -25vw;
+    }
+}
+
+.addColleges .modal-header {
+    padding: 9px 10px;
+    background: white;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addColleges .modal-header>div {
+    color: #272742 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+
+}
+
+.addColleges .modal-body {
+    height: calc(100% - 42px);
+    padding: 0 !important;
+    /* border: 1px solid black; */
+
+}
+
+.addColleges .modal-header div {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.addColleges .footer {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 0 !important; */
+    gap: 6px !important;
+    /* margin-top: 10px; */
+}
+
+.addColleges .footer>button:nth-child(1) {
+    padding: 4px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #AEAEAE;
+    color: #616161;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.addColleges .footer>button:nth-child(2) {
+    padding: 4px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #654E8A;
+    color: #ECECEB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}
+
+.addColleges .AddCollegeForm {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    padding: 12px 8px !important;
+    /* padding-top: 15px !important; */
+    padding-right: 5px !important;
+    overflow: scroll;
+    /* height: calc(100% - 96px); */
+    /* border: 1px solid black; */
+}
+.addCollegefields{
+    height: calc(100% - 31px);
+    width: 100%;
+    overflow-y: auto;
+}
+
+.AddCollegeForm .AddLPFormDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.AddCollegeForm .AddLPFormDiv label {
+    color: #424242;
+    font-size: 13px;
+    font-weight: 500;
+    width: 40%;
+}
+
+.AddCollegeForm .AddLPFormDiv label:not(:has(span)) {
+    font-weight: 400;
+}
+
+.AddCollegeForm .AddLPFormDiv label span {
+    color: red;
+}
+
+
+.AddCollegeForm .AddLPFormDiv input,
+.AddCollegeForm .AddLPFormDiv textarea {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #EEE;
+    outline: none;
+    font-size: 13px;
+    /* max-width: 180px; */
+    width: 60%;
+    box-sizing: border-box;
+}
+
+
+.ImageDiv {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: #FAFAFF;
+    justify-content: center;
+}
+
+.uploadImgdiv {
+    position: absolute;
+    bottom: -12px;
+    right: 7%;
+    border-radius: 50%;
+    background-color: white !important;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 1.6px rgba(0, 0, 0, 0.07);
+}
+.uploadedImageDrop{
+    height: 70px;
+    width: 70px;
+}
+
+.addColleges .uploadDocs {
+    display: flex;
+    /* height: ; */
+    padding: 25px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid #EEE;
+}
+
+.uploadDocs p{
+    color: #424242;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.fieldDivWithErrorCollege{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 60% !important;
+}
+.fieldDivWithErrorCollege input,textarea{
+    width: 100% !important;
+}

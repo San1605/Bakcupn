@@ -1,0 +1,137 @@
+.container {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+}
+
+.header {
+    color: #010E2A;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 700;
+}
+
+.headerTitle img {
+    cursor: pointer;
+}
+
+.statusSec {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.secTitle {
+    color: #010E2A;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.statusSwitch {
+    border-radius: 16px;
+    border: 0.2px solid rgba(34, 58, 114, 0.20);
+    background: rgba(199, 210, 255, 0.25);
+    display: flex;
+    gap: .2rem;
+    padding: .2rem .2rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.activeCircle {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1rem;
+    background-color: #223A72;
+}
+
+.switchText {
+    color: #223A72;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.difSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inActiveContainer {
+    border-radius: 8px;
+    border: 0.5px solid #D9D9D9;
+    background: #F4F4F4;
+    padding: .2rem .6rem;
+    color: #767676;
+    font-family: 'Jaldi', sans-serif;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 10rem;
+}
+
+.calenderContainer {
+    border-radius: 8px;
+    border: 0.5px solid #D9D9D9;
+    padding: .2rem .4rem;
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+
+.calenderContainer input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.calenderContainer select {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.dateBox {
+    outline: none;
+    border: none;
+    width: 80%;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.saveButton {
+    border-radius: 10px;
+    background: #223A72;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: .2rem 1.2rem;
+    border: none;
+    outline: none;
+}

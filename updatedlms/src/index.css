@@ -1,0 +1,252 @@
+*,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f9f9ff;
+  font-family: "DM Sans" !important;
+  overscroll-behavior-y: none;
+}
+html,
+#root {
+  width: 100%;
+  font-family: "DM Sans" !important;
+}
+::-webkit-scrollbar-track {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 99;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #b0b0b0)
+  );
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  display: none;
+}
+.content {
+  overflow-y: scroll;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.w-10 {
+  width: 10%;
+}
+.w-85 {
+  width: 85%;
+}
+.w-90 {
+  width: 90%;
+}
+.h-10 {
+  height: 10%;
+}
+.h-90 {
+  height: 90%;
+}
+.mh-33p {
+  min-height: 33.33%;
+}
+.mh-50p {
+  min-height: 50%;
+}
+.mh-100p {
+  min-height: 100%;
+}
+.overflow-hide {
+  overflow: hidden;
+}
+.overflow-scroll {
+  overflow: auto;
+}
+.overflow-x-scroll {
+  overflow-x: auto;
+}
+.overflow-y-scroll {
+  overflow-y: auto;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.border-none {
+  border: none;
+}
+textarea {
+  resize: none;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+input:focus-visible {
+  outline: none;
+}
+input,
+textarea {
+  font-size: 14px !important;
+  padding: 0 5px;
+}
+.dropdownstyle,
+.inputFieldTextarea,
+.addcourse-select,
+.dropdownstyle:focus,
+.inputFieldTextarea:focus,
+.addcourse-select:focus,
+.addcourse-select:focus-visible {
+  border: none;
+  border-color: transparent !important;
+  outline: 1px solid #d7d7d7 !important;
+}
+select {
+  border: none;
+  cursor: pointer !important;
+  position: relative;
+  padding: 0 10px;
+  border-right: 16px solid transparent !important;
+}
+select:focus {
+  border: none;
+  outline: 1px solid #d7d7d7;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  background: #fff;
+  padding: 8px 16px;
+  border: none;
+  vertical-align: middle;
+}
+td {
+  font-size: 12px;
+  color: #424242;
+}
+th {
+  font-size: 12px;
+  color: #242424;
+  font-weight: 600;
+  background: #f5f5ff !important;
+  z-index: 1;
+}
+table tbody tr {
+  border-bottom: 0.5px solid #eaeaea !important;
+}
+table tbody tr td {
+  font-weight: 400 !important;
+}
+table tbody tr:hover {
+  background: #f8f8f8;
+}
+.tableFixHead {
+  overflow: auto;
+  min-height: fit-content;
+}
+.tableFixHead::-webkit-scrollbar,
+.sampler-card::-webkit-scrollbar,
+.user-details-container::-webkit-scrollbar,
+.filtered-chips::-webkit-scrollbar,
+.search-result::-webkit-scrollbar,
+.modal-body-scroll::-webkit-scrollbar,
+.othernotifications::-webkit-scrollbar,
+.notes-div::-webkit-scrollbar,
+.notes-div-tab::-webkit-scrollbar,
+.enrollcourses-div::-webkit-scrollbar,
+.interview-feedback-modalbody::-webkit-scrollbar,
+.reports-left::-webkit-scrollbar,
+.reportsPageTableContainer::-webkit-scrollbar,
+.userdata-searchlist::-webkit-scrollbar,
+.content::-webkit-scrollbar,
+.learning-path-card::-webkit-scrollbar,
+.sec-mentor-details::-webkit-scrollbar,
+.sec-mentor-list-div::-webkit-scrollbar,
+.resources-list::-webkit-scrollbar,
+.unenrollcourse-div::-webkit-scrollbar,
+.conversion-container::-webkit-scrollbar,
+.other-notification-container::-webkit-scrollbar,
+.manager-feedback-modalbody::-webkit-scrollbar,
+.create-course-form::-webkit-scrollbar,
+.edit-deparment-list-div::-webkit-scrollbar,
+.accordian-div::-webkit-scrollbar,
+.inner-field::-webkit-scrollbar,
+.dash-col3-div::-webkit-scrollbar,
+.overflow-y-scroll::-webkit-scrollbar,
+.cal-overflow-x::-webkit-scrollbar {
+  display: unset !important;
+}
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+.bo-none {
+  border: none !important;
+  outline: none !important;
+  cursor: no-drop;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+/* Multi Select Dropdowns */
+.basic-multi-select {
+  font-size: 14px;
+  max-height: fit-content;
+}
+.multiSelect__control {
+  min-height: 32px !important;
+  max-height: fit-content;
+  border-color: #d7d7d7 !important;
+}
+.multiSelect__control--is-focused {
+  border-color: #424242 !important;
+  box-shadow: none !important;
+}
+.multiSelect__option {
+  padding: 6px 8px !important;
+  font-size: 12px !important;
+  cursor: pointer !important;
+}
+.multiSelect__input-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.multiSelect__indicator {
+  padding: 6px 4px !important;
+}
+.multiSelect__indicator-separator {
+  margin: 6px 0 !important;
+}
+.multiSelect__multi-value {
+  background-color: #e6eefa !important;
+}
+.customRole-modal > div:nth-of-type(1) {
+  max-width: 60vw !important;
+}
+.customRole-row {
+  width: 100% !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 427px) and (max-width: 998px) {
+}
+@media screen and (min-width: 377px) and (max-width: 426px) {
+}
+@media screen and (max-width: 322px) and (max-width: 376px) {
+}
+@media screen and (max-width: 321px) {
+}

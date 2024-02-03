@@ -1,0 +1,64 @@
+.MentorDetails {
+    display: flex;
+    height: 100%;
+    width: 35%;
+    border-radius: 4px;
+    flex-direction: column;
+    background: #FFF;
+    padding: 6px 10px;
+}
+
+.MentorDetailsHeading {
+    height: 25px;
+    width: 100%;
+    color: #272742;
+    font-size: 14px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #F9F6FF; */
+
+}
+
+.MentorDetailsDiv {
+    display: flex;
+    height: calc(100% - 25px);
+    flex-direction: column;
+    gap: 2px;
+}
+
+.ctmentorDetails {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 10px 0px;
+    gap: 5px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.facultyMentors {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 10px 0px;
+    gap: 5px;
+}
+
+.MentorFieldDashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MentorFieldDashboard>span:nth-child(1) {
+    color: #242424;
+    font-size: 12.5px;
+}
+
+.MentorFieldDashboard>span:nth-child(2) {
+    color: #424242;
+    font-size: 12.5px;
+    font-weight: 500;
+}

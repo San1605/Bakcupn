@@ -1,0 +1,80 @@
+#ticketDescription {
+  height: 8rem;
+}
+.hideit {
+  pointer-events: none !important;
+}
+.ticketsHeading {
+  font-weight: 600;
+  font-size: 21px;
+  color: #484644;
+}
+
+#selectReason,
+#selectPerson,
+.textareaDescription {
+  outline: 1px solid #e4e4ff;
+  border: none;
+  background-color: #f9f9ff;
+  font-size: 14px;
+}
+
+#selectReason:focus-visible,
+#selectPerson:focus-visible,
+.textareaDescription:focus-visible {
+  outline: 1px solid #cbcbff;
+}
+.placeholerOption {
+  font-weight: 500;
+  font-size: 14px;
+}
+.raiseTicketButton {
+  background-color: #4f52b2;
+  color: #fff;
+  width: 125px;
+  border: none;
+}
+.tickets-table-height {
+  height: 190px;
+}
+.filter-options-div {
+  right: 0;
+  top: 36px;
+  width: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 0;
+  font-weight: 400;
+  border: 1px solid #dadada;
+  row-gap: 3px;
+  transition: 0.3s linear all;
+}
+.filter-option {
+  text-align: start;
+  width: 100%;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+.filter-option:hover {
+  background-color: #f8f8f8;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #selectReason {
+    width: 35% !important;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 768px) {
+  #selectReason {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  #selectReason {
+    width: 100% !important;
+  }
+  .raiseTicketContainer {
+    padding: 1rem !important;
+  }
+}

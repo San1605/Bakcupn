@@ -1,0 +1,186 @@
+.messages-container {
+  height: calc(100% - 112px);
+}
+
+.messages-container-data-driven {
+  height: calc(100% - 50px);
+}
+
+.ilustration-container {
+  padding-bottom: 1rem;
+}
+
+.ilustration-sugg-container {
+  height: calc(100% - 70px);
+}
+
+.input input {
+  width: calc(100% - 17px);
+  padding-right: 1rem;
+}
+
+.data-driven-page {
+  min-width: calc(100% - 256px);
+  width: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+  height: 6px;
+  background-color: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 25px;
+}
+
+.top {
+  max-height: calc(100% - 70px);
+}
+
+.yesterday {
+  max-height: calc(100% - 48px);
+  overflow-y: auto;
+}
+
+.errorMessage {
+  color: #b3261e;
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+.incorrect-input {
+  outline: 1.5px solid #b3261e !important;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+.ellipsis-text-sugg {
+  min-height: fit-content;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ellipsis-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ellipsis-text2 {
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: fit-content;
+}
+
+.react-pdf__Page {
+  width: 100% !important;
+}
+
+.citation-cont {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.citation-bottom {
+  height: calc(100% - 64px);
+}
+
+.react-pdf__Document {
+  height: 100%;
+  width: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+}
+
+.react-pdf__Page__annotations {
+  height: 3rem !important;
+}
+
+.react-pdf__Page {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider-hitbox {
+  z-index: 10;
+  position: absolute;
+  transform: translate(-15px, 50%);
+}
+
+.textLayer {
+  display: none !important;
+}
+
+.react-pdf__Page__annotations {
+  display: none !important;
+}
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+}
+
+/* responsive css */
+
+#aside {
+  height: 100%;
+}
+
+.outlet {
+  width: calc(100% - 255px);
+}
+
+.disclaimer {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.qwertyShow {
+  left: -100% !important;
+}
+
+.dealProfileShow {
+  left: -100%;
+  animation: DealProfileShow 0.2s linear forwards !important;
+}
+
+.dealProfileHide {
+  animation: DealProfileHide 0.2s linear forwards !important;
+}
+
+@keyframes DealProfileShow {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes DealProfileHide {
+  100% {
+    left: 0%;
+  }
+
+  0% {
+    left: -100%;
+  }
+}
+
+.webit-scroll-hidden::-webkit-scrollbar {
+  display: none;
+}

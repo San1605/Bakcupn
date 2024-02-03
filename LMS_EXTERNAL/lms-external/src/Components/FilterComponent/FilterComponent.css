@@ -1,0 +1,222 @@
+.filterComponent {
+    min-height: 50vh;
+    height: 60vh;
+    min-width: 37vw;
+    width: 37vw;
+    /* padding: 10px 12px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    /* top: 50px; */
+    right: 100px;
+    z-index: 10000000;
+    border: 1px solid #E4E4FF;
+    background: #FCFCFF;
+    border-radius: 8px;
+    box-shadow: 4px 6px 14px hsla(0, 0%, 45%, .55);
+    bottom: 92px;
+}
+
+
+.filterComponentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+    /* height: 50px; */
+    width: 100%;
+    padding: 5px 15px;
+    background: #654E8A;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+.filterComponentHeaderDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+
+}
+
+.filterComponentHeaderDiv button {
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 2px 10px;
+    border: none;
+
+}
+
+.filterComponentHeaderDiv div {
+    color: white;
+    font-size: 14px;
+}
+
+.filterComponentHeader>div:nth-child(2) {
+    width: 100%;
+    height: 40%;
+    color: white;
+    font-size: 13px;
+}
+
+
+.filterComponentHeader div {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.filterComponentBody {
+    display: flex;
+    padding: 10px 15px !important;
+    height: calc(100% - 111px);
+    width: 100%;
+    gap: 15px;
+    /* border: 1px solid black; */
+}
+
+.filterComponentBodyLeft {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 45%;
+    /* border: 1px solid black; */
+    overflow-y: scroll;
+    padding: 0 10px;
+    padding-left: 0px;
+}
+
+.filterCard {
+    align-items: center;
+    background-color: #f4f4f4a3;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    font-size: 13px;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.filterCard img{
+    height: 10px;
+    width: 10px;
+}
+
+.filterCardSelected {
+    background-color: #F2ECF6;
+}
+
+
+
+.filterComponentBodyRight {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* border: 1px solid black; */
+}
+
+.searchFilters {
+    height: 35px;
+}
+
+.checkBoxListFilters {
+    height: calc(100% - 71px);
+    overflow-y: scroll;
+    padding: 1px 0;
+}
+
+.filterListElement {
+    /* border: 1px solid black; */
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+
+    background-color: white;
+}
+
+.filterListElement label{
+    font-size: 14px;
+}
+
+.filterComponent .filterComponentFooter>button:nth-child(1) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #AEAEAE;
+    color: #616161;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.filterComponent .filterComponentFooter>button:nth-child(2) {
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #654E8A;
+    color: #ECECEB;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+}
+
+.filterComponentFooter {
+    /* border: 1px solid black; */
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    /* height: 35px; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px !important;
+    padding: 8px 15px;
+    /* margin-top: 10px; */
+}
+
+
+
+
+
+.SearchBoxFilter {
+    display: flex;
+    width: 100%;
+    padding: 3px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    gap: 5px;
+    border: 1px solid #C6C6C6;
+
+}
+
+.SearchBoxFilter input {
+    color: #616161;
+    width: 100%;
+    padding: 2px 0;
+    height: 100%;
+    display: flex;
+    font-size: 14px;
+    outline: none;
+    border: none;
+
+}
+
+.SearchBoxFilter img {
+    width: 18px;
+    height: 18px;
+}

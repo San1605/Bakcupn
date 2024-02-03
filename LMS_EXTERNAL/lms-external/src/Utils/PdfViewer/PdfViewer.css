@@ -1,0 +1,25 @@
+.pdf-container-home-main{
+    height: 100% !important;
+    width: 100% !important;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.rpv-toolbar{
+    width: 100% !important;
+    overflow: scroll;
+    display: none !important;
+}
+
+.rpv-default-layout__toolbar{
+    display: none !important;
+}
+.rpv-default-layout__sidebar{
+    display: none !important
+}
+
+.rpv-default-layout__toolbar{
+    display: none !important;
+}
+.rpv-default-layout__body{
+    padding-top: 0 !important;
+}

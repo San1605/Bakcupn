@@ -1,0 +1,74 @@
+.sidebar{
+    /* background-image: linear-gradient(#234B80, #144687,#003F91,#212137); */
+    background-color: #F2EFF4;
+    height: 90.3vh;
+    border-radius: 0rem 0rem 2rem 0rem;
+}
+.side-div{
+ padding-top: 2rem;
+}
+.side-div ul {
+    margin: 0;
+    height: 75vh;  
+    overflow-y: scroll;
+    padding: 0rem 1.5rem;
+    list-style: none;
+    list-style-type: none;
+  }
+.side-div ul::-webkit-scrollbar {
+    display: none;
+}
+
+.side-div ul {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+  .side-div li {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: .9rem;
+    /* border-bottom: 1px solid white;
+    padding-bottom: 5px; */
+  }
+  .logout{
+    cursor: pointer;
+    position: absolute;
+    bottom: .5rem;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .rfp-create {
+   height: 72vh;
+   overflow-y: auto;
+  }
+  .side input[type=checkbox] {
+    /* accent-color: rgba(0, 200, 151, 1) !important ; */
+    accent-color: green !important ;
+  }
+
+.button1{
+  background-color: white;
+  font-size: 13px;
+  border: 1px solid #BBB7BF;
+  border-radius: 10px;
+}
+.button2{
+  background-color: white;
+  font-size: 13px;
+  border: 2px solid #00C897;
+  border-radius: 10px;
+}
+.rpf-button{
+  color: white !important;
+  background-color: #00C897 !important; 
+  border: none !important;
+  font-size: 14px !important;
+  padding: 10px 10px !important;
+}
+.container-50 {
+  width: 50%;
+}
+.document_div{
+  height: 90vh;
+  overflow-y: auto;
+}

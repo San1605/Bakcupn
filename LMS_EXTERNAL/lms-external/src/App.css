@@ -1,0 +1,12 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+}
+
+
+.errorMessage{
+  color: #EB4E4E ;
+  font-size: 11px;
+}

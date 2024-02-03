@@ -1,0 +1,12 @@
+.containerDev{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100% -  3rem);
+    border: 2px soild blue;
+    justify-content: space-between;
+}
+
+.ContainerDiv::-webkit-scrollbar{
+    display: none !important;
+}

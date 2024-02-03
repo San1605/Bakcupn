@@ -1,0 +1,36 @@
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+    padding: 15px 0px;
+}
+
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ct-img{
+    width: 40px;
+}
+
+.wrapper-down{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn{
+    padding: 5px;
+    background-color:#fffae2cd;
+    border: 1.5px solid;
+    width: 60px;
+    border-radius: 8px;
+    font-weight: 900;
+    cursor: pointer;
+}

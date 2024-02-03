@@ -1,0 +1,1 @@
+export const BASE_URL = "https://bnm-openai-webapp-01.azurewebsites.net"

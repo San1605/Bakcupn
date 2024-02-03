@@ -1,0 +1,23 @@
+/* Custom CSS to style the CKEditor content area for RTL languages */
+/* .ck.ck-content.ck-editor__editable.ck-editor__editable_inline {
+    direction: rtl !important;
+    text-align: right !important;
+  } */
+
+
+  /* .ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+    height: 69vh  !important;
+} */
+
+.ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline{
+  height: 58vh;
+}
+
+.ck.ck-editor__main>.ck-editor__editable, .docs-edit-wrapper{
+  /* height: 410px; */
+  height: 58vh;
+}
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable){
+  border: 1px solid rgba(0, 200, 151, 1);
+  box-shadow: none !important;
+}

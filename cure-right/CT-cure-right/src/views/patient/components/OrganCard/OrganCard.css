@@ -1,0 +1,23 @@
+.organ-card{
+    background-color: #fff;
+    /* height: 6rem; */
+    border-radius: 2px;
+    width: 7rem;
+    max-width: 7rem;
+    padding: 0.5rem;
+    cursor:pointer;
+}
+.organ-card img{
+    width: 100%;
+    border-radius: 2px;
+    height: 4rem;
+}
+.organ-card-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: .3rem;
+}
+.organ-card-content span{
+    font-size: .8rem;
+}
